@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{AllPaths}
+Butler, J., MacCallum, I., Kleber, M., et~al.: Allpaths: De novo assembly of
+  whole-genome shotgun microreads. Genome Res.  18,  810--820 (2008)
+
+\bibitem{Euler}
+Chaisson, M., Pevzner, P., Tang, M.: Fragment assembly with short reads.
+  Bioinformatics.  20,  2067--2074 (2004)
+
+\bibitem{HiTec}
+Ilie, L., Fazayeli, F., Ilie, S.: Hitec: accurate error correction in
+  high-throughput sequencing data. Bioinformatics  27,  295--302 (2011)
+
+\bibitem{Racer}
+Ilie, L., Molnar, M.: Racer: Rapid and accurate correction of errors in reads.
+  Bioinformatics.  19,  2490--2493 (2013)
+
+\bibitem{Quake}
+Kelley, D., Schatz, M., Salzberg, S.: Quake: quality-aware detection and
+  correction of sequencing errors. Genome Biol.  11,  R116 (2010)
+
+\bibitem{Soap}
+Li, R., Zhu, H., Ruan, J., et~al.: De novo assembly of human genomes with
+  massively parallel short read sequencing. Genome Res.  20,  265--272 (2010)
+
+\bibitem{Pollux}
+Marinier, E., Brown, D., McConkey, B.: Pollux: platform independent error
+  correction of single and mixed genomes. BMC Bioinformatics  15,  435 (2015)
+
+\bibitem{EC}
+Saha, S., Rajasekaran, S.: Ec: an efficient error correction algorithm for
+  short reads. BMC Bioinformatics  16(Suppl 17):S2 (2015)
+
+\bibitem{HShrec}
+Salmela, L.: Correction of sequencing errors in a mixed set of reads.
+  Bioinformatics  26,  1284--1290 (2010)
+
+\bibitem{Coral}
+Salmela, L., Schröder, J.: Correcting errors in short reads by multiple
+  alignments. Bioinformatics.  27,  1455--1461 (2011)
+
+\bibitem{NGS}
+Shendure, J., Ji, H.: Next-generation dna sequencing. Nat Biotechnol.  26,
+  1135--1145 (2008)
+
+\bibitem{Cuda}
+Shi, H., Schmidt, B., Liu, W., et~al.: A parallel algorithm for error
+  correction in high throughput short-read data on cuda-enabled graphics
+  hardware. J. Comput. Biol  17,  603--615 (2010)
+
+\bibitem{ErrCorr}
+Yang, X., Chockalingam, S., Aluru, S.: A survey of error-correction methods for
+  next-generation sequencing. Brief. Bioinform.  14,  56--66 (2013)
+
+\bibitem{Reptile}
+Yang, X., Dorman, K., Aluru, S.: Reptile: representative tiling for short read
+  error correction. Bioinformatics  26,  2526--2533 (2010)
+
+\bibitem{Velvet}
+Zerbino, D., Birney, E.: Velvet: Algorithms for de novo short read assembly
+  using de bruijn graphs. Genome Res.  18,  821--829 (2008)
+
+\end{thebibliography}

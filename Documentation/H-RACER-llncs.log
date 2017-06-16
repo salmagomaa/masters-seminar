@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.21)  15 MAY 2017 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.21)  13 JUN 2017 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -550,24 +550,8 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count167
 \LT@p@ftn=\toks24
 )
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... none found.
-
-(./H-RACER-llncs.aux)
-\openout1 = `H-RACER-llncs.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -580,7 +564,86 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
+tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
+fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
+tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count168
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count169
+\c@subtable=\count170
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
+(./H-RACER-llncs.aux
+
+LaTeX Warning: Label `fig:fig5' multiply defined.
+
+
+LaTeX Warning: Label `sec:2' multiply defined.
+
+)
+\openout1 = `H-RACER-llncs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count171
+\scratchdimen=\dimen167
+\scratchbox=\box80
+\nofMPsegments=\count172
+\nofMParguments=\count173
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count174
+\MPscratchDim=\dimen168
+\MPnumerator=\count175
+\makeMPintoPDFobject=\count176
+\everyMPtoPDFconversion=\toks26
+)
+\AtBeginShipoutBox=\box81
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -595,189 +658,415 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count168
-\scratchdimen=\dimen158
-\scratchbox=\box80
-\nofMPsegments=\count169
-\nofMParguments=\count170
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count171
-\MPscratchDim=\dimen159
-\MPnumerator=\count172
-\makeMPintoPDFobject=\count173
-\everyMPtoPDFconversion=\toks26
-)
-\AtBeginShipoutBox=\box81
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
+\csname ext@#1\endcsname }{#1}{\protect \numberline {\csname the#1\endcsname }{
+\ignorespaces #2}}\begingroup \@parboxrestore \@makecaption {\csname fnum@#1\en
+dcsname }{\ignorespaces #3}\par \endgroup .
+
+
+Package caption Warning: Forced redefinition of \caption since the
+(caption)                unsupported(!) package option `compatibility=false'
+(caption)                was given.
+See the caption package documentation for explanation.
+
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
 
-Overfull \hbox (7.38354pt too wide) in paragraph at lines 42--44
+Overfull \hbox (7.38354pt too wide) in paragraph at lines 48--50
 \OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 DNA Sequencing\OMS/cmsy/m/n/9 ^^A\OT1/c
 mr/m/n/9 k-mer\OMS/cmsy/m/n/9 ^^A\OT1/cmr/m/n/9 Error Cor-rec-tion\OMS/cmsy/m/n
 /9 ^^A\OT1/cmr/m/n/9 Substitution\OMS/cmsy/m/n/9 ^^A\OT1/cmr/m/n/9 InDels 
  []
 
-[1
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 52.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Package mdframed Info: mdframed works in twoside mode on input line 103.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+] [2]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+<./figs/DNA-1.jpg, id=14, 192.72pt x 144.54pt>
+File: ./figs/DNA-1.jpg Graphic file (type jpg)
+ <use ./figs/DNA-1.jpg>
+Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 85.
+(pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
+
+<./figs/DNA-2.jpg, id=15, 192.72pt x 251.9814pt>
+File: ./figs/DNA-2.jpg Graphic file (type jpg)
+ <use ./figs/DNA-2.jpg>
+Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 92.
+(pdftex.def)             Requested size: 104.1381pt x 136.1602pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 94.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 94.
+
+<./figs/DNA-3.jpg, id=16, 364.36125pt x 355.3275pt>
+File: ./figs/DNA-3.jpg Graphic file (type jpg)
+ <use ./figs/DNA-3.jpg>
+Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 96.
+(pdftex.def)             Requested size: 156.20453pt x 152.32698pt.
+
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 91--99
+[]$[]$ $[]$ 
+ []
+
+[3 <./figs/DNA-1.jpg>] <./figs/NGS-1.jpg, id=21, 223.83624pt x 223.83624pt>
+File: ./figs/NGS-1.jpg Graphic file (type jpg)
+
+<use ./figs/NGS-1.jpg>
+Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 109.
+(pdftex.def)             Requested size: 223.8357pt x 223.8357pt.
+ <./figs/NGS-2.png, id=22, 545.03625pt x 127.47626pt>
+File: ./figs/NGS-2.png Graphic file (type png)
+
+<use ./figs/NGS-2.png>
+Package pdftex.def Info: ./figs/NGS-2.png used on input line 116.
+(pdftex.def)             Requested size: 316.22797pt x 73.96156pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 122.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 122.
+<./figs/NGS-5.png, id=23, 612.2875pt x 345.29pt>
+File: ./figs/NGS-5.png Graphic file (type png)
+ <use ./figs/NGS-5.png>
+Package pdftex.def Info: ./figs/NGS-5.png used on input line 125.
+(pdftex.def)             Requested size: 316.22797pt x 178.32948pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+[4 <./figs/DNA-2.jpg> <./figs/DNA-3.jpg>] [5 <./figs/NGS-1.jpg> <./figs/NGS-2.p
+ng>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ <./figs/NGS-3.png, id=31, 144.54pt x 105.39375pt>
+File: ./figs/NGS-3.png Graphic file (type png)
+ <use ./figs/NGS-3.png>
+Package pdftex.def Info: ./figs/NGS-3.png used on input line 138.
+(pdftex.def)             Requested size: 144.53963pt x 105.39348pt.
+
+<./figs/NGS-4.png, id=32, 537.00626pt x 199.74625pt>
+File: ./figs/NGS-4.png Graphic file (type png)
+ <use ./figs/NGS-4.png>
+Package pdftex.def Info: ./figs/NGS-4.png used on input line 145.
+(pdftex.def)             Requested size: 316.22797pt x 117.62372pt.
+
+<./figs/NGS-6.png, id=33, 583.17876pt x 220.825pt>
+File: ./figs/NGS-6.png Graphic file (type png)
+ <use ./figs/NGS-6.png>
+Package pdftex.def Info: ./figs/NGS-6.png used on input line 152.
+(pdftex.def)             Requested size: 316.22797pt x 119.74577pt.
+
+[6 <./figs/NGS-5.png>] [7 <./figs/NGS-3.png> <./figs/NGS-4.png> <./figs/NGS-6.p
+ng>] <./figs/ErrCrr-1.png, id=42, 730.73pt x 108.405pt>
+File: ./figs/ErrCrr-1.png Graphic file (type png)
+
+<use ./figs/ErrCrr-1.png>
+Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 162.
+(pdftex.def)             Requested size: 316.22797pt x 46.91263pt.
+
+<./figs/ErrCrr-2.png, id=43, 728.7225pt x 109.40875pt>
+File: ./figs/ErrCrr-2.png Graphic file (type png)
+
+<use ./figs/ErrCrr-2.png>
+Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 169.
+(pdftex.def)             Requested size: 316.22797pt x 47.47722pt.
+
+<./figs/ErrCrr-3.png, id=44, 729.72626pt x 151.56625pt>
+File: ./figs/ErrCrr-3.png Graphic file (type png)
+
+<use ./figs/ErrCrr-3.png>
+Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 176.
+(pdftex.def)             Requested size: 316.22797pt x 65.681pt.
+ [8 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png>]
+[9 <./figs/ErrCrr-3.png>]
+<./figs/CrrConcepts-1.png, id=52, 175.65625pt x 155.58125pt>
+File: ./figs/CrrConcepts-1.png Graphic file (type png)
+
+<use ./figs/CrrConcepts-1.png>
+Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 211.
+(pdftex.def)             Requested size: 175.6558pt x 155.58086pt.
+ [10] [11 <./figs/CrrConcepts-1.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+ [12]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‰ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+
+[13]
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Ì in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+ [14]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no £ in font cmr10!
+ [15]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [16]
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no — in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no — in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no µ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no … in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no … in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no … in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‹ in font cmr10!
+Missing character: There is no … in font cmr10!
+ [17] <./figs/RW-1.png, id=78, 870.25125pt x 236.885pt>
+File: ./figs/RW-1.png Graphic file (type png)
+
+<use ./figs/RW-1.png>
+Package pdftex.def Info: ./figs/RW-1.png used on input line 538.
+(pdftex.def)             Requested size: 330.11588pt x 89.85818pt.
+ [18 <./figs/RW-1.png>] [19]
+<./figs/RW-2.png, id=86, 580.1675pt x 178.6675pt>
+File: ./figs/RW-2.png Graphic file (type png)
+ <use ./figs/RW-2.png>
+Package pdftex.def Info: ./figs/RW-2.png used on input line 577.
+(pdftex.def)             Requested size: 316.22797pt x 97.38411pt.
+
+[20 <./figs/RW-2.png>] [21]
+Package mdframed Info: mdframed works in twoside mode on input line 634.
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--673
 
  []
 
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 145.
+ mdframed uses option nobreak mdframed on input line 676.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 145.
-Package mdframed Info: mdframed works in twoside mode on input line 152.
+ mdframed uses option nobreak mdframed on input line 676.
+
+LaTeX Warning: Float too large for page by 163.11172pt on input line 678.
+
+Package mdframed Info: mdframed works in twoside mode on input line 683.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 173.
+ mdframed uses option nobreak mdframed on input line 704.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 173.
-Package mdframed Info: mdframed works in twoside mode on input line 180.
+ mdframed uses option nobreak mdframed on input line 704.
+Package mdframed Info: mdframed works in twoside mode on input line 711.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 229.
+ mdframed uses option nobreak mdframed on input line 760.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 229.
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+ mdframed uses option nobreak mdframed on input line 760.
+
+LaTeX Warning: Float too large for page by 72.80219pt on input line 762.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 []|\OT1/cmr/m/n/10 Accession
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 []|\OT1/cmr/m/n/10 Genome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 []|\OT1/cmr/m/n/10 Read
  []
 
 
-Overfull \hbox (0.81914pt too wide) in paragraph at lines 242--242
+Overfull \hbox (0.81914pt too wide) in paragraph at lines 773--773
 \OT1/cmr/m/n/10 Length| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
 []|\OT1/cmr/m/n/10 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
 []|\OT1/cmr/m/n/10 Lactococcus
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 244--244
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 775--775
 []|\OT1/cmr/m/n/10 NC[]013656.1| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 777--777
 []|\OT1/cmr/m/n/10 Treponema
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 248--248
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 779--779
 []|\OT1/cmr/m/n/10 NC[]000913.2| 
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 250--250
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 781--781
 []|\OT1/cmr/m/n/10 NC[]000913.2| 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--270
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--270
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 786--801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--270
+Underfull \hbox (badness 10000) in paragraph at lines 786--801
 
  []
 
 
-Overfull \hbox (3.57146pt too wide) in paragraph at lines 255--270
+Underfull \hbox (badness 10000) in paragraph at lines 786--801
+
+ []
+
+
+Overfull \hbox (3.57146pt too wide) in paragraph at lines 786--801
 \OT1/cmr/m/n/10 shows the best re-sults in speci-ficity, gain, ac-cu-racy and t
 ime com-pared to CORAL,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--270
+Underfull \hbox (badness 10000) in paragraph at lines 786--801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--270
+Underfull \hbox (badness 10000) in paragraph at lines 786--801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--270
+Underfull \hbox (badness 10000) in paragraph at lines 786--801
 
  []
 
-[8]
+[23] [24] [25] [26] [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-[10] (./H-RACER-llncs.bbl [11]
+ [28]
+(./H-RACER-llncs.bbl [29]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¶ in font cmr9!
-) [12] (./H-RACER-llncs.aux) ) 
+) [30] (./H-RACER-llncs.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9687 strings out of 494985
- 176418 string characters out of 6180356
- 292542 words of memory out of 5000000
- 12760 multiletter control sequences out of 15000+600000
- 8147 words of font info for 29 fonts, out of 8000000 for 9000
+ 10967 strings out of 494985
+ 199433 string characters out of 6180356
+ 307056 words of memory out of 5000000
+ 14005 multiletter control sequences out of 15000+600000
+ 7734 words of font info for 27 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 45i,8n,37p,10445b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.
-pfb>
-Output written on H-RACER-llncs.pdf (12 pages, 197876 bytes).
+ 45i,10n,44p,10445b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on H-RACER-llncs.pdf (30 pages, 884996 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 176 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

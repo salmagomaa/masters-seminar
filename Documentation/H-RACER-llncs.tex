@@ -14,9 +14,13 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{datetime}
 
 \captionsetup{compatibility=false}
 
+%Cover page
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] - \THEYEAR}
 
 \newmdenv[leftline=false,rightline=false,topline=false,bottomline=false,innertopmargin=2pt,innerbottommargin=2pt]{bordered}
 
@@ -25,6 +29,42 @@
 \definecolor{DarkGray}{gray}{0.6}
 \definecolor{LightGray}{gray}{0.9}
 \begin{document}
+
+\begin{titlepage}
+\center % Center everything on the page
+\includegraphics[scale=0.2]{./figs/aast}\\[0.7cm]
+{\Large \bfseries Arab Academy for Science, Technology and Maritime Transport \\[0.2cm](AAST)}\\[0.6cm]
+{\large \bfseries College of Computing and Information Technology}\\[0.3cm]
+{\large \bfseries Computer Science Department}\\[0.3cm] 
+\HRule \\[0.3cm]
+{\LARGE \bfseries DNA Sequencing Error Correction Algorithms}\\[0.3cm]
+\HRule \\[0.7cm]
+{\large \bfseries A Thesis}\\[0.3cm]
+{\large \bfseries Submitted in Partial Fulfillment to the Requirements for the}\\[0.3cm]
+{\Large \bfseries Master of Computer Science}\\[0.5cm]
+{\large \bfseries Submitted by:}\\[0.3cm]
+{\Large \bfseries Salma Mahmoud Mohamed Gomaa}\\[0.5cm]
+{\large \bfseries Under Supervision of}\\[0.7cm]
+\begin{minipage}{0.45\textwidth}
+\begin{flushleft}
+\center
+{\large \bfseries Prof.Dr.YasserEl-sonbaty}\\
+{Professor of Computer Science}\\
+{Arab Academy for Science and Technology and Maritime Transport}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.47\textwidth}
+\begin{flushright}
+\center
+{\large \bfseries Dr.Nahla Belal}\\
+{Assistant Professor of Computer Science \\
+Arab Academy for Science and Technology and Maritime Transport}
+\end{flushright}
+\end{minipage}\\[1cm]
+{\monthyeardate\today}\\[0.2cm] 
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
 
 \title{H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors}
 

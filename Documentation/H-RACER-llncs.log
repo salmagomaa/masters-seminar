@@ -1,5 +1,7 @@
-This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2017.6.16)  17 JUN 2017 14:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.16)  17 JUN 2017 16:30
+entering extended mode
  restricted \write18 enabled.
+ %&-line parsing enabled.
 **H-RACER-llncs.tex
 (./H-RACER-llncs.tex
 LaTeX2e <2011/06/27>
@@ -144,28 +146,6 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
-Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
-
-(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
-\pdftexcmds@toks=\toks18
-)
 \Gread@gobject=\count116
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
@@ -175,11 +155,11 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen124
 \extrarowheight=\dimen125
-\NC@list=\toks19
+\NC@list=\toks18
 \extratabsurround=\skip45
 \backup@length=\skip46
 )
-\everycr=\toks20
+\everycr=\toks19
 \minrowclearance=\skip47
 )
 \rownum=\count117
@@ -207,7 +187,7 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks20
 )
 \csq@reset=\count120
 \csq@gtype=\count121
@@ -215,7 +195,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \csq@qlevel=\count123
 \csq@maxlvl=\count124
 \csq@tshold=\count125
-\csq@ltx@everypar=\toks22
+\csq@ltx@everypar=\toks21
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
@@ -237,23 +217,22 @@ Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
 Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex.sty
-Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
-\LuT@AllocAttribute=\count277
-\LuT@AllocCatcodeTable=\count278
-\CatcodeTableStack=\count279
-\CatcodeTableIniTeX=\catcodetable1
-\CatcodeTableString=\catcodetable3
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableLaTeX=\catcodetable7
-))
+)
 Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
 )
 Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
@@ -272,18 +251,18 @@ Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
 Package: l3int 2013/08/02 v4583 L3 Integers
-\c_max_int=\count280
-\l_tmpa_int=\count281
-\l_tmpb_int=\count282
-\g_tmpa_int=\count283
-\g_tmpb_int=\count284
+\c_max_int=\count126
+\l_tmpa_int=\count127
+\l_tmpb_int=\count128
+\g_tmpa_int=\count129
+\g_tmpb_int=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
 Package: l3quark 2013/12/14 v4623 L3 Quarks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
 Package: l3prg 2014/01/04 v4642 L3 Control structures
-\g__prg_map_int=\count285
+\g__prg_map_int=\count131
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
 Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
@@ -299,26 +278,26 @@ Package: l3msg 2013/07/28 v4581 L3 Messages
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
 Package: l3file 2013/10/13 v4596 L3 File and I/O operations
-\l_iow_line_count_int=\count286
-\l__iow_target_count_int=\count287
-\l__iow_current_line_int=\count288
-\l__iow_current_word_int=\count289
-\l__iow_current_indentation_int=\count290
+\l_iow_line_count_int=\count132
+\l__iow_target_count_int=\count133
+\l__iow_current_line_int=\count134
+\l__iow_current_word_int=\count135
+\l__iow_current_indentation_int=\count136
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
 Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
-\c_zero_dim=\dimen256
-\c_max_dim=\dimen257
-\l_tmpa_dim=\dimen258
-\l_tmpb_dim=\dimen259
-\g_tmpa_dim=\dimen260
-\g_tmpb_dim=\dimen261
-\c_zero_skip=\skip256
-\c_max_skip=\skip257
-\l_tmpa_skip=\skip258
-\l_tmpb_skip=\skip259
-\g_tmpa_skip=\skip260
-\g_tmpb_skip=\skip261
+\c_zero_dim=\dimen126
+\c_max_dim=\dimen127
+\l_tmpa_dim=\dimen128
+\l_tmpb_dim=\dimen129
+\g_tmpa_dim=\dimen130
+\g_tmpb_dim=\dimen131
+\c_zero_skip=\skip48
+\c_max_skip=\skip49
+\l_tmpa_skip=\skip50
+\l_tmpb_skip=\skip51
+\g_tmpa_skip=\skip52
+\g_tmpb_skip=\skip53
 \c_zero_muskip=\muskip10
 \c_max_muskip=\muskip11
 \l_tmpa_muskip=\muskip12
@@ -328,85 +307,88 @@ Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
 Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
-\g__keyval_level_int=\count291
-\l_keys_choice_int=\count292
+\g__keyval_level_int=\count137
+\l_keys_choice_int=\count138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
 Package: l3fp 2014/01/04 v4642 L3 Floating points
-\c__fp_leading_shift_int=\count293
-\c__fp_middle_shift_int=\count294
-\c__fp_trailing_shift_int=\count295
-\c__fp_big_leading_shift_int=\count296
-\c__fp_big_middle_shift_int=\count297
-\c__fp_big_trailing_shift_int=\count298
-\c__fp_Bigg_leading_shift_int=\count299
-\c__fp_Bigg_middle_shift_int=\count300
-\c__fp_Bigg_trailing_shift_int=\count301
+\c__fp_leading_shift_int=\count139
+\c__fp_middle_shift_int=\count140
+\c__fp_trailing_shift_int=\count141
+\c__fp_big_leading_shift_int=\count142
+\c__fp_big_middle_shift_int=\count143
+\c__fp_big_trailing_shift_int=\count144
+\c__fp_Bigg_leading_shift_int=\count145
+\c__fp_Bigg_middle_shift_int=\count146
+\c__fp_Bigg_trailing_shift_int=\count147
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
 Package: l3box 2013/07/28 v4581 L3 Experimental boxes
-\c_empty_box=\box256
-\l_tmpa_box=\box257
-\l_tmpb_box=\box258
-\g_tmpa_box=\box259
-\g_tmpb_box=\box260
+\c_empty_box=\box54
+\l_tmpa_box=\box55
+\l_tmpb_box=\box56
+\g_tmpa_box=\box57
+\g_tmpb_box=\box58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
 Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
-\l__coffin_internal_box=\box261
-\l__coffin_internal_dim=\dimen262
-\l__coffin_offset_x_dim=\dimen263
-\l__coffin_offset_y_dim=\dimen264
-\l__coffin_x_dim=\dimen265
-\l__coffin_y_dim=\dimen266
-\l__coffin_x_prime_dim=\dimen267
-\l__coffin_y_prime_dim=\dimen268
-\c_empty_coffin=\box262
-\l__coffin_aligned_coffin=\box263
-\l__coffin_aligned_internal_coffin=\box264
-\l_tmpa_coffin=\box265
-\l_tmpb_coffin=\box266
-\l__coffin_display_coffin=\box267
-\l__coffin_display_coord_coffin=\box268
-\l__coffin_display_pole_coffin=\box269
-\l__coffin_display_offset_dim=\dimen269
-\l__coffin_display_x_dim=\dimen270
-\l__coffin_display_y_dim=\dimen271
+\l__coffin_internal_box=\box59
+\l__coffin_internal_dim=\dimen132
+\l__coffin_offset_x_dim=\dimen133
+\l__coffin_offset_y_dim=\dimen134
+\l__coffin_x_dim=\dimen135
+\l__coffin_y_dim=\dimen136
+\l__coffin_x_prime_dim=\dimen137
+\l__coffin_y_prime_dim=\dimen138
+\c_empty_coffin=\box60
+\l__coffin_aligned_coffin=\box61
+\l__coffin_aligned_internal_coffin=\box62
+\l_tmpa_coffin=\box63
+\l_tmpb_coffin=\box64
+\l__coffin_display_coffin=\box65
+\l__coffin_display_coord_coffin=\box66
+\l__coffin_display_pole_coffin=\box67
+\l__coffin_display_offset_dim=\dimen139
+\l__coffin_display_x_dim=\dimen140
+\l__coffin_display_y_dim=\dimen141
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
 Package: l3color 2012/08/29 v4156 L3 Experimental color support
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
 Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count302
-\g__cctab_stack_int=\count303
-\c_code_cctab=\catcodetable9
+\g__cctab_allocate_int=\count148
+\g__cctab_stack_int=\count149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
 Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen272
-\l__box_bottom_dim=\dimen273
-\l__box_left_dim=\dimen274
-\l__box_right_dim=\dimen275
-\l__box_top_new_dim=\dimen276
-\l__box_bottom_new_dim=\dimen277
-\l__box_left_new_dim=\dimen278
-\l__box_right_new_dim=\dimen279
-\l__box_internal_box=\box270
-\l__coffin_bounding_shift_dim=\dimen280
-\l__coffin_left_corner_dim=\dimen281
-\l__coffin_right_corner_dim=\dimen282
-\l__coffin_bottom_corner_dim=\dimen283
-\l__coffin_top_corner_dim=\dimen284
-\l__coffin_scaled_total_height_dim=\dimen285
-\l__coffin_scaled_width_dim=\dimen286
+\l__box_top_dim=\dimen142
+\l__box_bottom_dim=\dimen143
+\l__box_left_dim=\dimen144
+\l__box_right_dim=\dimen145
+\l__box_top_new_dim=\dimen146
+\l__box_bottom_new_dim=\dimen147
+\l__box_left_new_dim=\dimen148
+\l__box_right_new_dim=\dimen149
+\l__box_internal_box=\box68
+\l__coffin_bounding_shift_dim=\dimen150
+\l__coffin_left_corner_dim=\dimen151
+\l__coffin_right_corner_dim=\dimen152
+\l__coffin_bottom_corner_dim=\dimen153
+\l__coffin_top_corner_dim=\dimen154
+\l__coffin_scaled_total_height_dim=\dimen155
+\l__coffin_scaled_width_dim=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
 Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count304
-\l__xparse_m_args_int=\count305
-\l__xparse_mandatory_args_int=\count306
-\l__xparse_processor_int=\count307
-\l__xparse_v_nesting_int=\count308
+\l__xparse_current_arg_int=\count150
+\l__xparse_m_args_int=\count151
+\l__xparse_mandatory_args_int=\count152
+\l__xparse_processor_int=\count153
+\l__xparse_v_nesting_int=\count154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
@@ -416,6 +398,14 @@ Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
@@ -427,90 +417,90 @@ Package zref Info: New property: page on input line 761.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
-\c@abspage=\count309
+\c@abspage=\count155
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip262
-\c@mdf@globalstyle@cnt=\count310
-\mdf@skipabove@length=\skip263
-\mdf@skipbelow@length=\skip264
-\mdf@leftmargin@length=\skip265
-\mdf@rightmargin@length=\skip266
-\mdf@innerleftmargin@length=\skip267
-\mdf@innerrightmargin@length=\skip268
-\mdf@innertopmargin@length=\skip269
-\mdf@innerbottommargin@length=\skip270
-\mdf@splittopskip@length=\skip271
-\mdf@splitbottomskip@length=\skip272
-\mdf@outermargin@length=\skip273
-\mdf@innermargin@length=\skip274
-\mdf@linewidth@length=\skip275
-\mdf@innerlinewidth@length=\skip276
-\mdf@middlelinewidth@length=\skip277
-\mdf@outerlinewidth@length=\skip278
-\mdf@roundcorner@length=\skip279
-\mdf@footenotedistance@length=\skip280
-\mdf@userdefinedwidth@length=\skip281
-\mdf@needspace@length=\skip282
-\mdf@frametitleaboveskip@length=\skip283
-\mdf@frametitlebelowskip@length=\skip284
-\mdf@frametitlerulewidth@length=\skip285
-\mdf@frametitleleftmargin@length=\skip286
-\mdf@frametitlerightmargin@length=\skip287
-\mdf@shadowsize@length=\skip288
-\mdf@extratopheight@length=\skip289
-\mdf@subtitleabovelinewidth@length=\skip290
-\mdf@subtitlebelowlinewidth@length=\skip291
-\mdf@subtitleaboveskip@length=\skip292
-\mdf@subtitlebelowskip@length=\skip293
-\mdf@subtitleinneraboveskip@length=\skip294
-\mdf@subtitleinnerbelowskip@length=\skip295
-\mdf@subsubtitleabovelinewidth@length=\skip296
-\mdf@subsubtitlebelowlinewidth@length=\skip297
-\mdf@subsubtitleaboveskip@length=\skip298
-\mdf@subsubtitlebelowskip@length=\skip299
-\mdf@subsubtitleinneraboveskip@length=\skip300
-\mdf@subsubtitleinnerbelowskip@length=\skip301
+\mdf@templength=\skip54
+\c@mdf@globalstyle@cnt=\count156
+\mdf@skipabove@length=\skip55
+\mdf@skipbelow@length=\skip56
+\mdf@leftmargin@length=\skip57
+\mdf@rightmargin@length=\skip58
+\mdf@innerleftmargin@length=\skip59
+\mdf@innerrightmargin@length=\skip60
+\mdf@innertopmargin@length=\skip61
+\mdf@innerbottommargin@length=\skip62
+\mdf@splittopskip@length=\skip63
+\mdf@splitbottomskip@length=\skip64
+\mdf@outermargin@length=\skip65
+\mdf@innermargin@length=\skip66
+\mdf@linewidth@length=\skip67
+\mdf@innerlinewidth@length=\skip68
+\mdf@middlelinewidth@length=\skip69
+\mdf@outerlinewidth@length=\skip70
+\mdf@roundcorner@length=\skip71
+\mdf@footenotedistance@length=\skip72
+\mdf@userdefinedwidth@length=\skip73
+\mdf@needspace@length=\skip74
+\mdf@frametitleaboveskip@length=\skip75
+\mdf@frametitlebelowskip@length=\skip76
+\mdf@frametitlerulewidth@length=\skip77
+\mdf@frametitleleftmargin@length=\skip78
+\mdf@frametitlerightmargin@length=\skip79
+\mdf@shadowsize@length=\skip80
+\mdf@extratopheight@length=\skip81
+\mdf@subtitleabovelinewidth@length=\skip82
+\mdf@subtitlebelowlinewidth@length=\skip83
+\mdf@subtitleaboveskip@length=\skip84
+\mdf@subtitlebelowskip@length=\skip85
+\mdf@subtitleinneraboveskip@length=\skip86
+\mdf@subtitleinnerbelowskip@length=\skip87
+\mdf@subsubtitleabovelinewidth@length=\skip88
+\mdf@subsubtitlebelowlinewidth@length=\skip89
+\mdf@subsubtitleaboveskip@length=\skip90
+\mdf@subsubtitlebelowskip@length=\skip91
+\mdf@subsubtitleinneraboveskip@length=\skip92
+\mdf@subsubtitleinnerbelowskip@length=\skip93
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box271
-\mdf@footnotebox=\box272
-\mdf@splitbox@one=\box273
-\mdf@splitbox@two=\box274
-\mdf@splitbox@save=\box275
-\mdfsplitboxwidth=\skip302
-\mdfsplitboxtotalwidth=\skip303
-\mdfsplitboxheight=\skip304
-\mdfsplitboxdepth=\skip305
-\mdfsplitboxtotalheight=\skip306
-\mdfframetitleboxwidth=\skip307
-\mdfframetitleboxtotalwidth=\skip308
-\mdfframetitleboxheight=\skip309
-\mdfframetitleboxdepth=\skip310
-\mdfframetitleboxtotalheight=\skip311
-\mdffootnoteboxwidth=\skip312
-\mdffootnoteboxtotalwidth=\skip313
-\mdffootnoteboxheight=\skip314
-\mdffootnoteboxdepth=\skip315
-\mdffootnoteboxtotalheight=\skip316
-\mdftotallinewidth=\skip317
-\mdfboundingboxwidth=\skip318
-\mdfboundingboxtotalwidth=\skip319
-\mdfboundingboxheight=\skip320
-\mdfboundingboxdepth=\skip321
-\mdfboundingboxtotalheight=\skip322
-\mdf@freevspace@length=\skip323
-\mdf@horizontalwidthofbox@length=\skip324
-\mdf@verticalmarginwhole@length=\skip325
-\mdf@horizontalspaceofbox=\skip326
-\mdfsubtitleheight=\skip327
-\mdfsubsubtitleheight=\skip328
-\c@mdfcountframes=\count311
+\mdf@frametitlebox=\box69
+\mdf@footnotebox=\box70
+\mdf@splitbox@one=\box71
+\mdf@splitbox@two=\box72
+\mdf@splitbox@save=\box73
+\mdfsplitboxwidth=\skip94
+\mdfsplitboxtotalwidth=\skip95
+\mdfsplitboxheight=\skip96
+\mdfsplitboxdepth=\skip97
+\mdfsplitboxtotalheight=\skip98
+\mdfframetitleboxwidth=\skip99
+\mdfframetitleboxtotalwidth=\skip100
+\mdfframetitleboxheight=\skip101
+\mdfframetitleboxdepth=\skip102
+\mdfframetitleboxtotalheight=\skip103
+\mdffootnoteboxwidth=\skip104
+\mdffootnoteboxtotalwidth=\skip105
+\mdffootnoteboxheight=\skip106
+\mdffootnoteboxdepth=\skip107
+\mdffootnoteboxtotalheight=\skip108
+\mdftotallinewidth=\skip109
+\mdfboundingboxwidth=\skip110
+\mdfboundingboxtotalwidth=\skip111
+\mdfboundingboxheight=\skip112
+\mdfboundingboxdepth=\skip113
+\mdfboundingboxtotalheight=\skip114
+\mdf@freevspace@length=\skip115
+\mdf@horizontalwidthofbox@length=\skip116
+\mdf@verticalmarginwhole@length=\skip117
+\mdf@horizontalspaceofbox=\skip118
+\mdfsubtitleheight=\skip119
+\mdfsubsubtitleheight=\skip120
+\c@mdfcountframes=\count157
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -528,37 +518,37 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 . Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
 . 701.
 .................................................
-\mdf@envdepth=\count312
-\c@mdf@env@i=\count313
-\c@mdf@env@ii=\count314
-\c@mdf@zref@counter=\count315
+\mdf@envdepth=\count158
+\c@mdf@env@i=\count159
+\c@mdf@env@ii=\count160
+\c@mdf@zref@counter=\count161
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count316
-\float@exts=\toks23
-\float@box=\box276
-\@float@everytoks=\toks24
-\@floatcapt=\box277
+\c@float@type=\count162
+\float@exts=\toks22
+\float@box=\box74
+\@float@everytoks=\toks23
+\@floatcapt=\box75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip329
-\LTright=\skip330
-\LTpre=\skip331
-\LTpost=\skip332
-\LTchunksize=\count317
-\LTcapwidth=\dimen287
-\LT@head=\box278
-\LT@firsthead=\box279
-\LT@foot=\box280
-\LT@lastfoot=\box281
-\LT@cols=\count318
-\LT@rows=\count319
-\c@LT@tables=\count320
-\c@LT@chunks=\count321
-\LT@p@ftn=\toks25
+\LTleft=\skip121
+\LTright=\skip122
+\LTpre=\skip123
+\LTpost=\skip124
+\LTchunksize=\count163
+\LTcapwidth=\dimen157
+\LT@head=\box76
+\LT@firsthead=\box77
+\LT@foot=\box78
+\LT@lastfoot=\box79
+\LT@cols=\count164
+\LT@rows=\count165
+\c@LT@tables=\count166
+\c@LT@chunks=\count167
+\LT@p@ftn=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -574,8 +564,8 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen288
-\Gin@req@width=\dimen289
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -583,13 +573,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen290
-\captionmargin@=\dimen291
-\captionwidth=\dimen292
-\caption@tempdima=\dimen293
-\caption@indent=\dimen294
-\caption@parindent=\dimen295
-\caption@hangindent=\dimen296
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -598,11 +588,11 @@ Package caption Warning: Unsupported document class (or package) detected,
 (caption)                usage of the caption package is not recommended.
 See the caption package documentation for explanation.
 
-Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecapt
-ionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\bfs
-eries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tem
-pboxa \hfil }\fi \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count322
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
+tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
+fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
+tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count168
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -610,70 +600,405 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count323
-\c@subtable=\count324
+\c@subfigure=\count169
+\c@subtable=\count170
 )
-(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
-Package: datetime 2013/09/10 v2.59 Date Time Package
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Package: fmtcount 2013/08/17 v2.03
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
-Package: fcprefix 2012/09/28
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
-Package: fcnumparser 2012/09/28
-\fc@digit@counter=\count325
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks26
-\ex@=\dimen297
-)
-\c@padzeroesN=\count326
-\fc@tmpcatcode=\count327
-\@DT@modctr=\count328
-\@ordinalctr=\count329
-\@orgargctr=\count330
-\@strctr=\count331
-\@tmpstrctr=\count332
-\@DT@loopN=\count333
-\@DT@X=\count334
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
-File: fc-english.def 2013/08/17
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/laeenc.def
+File: laeenc.def 2006/01/01 v0.1 Local Arabic font encoding (test version: may 
+change)
+Now handling font encoding LAE ...
+... processing UTF-8 mapping file for font encoding LAE
+
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/laeenc.dfu
+File: laeenc.dfu 2006/01/01 v1.0 UTF-8 support for Arabic and Farsi for use wit
+h inputenc
+   defining Unicode char U+066A (decimal 1642)
+   defining Unicode char U+060C (decimal 1548)
+   defining Unicode char U+0660 (decimal 1632)
+   defining Unicode char U+0661 (decimal 1633)
+   defining Unicode char U+0662 (decimal 1634)
+   defining Unicode char U+0663 (decimal 1635)
+   defining Unicode char U+0664 (decimal 1636)
+   defining Unicode char U+0665 (decimal 1637)
+   defining Unicode char U+0666 (decimal 1638)
+   defining Unicode char U+0667 (decimal 1639)
+   defining Unicode char U+0668 (decimal 1640)
+   defining Unicode char U+0669 (decimal 1641)
+   defining Unicode char U+061B (decimal 1563)
+   defining Unicode char U+061F (decimal 1567)
+   defining Unicode char U+0621 (decimal 1569)
+   defining Unicode char U+0622 (decimal 1570)
+   defining Unicode char U+0623 (decimal 1571)
+   defining Unicode char U+0624 (decimal 1572)
+   defining Unicode char U+0625 (decimal 1573)
+   defining Unicode char U+0626 (decimal 1574)
+   defining Unicode char U+0627 (decimal 1575)
+   defining Unicode char U+0628 (decimal 1576)
+   defining Unicode char U+0629 (decimal 1577)
+   defining Unicode char U+062A (decimal 1578)
+   defining Unicode char U+062B (decimal 1579)
+   defining Unicode char U+062C (decimal 1580)
+   defining Unicode char U+062D (decimal 1581)
+   defining Unicode char U+062E (decimal 1582)
+   defining Unicode char U+062F (decimal 1583)
+   defining Unicode char U+0630 (decimal 1584)
+   defining Unicode char U+0631 (decimal 1585)
+   defining Unicode char U+0632 (decimal 1586)
+   defining Unicode char U+0633 (decimal 1587)
+   defining Unicode char U+0634 (decimal 1588)
+   defining Unicode char U+0635 (decimal 1589)
+   defining Unicode char U+0636 (decimal 1590)
+   defining Unicode char U+0637 (decimal 1591)
+   defining Unicode char U+0638 (decimal 1592)
+   defining Unicode char U+0639 (decimal 1593)
+   defining Unicode char U+063A (decimal 1594)
+   defining Unicode char U+0640 (decimal 1600)
+   defining Unicode char U+0641 (decimal 1601)
+   defining Unicode char U+0642 (decimal 1602)
+   defining Unicode char U+0643 (decimal 1603)
+   defining Unicode char U+0644 (decimal 1604)
+   defining Unicode char U+0645 (decimal 1605)
+   defining Unicode char U+0646 (decimal 1606)
+   defining Unicode char U+0647 (decimal 1607)
+   defining Unicode char U+0648 (decimal 1608)
+   defining Unicode char U+0649 (decimal 1609)
+   defining Unicode char U+064A (decimal 1610)
+   defining Unicode char U+064B (decimal 1611)
+   defining Unicode char U+064C (decimal 1612)
+   defining Unicode char U+064D (decimal 1613)
+   defining Unicode char U+064E (decimal 1614)
+   defining Unicode char U+064F (decimal 1615)
+   defining Unicode char U+0650 (decimal 1616)
+   defining Unicode char U+0651 (decimal 1617)
+   defining Unicode char U+0652 (decimal 1618)
+   defining Unicode char U+067E (decimal 1662)
+   defining Unicode char U+0686 (decimal 1670)
+   defining Unicode char U+0698 (decimal 1688)
+   defining Unicode char U+06A9 (decimal 1705)
+   defining Unicode char U+06AF (decimal 1711)
+   defining Unicode char U+06CC (decimal 1740)
+   defining Unicode char U+06F0 (decimal 1776)
+   defining Unicode char U+06F1 (decimal 1777)
+   defining Unicode char U+06F2 (decimal 1778)
+   defining Unicode char U+06F3 (decimal 1779)
+   defining Unicode char U+06F4 (decimal 1780)
+   defining Unicode char U+06F5 (decimal 1781)
+   defining Unicode char U+06F6 (decimal 1782)
+   defining Unicode char U+06F7 (decimal 1783)
+   defining Unicode char U+06F8 (decimal 1784)
+   defining Unicode char U+06F9 (decimal 1785)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+06D5 (decimal 1749)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
-Package: datetime-defaults 2013/09/10
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/lfeenc.def
+File: lfeenc.def 2006/01/01 v0.1 Local Farsi font encoding (test version: may c
+hange)
+Now handling font encoding LFE ...
+... no UTF-8 mapping file for font encoding LFE
 )
-\@day=\count335
-\@month=\count336
-\@year=\count337
-\c@HOUR=\count338
-\c@HOURXII=\count339
-\c@MINUTE=\count340
-\c@TOHOUR=\count341
-\c@TOMINUTE=\count342
-\c@SECOND=\count343
-\currenthour=\count344
-\currentminute=\count345
-\currentsecond=\count346
-Package datetime Info: No datetime.cfg file found, using default settings on inp
-ut line 308.
-\@dtctr=\count347
-\dayofyear=\count348
-\dayofweek=\count349
-LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks27
-\dt@b=\toks28
+LaTeX Font Info:    Try loading font information for LFE+cmr on input line 100.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/lfecmr.fd
+File: lfecmr.fd 2006/12/01 v0.1a LaTeX default Farsi font description (test ver
+sion: may change)
 )
+LaTeX Font Info:    Font shape `LFE/cmr/m/n' will be
+(Font)              scaled to size 12.5pt on input line 100.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count171
+\U@D=\dimen167
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/arabic.ldf
+File: arabic.ldf 
+Language: arabic 2006/01/01 v0.1 Arabic support for the babel system
+
+Loading the definitions for the LaTeX{} Arabic encoding
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/laeenc.def
+File: laeenc.def 2006/01/01 v0.1 Local Arabic font encoding (test version: may 
+change)
+LaTeX Font Info:    Redeclaring font encoding LAE on input line 27.
+)
+Loading the Common definitions for Arabic and Farsi
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/arabicore.sty
+  Arabi Core switching commands v1.0  2006/01/01   (may still change)  
+\n@everypar=\toks27
+\@Arabitempboxa=\box80
+\llahheight=\skip125
+\Decimalheight=\skip126
+)
+LaTeX Font Info:    Redeclaring font encoding LAE on input line 144.
+
+Loading the Arabi fonts definitions for Arabic
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/arabicfnt.sty
+  Arabic font switching commands v1.0  2006/01/01   (may still change)  
+LaTeX Info: Redefining \times on input line 102.
+LaTeX Info: Redefining \omega on input line 137.
+)
+Loading the Common definitions for Arabic and Farsi
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/arabnovowel.sty
+File: arabnovowel.sty 2005/09/07 v0.1 Arabic dummy vowel slots when needed
+\ArabiStruthightOFF=\skip127
+\ArabiStrutdepthOFF=\skip128
+\ArabiStruthightON=\skip129
+\ArabiStrutdepthON=\skip130
+LaTeX Font Info:    Try loading font information for LAE+cmr on input line 133.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/laecmr.fd
+File: laecmr.fd 2006/01/01 v0.1 LaTeX Arabic default font description (test ver
+sion: may change)
+)
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 12.5pt on input line 133.
+)
+*************************************
+* Local config file arabic.cfg used
+*
+(/usr/share/texlive/texmf-dist/tex/latex/arabi/arabic.cfg)))
+
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 32.
+
 Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... none found.
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
 
+Package csquotes Warning: No style for language 'arabic'.
+(csquotes)                Using fallback style on input line 32.
+
+Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (./H-RACER-llncs.aux
 
 LaTeX Warning: Label `fig:fig5' multiply defined.
@@ -682,33 +1007,39 @@ LaTeX Warning: Label `fig:fig5' multiply defined.
 LaTeX Warning: Label `sec:2' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+\openout1 = `H-RACER-llncs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LFE/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen298
-\scratchbox=\box282
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen299
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count172
+\scratchdimen=\dimen168
+\scratchbox=\box81
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen169
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks29
 )
-\AtBeginShipoutBox=\box283
+\AtBeginShipoutBox=\box82
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -716,20 +1047,23 @@ Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
-,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
-(caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {\
-csname ext@#1\endcsname }{#1}{\protect \numberline {\csname the#1\endcsname }{\i
-gnorespaces #2}}\begingroup \@parboxrestore \@makecaption {\csname fnum@#1\endcs
-name }{\ignorespaces #3}\par \endgroup .
+(caption)             \@caption = \long macro:#1[#2]#3->\par \addtocontents {\c
+sname ext@#1\endcsname }{\xstring \select@language {\main@Arabi@language }}\add
+contentsline {\csname ext@#1\endcsname }{#1}{\protect \numberline {\csname the#
+1\endcsname }{\ignorespaces \if@rl {\textRL {#2}}\else \textLR {#2}\fi }}\begin
+group \@parboxrestore \if@minipage \@setminipage \fi \normalsize \@makecaption 
+{\csname fnum@#1\endcsname }{\ignorespaces \if@rl {\textRL {#3}}\else \textLR {
+#3}\fi }\par \endgroup .
 
 
 Package caption Warning: Forced redefinition of \caption since the
@@ -738,256 +1072,467 @@ Package caption Warning: Forced redefinition of \caption since the
 See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
 <./figs/aast.jpg, id=1, 341.3553pt x 327.1422pt>
 File: ./figs/aast.jpg Graphic file (type jpg)
  <use ./figs/aast.jpg>
-Package pdftex.def Info: ./figs/aast.jpg used on input line 35.
+Package pdftex.def Info: ./figs/aast.jpg used on input line 39.
 (pdftex.def)             Requested size: 68.26984pt x 65.42728pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 59.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/aast.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+File: ./figs/aast.jpg Graphic file (type jpg)
+
+<use ./figs/aast.jpg>
+Package pdftex.def Info: ./figs/aast.jpg used on input line 76.
+(pdftex.def)             Requested size: 68.26984pt x 65.42728pt.
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 17.99998pt on input line 78.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <14.4> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 17.99998pt on input line 78.
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 15.0pt on input line 81.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <12> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 15.0pt on input line 81.
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 21.59999pt on input line 88.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <17.28> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 88.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 21.59999pt on input line 88.
+ [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
 
-Overfull \hbox (7.38354pt too wide) in paragraph at lines 88--90
-[]\OT1/cmr/bx/n/9 Key-words:\OT1/cmr/m/n/9 DNA Se-quenc-ing\OMS/cmr/m/n/9 \OT1
-/cmr/m/n/9 k-mer\OMS/cmr/m/n/9 \OT1/cmr/m/n/9 Er-ror Cor-rec-tion\OMS/cmr/m/n/
-9 \OT1/cmr/m/n/9 Sub-sti-tu-tion\OMS/cmr/m/n/9 \OT1/cmr/m/n/9 In-Dels 
+Overfull \hbox (7.38354pt too wide) in paragraph at lines 167--169
+\OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 DNA Sequencing\OMS/cmsy/m/n/9 ^^A\OT1/c
+mr/m/n/9 k-mer\OMS/cmsy/m/n/9 ^^A\OT1/cmr/m/n/9 Error Cor-rec-tion\OMS/cmsy/m/n
+/9 ^^A\OT1/cmr/m/n/9 Substitution\OMS/cmsy/m/n/9 ^^A\OT1/cmr/m/n/9 InDels 
  []
 
-[2] <./figs/DNA-1.jpg, id=15, 192.72pt x 144.54pt>
+[2] <./figs/DNA-1.jpg, id=20, 192.72pt x 144.54pt>
 File: ./figs/DNA-1.jpg Graphic file (type jpg)
  <use ./figs/DNA-1.jpg>
-Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 125.
+Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 203.
 (pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
 
-[3] <./figs/DNA-2.jpg, id=20, 192.72pt x 251.9814pt>
+[3] <./figs/DNA-2.jpg, id=25, 192.72pt x 251.9814pt>
 File: ./figs/DNA-2.jpg Graphic file (type jpg)
  <use ./figs/DNA-2.jpg>
-Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 132.
+Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 210.
 (pdftex.def)             Requested size: 104.1381pt x 136.1602pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 134.
+(Font)              <9> on input line 212.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 134.
+(Font)              <6> on input line 212.
 
-<./figs/DNA-3.jpg, id=21, 364.36125pt x 355.3275pt>
+<./figs/DNA-3.jpg, id=26, 364.36125pt x 355.3275pt>
 File: ./figs/DNA-3.jpg Graphic file (type jpg)
  <use ./figs/DNA-3.jpg>
-Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 136.
+Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 214.
 (pdftex.def)             Requested size: 156.20453pt x 152.32698pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 131--139
-[][]$[]$ $[]$ 
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 209--217
+[]$[]$ $[]$ 
  []
 
-<./figs/NGS-1.jpg, id=22, 223.83624pt x 223.83624pt>
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+<./figs/NGS-1.jpg, id=27, 223.83624pt x 223.83624pt>
 File: ./figs/NGS-1.jpg Graphic file (type jpg)
  <use ./figs/NGS-1.jpg>
-Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 149.
+Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 227.
 (pdftex.def)             Requested size: 223.8357pt x 223.8357pt.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
 
 [4 <./figs/DNA-1.jpg> <./figs/DNA-2.jpg> <./figs/DNA-3.jpg>]
-<./figs/NGS-2.png, id=26, 545.03625pt x 127.47626pt>
+<./figs/NGS-2.png, id=31, 545.03625pt x 127.47626pt>
 File: ./figs/NGS-2.png Graphic file (type png)
  <use ./figs/NGS-2.png>
-Package pdftex.def Info: ./figs/NGS-2.png used on input line 156.
+Package pdftex.def Info: ./figs/NGS-2.png used on input line 234.
 (pdftex.def)             Requested size: 316.22797pt x 73.96156pt.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 162.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 240.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 162.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 240.
 
-<./figs/NGS-5.png, id=27, 612.2875pt x 345.29pt>
+<./figs/NGS-5.png, id=32, 612.2875pt x 345.29pt>
 File: ./figs/NGS-5.png Graphic file (type png)
  <use ./figs/NGS-5.png>
-Package pdftex.def Info: ./figs/NGS-5.png used on input line 165.
+Package pdftex.def Info: ./figs/NGS-5.png used on input line 243.
 (pdftex.def)             Requested size: 316.22797pt x 178.32948pt.
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
 
 [5 <./figs/NGS-1.jpg> <./figs/NGS-2.png>] [6 <./figs/NGS-5.png>]
-<./figs/NGS-3.png, id=35, 144.54pt x 105.39375pt>
+<./figs/NGS-3.png, id=41, 144.54pt x 105.39375pt>
 File: ./figs/NGS-3.png Graphic file (type png)
  <use ./figs/NGS-3.png>
-Package pdftex.def Info: ./figs/NGS-3.png used on input line 178.
+Package pdftex.def Info: ./figs/NGS-3.png used on input line 256.
 (pdftex.def)             Requested size: 144.53963pt x 105.39348pt.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+LaTeX Font Info:    Font shape `LAE/cmr/m/it' will be
+(Font)              scaled to size 12.5pt on input line 259.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/it' in size <10> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 259.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 12.5pt on input line 259.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
 
-<./figs/NGS-4.png, id=36, 537.00626pt x 199.74625pt>
+<./figs/NGS-4.png, id=42, 537.00626pt x 199.74625pt>
 File: ./figs/NGS-4.png Graphic file (type png)
  <use ./figs/NGS-4.png>
-Package pdftex.def Info: ./figs/NGS-4.png used on input line 185.
+Package pdftex.def Info: ./figs/NGS-4.png used on input line 263.
 (pdftex.def)             Requested size: 316.22797pt x 117.62372pt.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
 
-<./figs/NGS-6.png, id=37, 583.17876pt x 220.825pt>
+<./figs/NGS-6.png, id=43, 583.17876pt x 220.825pt>
 File: ./figs/NGS-6.png Graphic file (type png)
  <use ./figs/NGS-6.png>
-Package pdftex.def Info: ./figs/NGS-6.png used on input line 192.
+Package pdftex.def Info: ./figs/NGS-6.png used on input line 270.
 (pdftex.def)             Requested size: 316.22797pt x 119.74577pt.
 
 [7 <./figs/NGS-3.png> <./figs/NGS-4.png>]
-<./figs/ErrCrr-1.png, id=42, 730.73pt x 108.405pt>
+<./figs/ErrCrr-1.png, id=48, 730.73pt x 108.405pt>
 File: ./figs/ErrCrr-1.png Graphic file (type png)
  <use ./figs/ErrCrr-1.png>
-Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 202.
+Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 280.
 (pdftex.def)             Requested size: 316.22797pt x 46.91263pt.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <10> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 282.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 12.5pt on input line 282.
+Missing character: There is no o in font aealmateen!
+Missing character: There is no o in font aealmateen!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
 
-<./figs/ErrCrr-2.png, id=43, 728.7225pt x 109.40875pt>
+<./figs/ErrCrr-2.png, id=49, 728.7225pt x 109.40875pt>
 File: ./figs/ErrCrr-2.png Graphic file (type png)
 
 <use ./figs/ErrCrr-2.png>
-Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 209.
+Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 287.
 (pdftex.def)             Requested size: 316.22797pt x 47.47722pt.
+Missing character: There is no e in font aealmateen!
+Missing character: There is no o in font aealmateen!
+Missing character: There is no o in font aealmateen!
+Missing character: There is no G in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
 
-<./figs/ErrCrr-3.png, id=44, 729.72626pt x 151.56625pt>
+<./figs/ErrCrr-3.png, id=50, 729.72626pt x 151.56625pt>
 File: ./figs/ErrCrr-3.png Graphic file (type png)
 
 <use ./figs/ErrCrr-3.png>
-Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 216.
+Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 294.
 (pdftex.def)             Requested size: 316.22797pt x 65.681pt.
- [8 <./figs/NGS-6.png>] [9 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png> <./figs/E
-rrCrr-3.png>] [10]
-<./figs/CrrConcepts-1.png, id=55, 175.65625pt x 155.58125pt>
+Missing character: There is no D in font aealmateen!
+Missing character: There is no e in font aealmateen!
+Missing character: There is no e in font aealmateen!
+Missing character: There is no o in font aealmateen!
+Missing character: There is no o in font aealmateen!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+ [8 <./figs/NGS-6.png>] [9 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png> <./figs/
+ErrCrr-3.png>] [10]
+<./figs/CrrConcepts-1.png, id=61, 175.65625pt x 155.58125pt>
 File: ./figs/CrrConcepts-1.png Graphic file (type png)
 
 <use ./figs/CrrConcepts-1.png>
-Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 251.
+Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 329.
 (pdftex.def)             Requested size: 175.6558pt x 155.58086pt.
+Missing character: There is no e in font aealmateen!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
  [11 <./figs/CrrConcepts-1.png>] [12] [13]
-[14] [15] [16] [17] <./figs/RW-1.png, id=78, 870.25125pt x 236.885pt>
+[14] [15] [16] [17] <./figs/RW-1.png, id=84, 870.25125pt x 236.885pt>
 File: ./figs/RW-1.png Graphic file (type png)
 
 <use ./figs/RW-1.png>
-Package pdftex.def Info: ./figs/RW-1.png used on input line 578.
+Package pdftex.def Info: ./figs/RW-1.png used on input line 655.
 (pdftex.def)             Requested size: 330.11588pt x 89.85818pt.
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
  [18 <./figs/RW-1.png>] [19]
-<./figs/RW-2.png, id=85, 580.1675pt x 178.6675pt>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 685.
+
+<./figs/RW-2.png, id=92, 580.1675pt x 178.6675pt>
 File: ./figs/RW-2.png Graphic file (type png)
  <use ./figs/RW-2.png>
-Package pdftex.def Info: ./figs/RW-2.png used on input line 617.
+Package pdftex.def Info: ./figs/RW-2.png used on input line 694.
 (pdftex.def)             Requested size: 316.22797pt x 97.38411pt.
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
 
 [20 <./figs/RW-2.png>] [21]
-Package mdframed Info: mdframed works in twoside mode on input line 674.
+Package mdframed Info: mdframed works in twoside mode on input line 751.
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--713
+Underfull \hbox (badness 10000) in paragraph at lines 788--790
 
  []
 
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 716.
+ mdframed uses option nobreak mdframed on input line 793.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 716.
-Package mdframed Info: mdframed works in twoside mode on input line 723.
+ mdframed uses option nobreak mdframed on input line 793.
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Package mdframed Info: mdframed works in twoside mode on input line 800.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 744.
+ mdframed uses option nobreak mdframed on input line 821.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 744.
-Package mdframed Info: mdframed works in twoside mode on input line 751.
+ mdframed uses option nobreak mdframed on input line 821.
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Package mdframed Info: mdframed works in twoside mode on input line 828.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 800.
+ mdframed uses option nobreak mdframed on input line 877.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 800.
+ mdframed uses option nobreak mdframed on input line 877.
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 813--813
-[][]|\OT1/cmr/m/n/10 Ac-ces-sion
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/n/10 Accession
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--813
-[][]|\OT1/cmr/m/n/10 Genome
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/n/10 Genome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--813
-[][]|\OT1/cmr/m/n/10 Read
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/n/10 Read
  []
 
 
-Overfull \hbox (0.81914pt too wide) in paragraph at lines 813--813
+Overfull \hbox (0.81914pt too wide) in paragraph at lines 890--890
 \OT1/cmr/m/n/10 Length| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--813
-[][]|\OT1/cmr/m/n/10 Num-ber
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/n/10 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 815--815
-[][]|\OT1/cmr/m/n/10 Lac-to-coc-cus
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+[]|\OT1/cmr/m/n/10 Lactococcus
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 815--815
-[][]|\OT1/cmr/m/n/10 NC[]013656.1| 
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 892--892
+[]|\OT1/cmr/m/n/10 NC[]013656.1| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--817
-[][]|\OT1/cmr/m/n/10 Tre-ponema
+Underfull \hbox (badness 10000) in paragraph at lines 894--894
+[]|\OT1/cmr/m/n/10 Treponema
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 819--819
-[][]|\OT1/cmr/m/n/10 NC[]000913.2| 
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 896--896
+[]|\OT1/cmr/m/n/10 NC[]000913.2| 
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 821--821
-[][]|\OT1/cmr/m/n/10 NC[]000913.2| 
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 898--898
+[]|\OT1/cmr/m/n/10 NC[]000913.2| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--841
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 826--841
+Underfull \hbox (badness 10000) in paragraph at lines 903--918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--841
+Underfull \hbox (badness 10000) in paragraph at lines 903--918
 
  []
 
 
-Overfull \hbox (3.57146pt too wide) in paragraph at lines 826--841
+Underfull \hbox (badness 10000) in paragraph at lines 903--918
+
+ []
+
+
+Overfull \hbox (3.57146pt too wide) in paragraph at lines 903--918
 \OT1/cmr/m/n/10 shows the best re-sults in speci-ficity, gain, ac-cu-racy and t
 ime com-pared to CORAL,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--841
+Underfull \hbox (badness 10000) in paragraph at lines 903--918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--841
+Underfull \hbox (badness 10000) in paragraph at lines 903--918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--841
+Underfull \hbox (badness 10000) in paragraph at lines 903--918
 
  []
 
@@ -995,45 +1540,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 826--841
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27] (./H-RACER-llncs.bbl [28]
-Underfull \hbox (badness 1286) in paragraph at lines 46--48
-[][]\OT1/cmr/m/n/9 Shen-dure, J., Ji, H.: Next-generation dna se-quenc-ing. Nat
- Biotech-nol. 26,
- []
-
-) [29] (./H-RACER-llncs.aux)
+[27] (./H-RACER-llncs.bbl [28]) [29] (./H-RACER-llncs.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
- )
-
-Here is how much of LuaTeX's memory you used:
- 12187 strings out of 494768
- 100000,319454 words of node,token memory allocated
- 593 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 69 glue_spec, 1 write nodes
-   avail lists: 1:2,2:22,3:730,4:4054,5:323,6:5831,7:1381,9:1893,10:567,12:1
- 15159 multiletter control sequences out of 65536+600000
- 47 fonts using 1858415 bytes
- 50i,10n,44p,2407b,510s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on H-RACER-llncs.pdf (29 pages, 1215218 bytes).
-
-PDF statistics: 172 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 12616 strings out of 494976
+ 216757 string characters out of 6180056
+ 337177 words of memory out of 5000000
+ 15591 multiletter control sequences out of 15000+600000
+ 52690 words of font info for 41 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 45i,10n,44p,10445b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/arabi/ararabeyes.enc}</usr/sha
+re/texlive/texmf-dist/fonts/type1/arabi/arabeyes/ae_almateen.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/arabi/arabeyes/ae_almohanad_bold.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on H-RACER-llncs.pdf (30 pages, 1249683 bytes).
+PDF statistics:
+ 190 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

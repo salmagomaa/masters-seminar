@@ -14,13 +14,14 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{datetime}
+\usepackage[utf8]{inputenc}
+\usepackage[LAE,LFE]{fontenc} 
+\usepackage[english,arabic]{babel}
 
 \captionsetup{compatibility=false}
 
 %Cover page
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines
-\newdateformat{monthyeardate}{\monthname[\THEMONTH] - \THEYEAR}
 
 \newmdenv[leftline=false,rightline=false,topline=false,bottomline=false,innertopmargin=2pt,innerbottommargin=2pt]{bordered}
 
@@ -29,6 +30,9 @@
 \definecolor{DarkGray}{gray}{0.6}
 \definecolor{LightGray}{gray}{0.9}
 \begin{document}
+
+
+\selectlanguage{english}
 
 \begin{titlepage}
 \center % Center everything on the page
@@ -48,7 +52,7 @@
 \begin{minipage}{0.45\textwidth}
 \begin{flushleft}
 \center
-{\large \bfseries Prof.Dr.YasserEl-sonbaty}\\
+{\large \bfseries Prof.Dr.Yasser El-sonbaty}\\
 {Professor of Computer Science}\\
 {Arab Academy for Science and Technology and Maritime Transport}
 \end{flushleft}
@@ -57,14 +61,89 @@
 \begin{minipage}{0.47\textwidth}
 \begin{flushright}
 \center
-{\large \bfseries Dr.Nahla Belal}\\
-{Assistant Professor of Computer Science \\
-Arab Academy for Science and Technology and Maritime Transport}
+{\large \bfseries Dr.Nahla A. Belal}\\
+{Assistant Professor of Computer Science}\\
+{Arab Academy for Science and Technology and Maritime Transport}
 \end{flushright}
 \end{minipage}\\[1cm]
-{\monthyeardate\today}\\[0.2cm] 
+{June - 2017}\\[0.2cm] 
 \vfill % Fill the rest of the page with whitespace
 \end{titlepage}
+
+
+\begin{titlepage}
+\center % Center everything on the page
+\includegraphics[scale=0.2]{./figs/aast}\\[0.7cm]
+\selectlanguage{arabic}
+{\Large \bfseries 
+الاكاديمية العربية للعلوم والتكنولوجيا والنقل البحرى
+}\\[0.6cm]
+{\large \bfseries 
+كلية الحاسبات و تكنولوجيا المعلومات
+}\\[0.3cm]
+{\large \bfseries 
+قسم علوم الحاسب
+}\\[0.3cm] 
+\HRule \\[0.3cm]
+{\LARGE \bfseries 
+خوارزميات لتصحيح الأخطاء الناتجة عن عملية تسلسل الحمض النووي
+}\\[0.3cm]
+\HRule \\[0.7cm]
+{\large \bfseries 
+الرسالة
+}\\[0.3cm]
+{\large \bfseries
+مقدمة لإستكمال المتطلبات المرجوة في
+}\\[0.3cm]
+{\Large \bfseries
+ ماجستير علوم الحاسوب 
+}\\[0.5cm]
+{\large \bfseries 
+مقدمة من:
+}\\[0.3cm]
+{\Large \bfseries
+سلمى محمود محمد جمعة
+}\\[0.5cm]
+{\large \bfseries 
+تحت إشراف
+}\\[0.7cm]
+\begin{minipage}{0.45\textwidth}
+\begin{flushleft}
+\center
+{\large \bfseries 
+أ. د. ياسر علاء الدين السنباطى
+}\\
+{
+أستاذ بكلية الحاسبات وتكنولوجيا المعلومات
+}
+{
+الاكاديمية العربية للعلوم والتكنولوجيا والنقل البحرى
+}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.47\textwidth}
+\begin{flushright}
+\center
+{\large \bfseries 
+د. نهلة أحمد بلال
+}\\
+{
+أستاذ مساعد بكلية الحاسبات وتكنولوجيا المعلومات
+}\\
+{
+الاكاديمية العربية للعلوم والتكنولوجيا والنقل البحرى
+}
+\end{flushright}
+\end{minipage}\\[1cm]
+{
+يونيو - 7102
+}\\[0.2cm] 
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+
+
+\selectlanguage{english}
 
 \title{H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors}
 
@@ -103,7 +182,6 @@ Since the DNA reads accuracy is a very essential and vital factor for all of the
    \item Accomplishing the correction process within the shortest time.
 \end{enumerate}
 
-%
 \section{Introduction}
 %
 The Next-Generation sequencing (NGS) high-throughput technologies \cite{NGS} were originally proposed in order to help make the vast analysis of genomes less expensive and more spread, this was doable by enhancing the sequencing time, where too many reads can be generated in a very efficient time. But unfortunately, this type of sequencing introduced two painful issues; the first issue is that the read length becomes much shorter than the conventional sequencing, while the second issue is the decrement of the accuracy, where each erroneous nucleotide can be introduced to the read sequence via one of the three erroneous actions; which are substitution, insertion and deletion. The substitution takes place when the nucleotide is replaced with another erroneous one, while the insertion is when an erroneous nucleotide is newly inserted to the read sequence, and finally the deletion results due to the deletion of a nucleotide from the sequence.
@@ -254,7 +332,6 @@ And finally the accuracy represents the all over error rate, and it can be calcu
 \end{figure}
 %
 
-
 \section{\label{sec:2}Related Work}
 The error correction methodologies can be either an implicit process within the assembly methodology or a standalone solution that reproduces reads after correction. The assemblers that have embedded error correction are Euler \cite{Euler}, Velvet \cite{Velvet}, AllPaths \cite{AllPaths} and SOAP \cite{Soap}. While the standalone methodologies are Coral \cite{Coral}, Quake \cite{Quake}, Reptile \cite{Reptile}, HSHREC \cite{HShrec}, HiTEC \cite{HiTec}, RACER \cite{Racer}, Pollux \cite{Pollux}, Parallel Error Correction with CUDA \cite{Cuda}, and Error Corrector (EC) \cite{EC}.
 \subsection{Substitution Only Corrective Algorithms}
@@ -296,7 +373,7 @@ The k-mers weighing is based on quality scores, then:
 
 - The value of k, has a significant impact on the performance of Quake.
 
-- For an appropriate choice for k, Quake uses: k ≈ log4 200G.
+- For an appropriate choice for k, Quake uses: k %TODO≈ log4 200G.
 
 - Quake determines a cutoff value which separates trusted k-mers from untrusted k-mers, using the distribution of k-mers based on their quality values. 
 2) Localizing Errors and Correcting Reads:
@@ -315,8 +392,8 @@ The k-mers weighing is based on quality scores, then:
   - Quake continues past the threshold to ensure that another valid set does not exist. 
 
 -Quake stops correcting if the region is filled with low quality scores.
-   - Reads with a region containing ≥ 13 positions with a probability of error > 1\% are not corrected. 
-   - For reads with regions containing ≥ 9 such positions, the likelihood ratio threshold is increased to 10−3 .
+   - Reads with a region containing %TODO≥ 13 positions with a probability of error > 1\% are not corrected. 
+   - For reads with regions containing %TODO≥ 9 such positions, the likelihood ratio threshold is increased to 10−3 .
 \subsection{Reptile}
 Reptile \cite{Reptile} uses the spectral alignment approach used in Euler, with the quality score information if available. Trying to create approximate multiple alignments by considering all reads with pairwise hamming distance less than a pre-set threshold. 
 %TODO
@@ -403,13 +480,13 @@ HiTEC has been shown to be the most accurate algorithm for correcting substituti
 
 HiTEC uses an array that stores the length of the longest common prefix (LCP) between consecutive suffixes in the suffix array.
 The reads and their reverse complements are stored in a string:
-R = r1 \$ ̄r1\$r2 \$ ̄r2 \$...rn \$ ̄rn \$, where \$ is a letter not in Σ.
+R = r1 \$ %TODŌr1\$r2 \$ ̄r2 \$...rn \$ ̄rn \$, where \$ is a letter not in Σ.
 
-HiTEC assumes that a read ri, starting at position j of the genome, contains an error in position k and that the previous w positions, ri [k − w..k − 1], are correct. 
+HiTEC assumes that a read ri, starting at position j of the genome, contains an error in position k and that the previous w positions, ri [k - w..k - 1], are correct. 
 
 Using the majority of one base at a position, then the erroneous base is changed to the base that appears most at that position. 
 
-For a ∈ Σ, the support of u for a is supp(u, a), which is the total number of occurrences of the string ua in R.
+For a %TODO∈ Σ, the support of u for a is supp(u, a), which is the total number of occurrences of the string ua in R.
 
 Repeats in the genome can cause problems with a small u.
 
@@ -485,20 +562,20 @@ CUDA programs contain a sequential part, called a kernel.
 
 Error correction consists of a set of reads R that need to independently access the spectrum Tm.l(R), so the correction of an individual read ri.
 
-The kernel is then invoked using a thread for each ri ∈ R.
+The kernel is then invoked using a thread for each ri %TODO∈ R.
 Algorithm 1: Single-mutation voting algorithm used in the CUDA kernel.
 
-Input: Read ri[0...L−1] and spectrum Tm.l(R).
-Output: Voting matrix Vi[][] of size L×4
+Input: Read ri[0...L-1] and spectrum Tm.l(R).
+Output: Voting matrix Vi[][] of size L*4
 
 Steps: 
-  1. Initialize the voting matrix by zeros: Vi[j][c] := 0, j := 0...L−1, c ∈ {A, C, G, T}
+  1. Initialize the voting matrix by zeros: Vi[j][c] := 0, j := 0...L-1, c %TODO∈ {A, C, G, T}
   
   2. For each l-tuple in ri:
         if it isn't an l-tuple in Tm.l(R):
 	   For each nucleotide in the l-tuple 
 	     For each letter in c
-		If the replacement of the nucleotide by the letter makes the l-tuple ∈ Tm.l(R)
+		If the replacement of the nucleotide by the letter makes the l-tuple %TODO∈ Tm.l(R)
                      Increase the voting matrix for this nucleotide \& this letter by 1.
  - Errors can be fixed based on high values in the voting matrix. 
 
@@ -513,7 +590,7 @@ Steps:
   Algorithm 2: Single-mutation fixing/trimming/ discarding procedure used in the CUDA kernel.
 
 
-Input: Read ri[0...L−1] and Voting matrix Vi[][] of size (L−(l+1))×4.
+Input: Read ri[0...L-1] and Voting matrix Vi[][] of size (L-(l+1))*4.
 
 Output: Fixed, trimmed, discarded or unchanged read
 
@@ -534,16 +611,16 @@ Steps:
              Else 
                If(trimmed\_flag) return rci[k1...k2]; the longest substring of rci in which all l-tuples belong to Tm.l(R)
                Else 
-                   return ε; discarded read as empty string
+                   return %TODOε; discarded read as empty string
          
 Time complexity of the kernel is dominated by the spectrum membership test in  the voting algorithm.
 
-(L−l)⋅(1+p⋅3⋅l), where p is the number of l-tuples of the read that do not belong to the spectrum. 
+(L-l).(1+p.3.l), where p is the number of l-tuples of the read that do not belong to the spectrum. 
 
 Hashing can perform membership tests to a hashing table in constant time. 
          The single-mutation voting algorithm contains the data-dependent that checks if it isn't an l-tuple in Tm.l(R) for each l-tuple in the given read.
 
-Threads, for which this statement is true, execute another 3⋅l membership tests.
+Threads, for which this statement is true, execute another 3.l membership tests.
 
 Threads, for which this statement is false, need to wait for these threads within the same warp to finish these tests.
   

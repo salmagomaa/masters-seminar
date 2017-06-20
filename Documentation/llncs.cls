@@ -44,11 +44,11 @@
 \def\ds@deutsch{\def\switcht@@therlang{\switcht@deutsch}}
 \def\ds@francais{\def\switcht@@therlang{\switcht@francais}}
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 
 \ProcessOptions
 
-\LoadClass[twoside]{report}
+\LoadClass[twoside]{article}
 \RequirePackage{multicol} % needed for the list of participants, index
 \RequirePackage{aliascnt}
 
@@ -226,8 +226,8 @@
 
 \setcounter{secnumdepth}{2}
 
-%TODO\newcounter {chapter}
-%TODO\renewcommand\thechapter      {\@arabic\c@chapter}
+\newcounter {chapter}
+\renewcommand\thechapter      {\@arabic\c@chapter}
 
 \newif\if@mainmatter \@mainmattertrue
 \newcommand\frontmatter{\cleardoublepage
@@ -282,11 +282,11 @@
                 \twocolumn
               \fi}
 
-%TODO\newcommand\chapter{\clearpage
-%TODO                    \thispagestyle{empty}%
-%TODO                    \global\@topnum\z@
-%TODO                    \@afterindentfalse
-%TODO                    \secdef\@chapter\@schapter}
+\newcommand\chapter{\clearpage
+                    \thispagestyle{empty}%
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter}
 \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
                        \if@mainmatter
                          \refstepcounter{chapter}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.16)  17 JUN 2017 16:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.16)  20 JUN 2017 02:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,33 +9,34 @@ Babel <3.9h> and hyphenation patterns for 6 languages loaded.
 (./llncs.cls
 Document Class: llncs 2015/06/24 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count87
+\c@tracingmulticols=\count88
 \mult@box=\box26
 \multicol@leftmargin=\dimen103
-\c@unbalance=\count88
-\c@collectmore=\count89
-\doublecol@number=\count90
-\multicoltolerance=\count91
-\multicolpretolerance=\count92
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
 \full@width=\dimen104
 \page@free=\dimen105
 \premulticols=\dimen106
@@ -65,20 +66,19 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count93
-\c@finalcolumnbadness=\count94
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
 \last@try=\dimen108
 \multicolovershoot=\dimen109
 \multicolundershoot=\dimen110
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\multicol@sort@counter=\count95
+\multicol@sort@counter=\count96
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counters (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty))
-\c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
@@ -988,15 +988,19 @@ LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
 * Local config file arabic.cfg used
 *
 (/usr/share/texlive/texmf-dist/tex/latex/arabi/arabic.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
 
-Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 32.
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 36.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 
 Package csquotes Warning: No style for language 'arabic'.
-(csquotes)                Using fallback style on input line 32.
+(csquotes)                Using fallback style on input line 36.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (./H-RACER-llncs.aux
@@ -1009,22 +1013,22 @@ LaTeX Warning: Label `sec:2' multiply defined.
 )
 \openout1 = `H-RACER-llncs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for LFE/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for LFE/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count172
@@ -1078,12 +1082,12 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 <./figs/aast.jpg, id=1, 341.3553pt x 327.1422pt>
 File: ./figs/aast.jpg Graphic file (type jpg)
  <use ./figs/aast.jpg>
-Package pdftex.def Info: ./figs/aast.jpg used on input line 39.
+Package pdftex.def Info: ./figs/aast.jpg used on input line 43.
 (pdftex.def)             Requested size: 68.26984pt x 65.42728pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 63.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1093,69 +1097,311 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/aast.jpg Graphic file (type jpg)
 
 <use ./figs/aast.jpg>
-Package pdftex.def Info: ./figs/aast.jpg used on input line 76.
+Package pdftex.def Info: ./figs/aast.jpg used on input line 80.
 (pdftex.def)             Requested size: 68.26984pt x 65.42728pt.
 LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
-(Font)              scaled to size 17.99998pt on input line 78.
+(Font)              scaled to size 17.99998pt on input line 82.
 LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <14.4> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 78.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 17.99998pt on input line 78.
+(Font)              scaled to size 17.99998pt on input line 82.
 LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
-(Font)              scaled to size 15.0pt on input line 81.
+(Font)              scaled to size 15.0pt on input line 85.
 LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <12> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 81.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 15.0pt on input line 81.
+(Font)              scaled to size 15.0pt on input line 85.
 LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
-(Font)              scaled to size 21.59999pt on input line 88.
+(Font)              scaled to size 21.59999pt on input line 92.
 LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <17.28> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 88.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 21.59999pt on input line 88.
+(Font)              scaled to size 21.59999pt on input line 92.
  [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+Underfull \hbox (badness 10000) in paragraph at lines 153--166
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
-
-Overfull \hbox (7.38354pt too wide) in paragraph at lines 167--169
-\OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 DNA Sequencing\OMS/cmsy/m/n/9 ^^A\OT1/c
-mr/m/n/9 k-mer\OMS/cmsy/m/n/9 ^^A\OT1/cmr/m/n/9 Error Cor-rec-tion\OMS/cmsy/m/n
-/9 ^^A\OT1/cmr/m/n/9 Substitution\OMS/cmsy/m/n/9 ^^A\OT1/cmr/m/n/9 InDels 
  []
 
-[2] <./figs/DNA-1.jpg, id=20, 192.72pt x 144.54pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--166
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+
+]
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 11.25pt on input line 171.
+
+[3]
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 31.1pt on input line 171.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <24.88> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 171.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 31.1pt on input line 171.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
+[][]
+ []
+
+
+Underfull \vbox (badness 7576) has occurred while \output is active []
+
+ [4
+
+]
+[5]
+Missing character: There is no o in font aealmateen!
+Missing character: There is no e in font aealmateen!
+Missing character: There is no D in font aealmateen!
+Missing character: There is no e in font aealmateen!
+Missing character: There is no o in font aealmateen!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no N in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no N in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+ [6
+
+]
+Missing character: There is no j in font aealmateen!
+Missing character: There is no e in font aealmateen!
+Missing character: There is no c in font aealmateen!
+Missing character: There is no v in font aealmateen!
+Missing character: There is no e in font aealmateen!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no N in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no v in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no j in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no N in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no N in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+ [7
+
+] (./H-RACER-llncs.toc)
+\tf@toc=\write3
+\openout3 = `H-RACER-llncs.toc'.
+
+ [8
+
+] [9]
+<./figs/DNA-1.jpg, id=40, 192.72pt x 144.54pt>
 File: ./figs/DNA-1.jpg Graphic file (type jpg)
  <use ./figs/DNA-1.jpg>
-Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 203.
+Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 228.
 (pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 
-[3] <./figs/DNA-2.jpg, id=25, 192.72pt x 251.9814pt>
+<./figs/DNA-2.jpg, id=41, 192.72pt x 251.9814pt>
 File: ./figs/DNA-2.jpg Graphic file (type jpg)
  <use ./figs/DNA-2.jpg>
-Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 210.
+Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 235.
 (pdftex.def)             Requested size: 104.1381pt x 136.1602pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 212.
+(Font)              <9> on input line 237.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 212.
+(Font)              <6> on input line 237.
 
-<./figs/DNA-3.jpg, id=26, 364.36125pt x 355.3275pt>
+<./figs/DNA-3.jpg, id=42, 364.36125pt x 355.3275pt>
 File: ./figs/DNA-3.jpg Graphic file (type jpg)
  <use ./figs/DNA-3.jpg>
-Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 214.
+Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 239.
 (pdftex.def)             Requested size: 156.20453pt x 152.32698pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 209--217
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 234--242
 []$[]$ $[]$ 
  []
 
@@ -1163,39 +1409,39 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
-<./figs/NGS-1.jpg, id=27, 223.83624pt x 223.83624pt>
+[10 <./figs/DNA-1.jpg> <./figs/DNA-2.jpg> <./figs/DNA-3.jpg>]
+<./figs/NGS-1.jpg, id=46, 223.83624pt x 223.83624pt>
 File: ./figs/NGS-1.jpg Graphic file (type jpg)
  <use ./figs/NGS-1.jpg>
-Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 227.
+Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 252.
 (pdftex.def)             Requested size: 223.8357pt x 223.8357pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 
-[4 <./figs/DNA-1.jpg> <./figs/DNA-2.jpg> <./figs/DNA-3.jpg>]
-<./figs/NGS-2.png, id=31, 545.03625pt x 127.47626pt>
+<./figs/NGS-2.png, id=47, 545.03625pt x 127.47626pt>
 File: ./figs/NGS-2.png Graphic file (type png)
  <use ./figs/NGS-2.png>
-Package pdftex.def Info: ./figs/NGS-2.png used on input line 234.
+Package pdftex.def Info: ./figs/NGS-2.png used on input line 259.
 (pdftex.def)             Requested size: 316.22797pt x 73.96156pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 240.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 265.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 240.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 265.
 
-<./figs/NGS-5.png, id=32, 612.2875pt x 345.29pt>
+<./figs/NGS-5.png, id=48, 612.2875pt x 345.29pt>
 File: ./figs/NGS-5.png Graphic file (type png)
  <use ./figs/NGS-5.png>
-Package pdftex.def Info: ./figs/NGS-5.png used on input line 243.
+Package pdftex.def Info: ./figs/NGS-5.png used on input line 268.
 (pdftex.def)             Requested size: 316.22797pt x 178.32948pt.
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1204,22 +1450,22 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-[5 <./figs/NGS-1.jpg> <./figs/NGS-2.png>] [6 <./figs/NGS-5.png>]
-<./figs/NGS-3.png, id=41, 144.54pt x 105.39375pt>
+[11 <./figs/NGS-1.jpg>] [12 <./figs/NGS-2.png> <./figs/NGS-5.png>]
+<./figs/NGS-3.png, id=57, 144.54pt x 105.39375pt>
 File: ./figs/NGS-3.png Graphic file (type png)
  <use ./figs/NGS-3.png>
-Package pdftex.def Info: ./figs/NGS-3.png used on input line 256.
+Package pdftex.def Info: ./figs/NGS-3.png used on input line 281.
 (pdftex.def)             Requested size: 144.53963pt x 105.39348pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 LaTeX Font Info:    Font shape `LAE/cmr/m/it' will be
-(Font)              scaled to size 12.5pt on input line 259.
+(Font)              scaled to size 12.5pt on input line 284.
 LaTeX Font Info:    Font shape `LAE/cmr/bx/it' in size <10> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 259.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 284.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 12.5pt on input line 259.
+(Font)              scaled to size 12.5pt on input line 284.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1244,10 +1490,10 @@ Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/NGS-4.png, id=42, 537.00626pt x 199.74625pt>
+<./figs/NGS-4.png, id=58, 537.00626pt x 199.74625pt>
 File: ./figs/NGS-4.png Graphic file (type png)
  <use ./figs/NGS-4.png>
-Package pdftex.def Info: ./figs/NGS-4.png used on input line 263.
+Package pdftex.def Info: ./figs/NGS-4.png used on input line 288.
 (pdftex.def)             Requested size: 316.22797pt x 117.62372pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
@@ -1265,22 +1511,24 @@ Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/NGS-6.png, id=43, 583.17876pt x 220.825pt>
+<./figs/NGS-6.png, id=59, 583.17876pt x 220.825pt>
 File: ./figs/NGS-6.png Graphic file (type png)
  <use ./figs/NGS-6.png>
-Package pdftex.def Info: ./figs/NGS-6.png used on input line 270.
+Package pdftex.def Info: ./figs/NGS-6.png used on input line 295.
 (pdftex.def)             Requested size: 316.22797pt x 119.74577pt.
 
-[7 <./figs/NGS-3.png> <./figs/NGS-4.png>]
-<./figs/ErrCrr-1.png, id=48, 730.73pt x 108.405pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./figs/NGS-3.png> <./figs/NGS-4.png>]
+<./figs/ErrCrr-1.png, id=64, 730.73pt x 108.405pt>
 File: ./figs/ErrCrr-1.png Graphic file (type png)
  <use ./figs/ErrCrr-1.png>
-Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 280.
+Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 305.
 (pdftex.def)             Requested size: 316.22797pt x 46.91263pt.
 LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <10> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 282.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 307.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 12.5pt on input line 282.
+(Font)              scaled to size 12.5pt on input line 307.
 Missing character: There is no o in font aealmateen!
 Missing character: There is no o in font aealmateen!
 Missing character: There is no e in font aealmohanadb!
@@ -1291,11 +1539,13 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/ErrCrr-2.png, id=49, 728.7225pt x 109.40875pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./figs/NGS-6.png>] <./figs/ErrCrr-2.png, id=68, 728.7225pt x 109.40875pt>
 File: ./figs/ErrCrr-2.png Graphic file (type png)
 
 <use ./figs/ErrCrr-2.png>
-Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 287.
+Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 312.
 (pdftex.def)             Requested size: 316.22797pt x 47.47722pt.
 Missing character: There is no e in font aealmateen!
 Missing character: There is no o in font aealmateen!
@@ -1310,11 +1560,11 @@ Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/ErrCrr-3.png, id=50, 729.72626pt x 151.56625pt>
+<./figs/ErrCrr-3.png, id=69, 729.72626pt x 151.56625pt>
 File: ./figs/ErrCrr-3.png Graphic file (type png)
 
 <use ./figs/ErrCrr-3.png>
-Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 294.
+Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 319.
 (pdftex.def)             Requested size: 316.22797pt x 65.681pt.
 Missing character: There is no D in font aealmateen!
 Missing character: There is no e in font aealmateen!
@@ -1330,13 +1580,12 @@ Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
- [8 <./figs/NGS-6.png>] [9 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png> <./figs/
-ErrCrr-3.png>] [10]
-<./figs/CrrConcepts-1.png, id=61, 175.65625pt x 155.58125pt>
+ [15 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png> <./figs/ErrCrr-3.png>] [16]
+<./figs/CrrConcepts-1.png, id=78, 175.65625pt x 155.58125pt>
 File: ./figs/CrrConcepts-1.png Graphic file (type png)
 
 <use ./figs/CrrConcepts-1.png>
-Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 329.
+Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 354.
 (pdftex.def)             Requested size: 175.6558pt x 155.58086pt.
 Missing character: There is no e in font aealmateen!
 Missing character: There is no e in font aealmohanadb!
@@ -1352,12 +1601,12 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no g in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
- [11 <./figs/CrrConcepts-1.png>] [12] [13]
-[14] [15] [16] [17] <./figs/RW-1.png, id=84, 870.25125pt x 236.885pt>
+ [17 <./figs/CrrConcepts-1.png>] [18] [19]
+[20] [21] [22] [23] <./figs/RW-1.png, id=101, 870.25125pt x 236.885pt>
 File: ./figs/RW-1.png Graphic file (type png)
 
 <use ./figs/RW-1.png>
-Package pdftex.def Info: ./figs/RW-1.png used on input line 655.
+Package pdftex.def Info: ./figs/RW-1.png used on input line 680.
 (pdftex.def)             Requested size: 330.11588pt x 89.85818pt.
 Missing character: There is no v in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1373,14 +1622,20 @@ Missing character: There is no v in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no g in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
- [18 <./figs/RW-1.png>] [19]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 685.
+ [24] [25 <./figs/RW-1.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 710.
 
-<./figs/RW-2.png, id=92, 580.1675pt x 178.6675pt>
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 710.
+
+<./figs/RW-2.png, id=109, 580.1675pt x 178.6675pt>
 File: ./figs/RW-2.png Graphic file (type png)
  <use ./figs/RW-2.png>
-Package pdftex.def Info: ./figs/RW-2.png used on input line 694.
+Package pdftex.def Info: ./figs/RW-2.png used on input line 719.
 (pdftex.def)             Requested size: 316.22797pt x 97.38411pt.
 Missing character: There is no v in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1401,17 +1656,20 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no g in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 
-[20 <./figs/RW-2.png>] [21]
-Package mdframed Info: mdframed works in twoside mode on input line 751.
+[26 <./figs/RW-2.png>] [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 788--790
+ [28]
+Package mdframed Info: mdframed works in twoside mode on input line 776.
+
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 793.
+ mdframed uses option nobreak mdframed on input line 818.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 793.
+ mdframed uses option nobreak mdframed on input line 818.
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1422,11 +1680,11 @@ Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
-Package mdframed Info: mdframed works in twoside mode on input line 800.
+Package mdframed Info: mdframed works in twoside mode on input line 825.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 821.
+ mdframed uses option nobreak mdframed on input line 846.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 821.
+ mdframed uses option nobreak mdframed on input line 846.
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1437,11 +1695,11 @@ Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
-Package mdframed Info: mdframed works in twoside mode on input line 828.
+Package mdframed Info: mdframed works in twoside mode on input line 853.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 877.
+ mdframed uses option nobreak mdframed on input line 902.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 877.
+ mdframed uses option nobreak mdframed on input line 902.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
@@ -1449,108 +1707,108 @@ Missing character: There is no e in font aealmohanadb!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 890--890
+ [29]
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 915--915
 []|\OT1/cmr/m/n/10 Accession
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--890
+Underfull \hbox (badness 10000) in paragraph at lines 915--915
 []|\OT1/cmr/m/n/10 Genome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--890
+Underfull \hbox (badness 10000) in paragraph at lines 915--915
 []|\OT1/cmr/m/n/10 Read
  []
 
 
-Overfull \hbox (0.81914pt too wide) in paragraph at lines 890--890
+Overfull \hbox (0.81914pt too wide) in paragraph at lines 915--915
 \OT1/cmr/m/n/10 Length| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--890
+Underfull \hbox (badness 10000) in paragraph at lines 915--915
 []|\OT1/cmr/m/n/10 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--892
+Underfull \hbox (badness 10000) in paragraph at lines 917--917
 []|\OT1/cmr/m/n/10 Lactococcus
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 892--892
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 917--917
 []|\OT1/cmr/m/n/10 NC[]013656.1| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 894--894
+Underfull \hbox (badness 10000) in paragraph at lines 919--919
 []|\OT1/cmr/m/n/10 Treponema
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 896--896
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 921--921
 []|\OT1/cmr/m/n/10 NC[]000913.2| 
  []
 
 
-Overfull \hbox (0.61728pt too wide) in paragraph at lines 898--898
+Overfull \hbox (0.61728pt too wide) in paragraph at lines 923--923
 []|\OT1/cmr/m/n/10 NC[]000913.2| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--918
+Underfull \hbox (badness 10000) in paragraph at lines 928--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--918
+Underfull \hbox (badness 10000) in paragraph at lines 928--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--918
+Underfull \hbox (badness 10000) in paragraph at lines 928--943
 
  []
 
 
-Overfull \hbox (3.57146pt too wide) in paragraph at lines 903--918
+Overfull \hbox (3.57146pt too wide) in paragraph at lines 928--943
 \OT1/cmr/m/n/10 shows the best re-sults in speci-ficity, gain, ac-cu-racy and t
 ime com-pared to CORAL,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--918
+Underfull \hbox (badness 10000) in paragraph at lines 928--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--918
+Underfull \hbox (badness 10000) in paragraph at lines 928--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--918
+Underfull \hbox (badness 10000) in paragraph at lines 928--943
 
  []
 
-[25]
+[31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27] (./H-RACER-llncs.bbl [28]) [29] (./H-RACER-llncs.aux)
+ [32]
+[33] (./H-RACER-llncs.bbl [34]) [35] (./H-RACER-llncs.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12616 strings out of 494976
- 216757 string characters out of 6180056
- 337177 words of memory out of 5000000
- 15591 multiletter control sequences out of 15000+600000
- 52690 words of font info for 41 fonts, out of 8000000 for 9000
+ 12719 strings out of 494976
+ 218262 string characters out of 6180056
+ 340034 words of memory out of 5000000
+ 15687 multiletter control sequences out of 15000+600000
+ 66318 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,10n,44p,10445b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/arabi/ararabeyes.enc}</usr/sha
@@ -1571,10 +1829,10 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on H-RACER-llncs.pdf (30 pages, 1249674 bytes).
+Output written on H-RACER-llncs.pdf (36 pages, 1271519 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 209 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

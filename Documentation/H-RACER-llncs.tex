@@ -17,6 +17,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[LAE,LFE]{fontenc} 
 \usepackage[english,arabic]{babel}
+\usepackage{sectsty}
+
+
+\allsectionsfont{\raggedright}
 
 \captionsetup{compatibility=false}
 
@@ -145,34 +149,50 @@
 
 \selectlanguage{english}
 
-\title{H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors}
+\chapter*{Abstract}
+DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes are mainly depends on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches is being done to enhance these critical factors.
+\\
+\\
+The main targets of the next-generation sequencing technologies are: making the vast analysis of genomes less expensive and more spread, hence, they are able produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. Since, these errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.), the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging.
+\\
+\\ 
+The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads. Both of them aim to have raise the accuracy of the DNA sequencing output within the shortest time compared to the existent algorithms. 
+\\
+\\
+The first proposed algorithm is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
+\\
+\\
+The second proposed algorithm (H-RACER) overcomes the time issue of the first algorithm and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While, the major advantage presented by H-RACER is the detection of the nucleotide corrective action and its appliance. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existing algorithms that specialize in correcting these types of nucleotides errors.
 
-\author{SALMA GOMAA\inst{1}\fnmsep\inst{2}, NAHLA A. BELAL\inst{1}\fnmsep\inst{3}\textsuperscript{,*} and YASSER EL-SONBATY\inst{1}\fnmsep\inst{4}}
+%%%%%END ABSTRACT
 
-\institute{College of Computing and Information Technology, AASTMT, Alexandria, Egypt
-\and 
-\email{salma.gomaa89@gmail.com
-\and nahlabelal@aast.edu
-\and yasser@aast.edu}
-}
+\selectlanguage{arabic}
 
+\chapter*{نبذة مختصرة}
+إن عملية تسلسل الحمض النووي تعد من أكثر المجالات حيوية في علم الأحياء الحاسوبي. فإن معظم العمليات المرتبطة بالحمض النووي تعتمد في الأساس على عملية تسلسله؛ و من ثم أصبحت كلاً من تكلفة عملية التسلسل, و دقتها، و الوقت المستغرق فيها من العوامل الأساسية الهامة التي يقام عليها العديد من الأبحاث لتحسينها.
+\\
+\\
+إن الهدف الأساسي للجيل الجديد من آليات تسلسل الحمض النووي هو تخفيض تكلفة عملية تحليل المحتوى الوراثي (الجينوم) الضخمة، و الإكثار من إنتشارها أيضاً؛ حيث إن تلك الآليات لديها القدرة على إنتاج العديد من القراءات القصيرة في وقت وجيز؛ و لكن من أهم اللآثار الجانبية لتلك السرعة هي قصر طول القراءات مما أدى إلى وجود العديد من الأخطاء على مستوى النواة بأشكال مختلفة؛ مثل خطأ الناتج عن إبدال النواة، و الخطأ الناتج عن إدخال نواة جديدة، و أخيرا الخطأ الناتج عن حذف النواة. و تمثل كل هذه الأخطاء عقبة كبيرة تعوق إستخدام القراءات في المشاريع القائمة على التسلسل (مثل:  عملية تجميع القراءات، و عملية محاذاة المحتوى الوراثي (الجينوم)، إلخ)؛ لذلك أصبحت عملية تصحيح الأخطاء مهمة للغاية حيث إنها تعمل على تخفيض معدل الأخطاء على مستوى القراءات جميعاً؛ و من ثم أصبحت عملية تصحيح جميع أنواع الأخطاء أكثر تحدياً.
+\\
+\\ 
+ تعد الخوارزميات المقدمة في تلك الرسالة من الآليات الجديدة التى تعمل على تصحيح جميع أنواع أخطاء التي تتعرض لها النواة (الإبدال، و الإدخال، و الحذف)؛ فكلتا الآليتين تعمل على زيادة الدقة الخاصة بناتج عملية تسلسل الحمض النووي في أقصر وقت ممكن مقارنة بالخوارزميات المجودة حالياً.
+\\
+\\
+الخوارزم الأول يعتمد على إقامة مجموعات من نواتج تجزئ القراءات حيث يعتمد قرار التصحيح على تكرارات النوى. تلك الآلية قدمت دقة عالية لمجموعة البيانات الصغيرة؛ و لكنها عجزت عن إكمال مهمتها لتلك المجموعات الكبيرة؛ حيث إنها تحتاج لوقت طويل جداً ، بالإضافة إلى أن محاولة تحسين الوقت أثرت سلبياً على عامل الدقة.
+\\
+\\
+ بينما تغلب الخوارزم الثاني على مشكلة الوقت التي أعاقت الخوارزم الأول بالإضافة أنه حقق الهدف الأساسي ألا و هو زيادة الدقة لناتج عملية تسلسل الحمض النووي. تلك الآلية تعتمد في إكتشاف الأخطاء و تقرير قيمة تصحيحه على الخوازم المسمى 
+ \selectlanguage{english}RECAR 
+ \selectlanguage{arabic}؛ حيث أن الميزة الرئيسية في تلك الآلية هي قدرتها على إكتشاف نوع الخطأ و من ثم تطبيق الإجراء التصحيحي المناسب. لذلك تلك الآلية لديها القدرة على تصحيح جميع أنواع الأخطاء بدقة عالية في أقصر وقت ممكن مقارنةً بالخوارزميات الموجودة حالياً المختصة بتصحيح جميع أنواع الأخطاء.
 
-% TODO \maketitle
-% TODO \let\thefootnote\relax\footnotetext{\textsuperscript{*}Corresponding Author}
-%
-\begin{abstract}
-The Next-Generation sequencing technologies produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. These errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.). Consequently, the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging. H-RACER is the new error correcting tool that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While, the major advantage presented by H-RACER is the detection of the nucleotide corrective action and its appliance. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existing algorithms that specialize in correcting these types of nucleotides errors.
+%%%%%END ABSTRACT
 
-\begin{keywords} 
-DNA Sequencing\textperiodcentered k-mer\textperiodcentered Error Correction\textperiodcentered Substitution\textperiodcentered InDels
-\end{keywords}
-\end{abstract}
-%
-\section{Problem Definition}
+\newpage
+\chapter*{Problem Definition}
 Although the DNA next-sequencing generation is cheap and able to produce many reads within a relatively short time, but unfortunately it produces reads with short length and also low accuracy (which represents a vital factor in all of the DNA reads processes). In other words, it generates many short reads with many errors with different types (substitution, insertion and deletion).
 %
 
-\section{Objective}
+\chapter*{Objective}
 Since the DNA reads accuracy is a very essential and vital factor for all of the process that can be applied on these reads, so the major targets of this thesis are:
 \begin{enumerate}
    \item Raising the DNA reads accuracy.
@@ -182,6 +202,11 @@ Since the DNA reads accuracy is a very essential and vital factor for all of the
    \item Accomplishing the correction process within the shortest time.
 \end{enumerate}
 
+\newpage
+\selectlanguage{english}
+\tableofcontents
+
+\newpage
 \section{Introduction}
 %
 The Next-Generation sequencing (NGS) high-throughput technologies \cite{NGS} were originally proposed in order to help make the vast analysis of genomes less expensive and more spread, this was doable by enhancing the sequencing time, where too many reads can be generated in a very efficient time. But unfortunately, this type of sequencing introduced two painful issues; the first issue is that the read length becomes much shorter than the conventional sequencing, while the second issue is the decrement of the accuracy, where each erroneous nucleotide can be introduced to the read sequence via one of the three erroneous actions; which are substitution, insertion and deletion. The substitution takes place when the nucleotide is replaced with another erroneous one, while the insertion is when an erroneous nucleotide is newly inserted to the read sequence, and finally the deletion results due to the deletion of a nucleotide from the sequence.

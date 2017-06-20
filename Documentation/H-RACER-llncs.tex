@@ -15,8 +15,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage[utf8]{inputenc}
-\usepackage[LAE,LFE]{fontenc} 
-\usepackage[english,arabic]{babel}
+\usepackage[LFE,LAE]{fontenc} 
+\usepackage[arabic,english]{babel}
 \usepackage{sectsty}
 
 
@@ -35,46 +35,6 @@
 \definecolor{DarkGray}{gray}{0.6}
 \definecolor{LightGray}{gray}{0.9}
 \begin{document}
-
-
-\selectlanguage{english}
-
-\begin{titlepage}
-\center % Center everything on the page
-\includegraphics[scale=0.2]{./figs/aast}\\[0.7cm]
-{\Large \bfseries Arab Academy for Science, Technology and Maritime Transport \\[0.2cm](AAST)}\\[0.6cm]
-{\large \bfseries College of Computing and Information Technology}\\[0.3cm]
-{\large \bfseries Computer Science Department}\\[0.3cm] 
-\HRule \\[0.3cm]
-{\LARGE \bfseries DNA Sequencing Error Correction Algorithms}\\[0.3cm]
-\HRule \\[0.7cm]
-{\large \bfseries A Thesis}\\[0.3cm]
-{\large \bfseries Submitted in Partial Fulfillment to the Requirements for the}\\[0.3cm]
-{\Large \bfseries Master of Computer Science}\\[0.5cm]
-{\large \bfseries Submitted by:}\\[0.3cm]
-{\Large \bfseries Salma Mahmoud Mohamed Gomaa}\\[0.5cm]
-{\large \bfseries Under Supervision of}\\[0.7cm]
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft}
-\center
-{\large \bfseries Prof.Dr.Yasser El-sonbaty}\\
-{Professor of Computer Science}\\
-{Arab Academy for Science and Technology and Maritime Transport}
-\end{flushleft}
-\end{minipage}
-~
-\begin{minipage}{0.47\textwidth}
-\begin{flushright}
-\center
-{\large \bfseries Dr.Nahla A. Belal}\\
-{Assistant Professor of Computer Science}\\
-{Arab Academy for Science and Technology and Maritime Transport}
-\end{flushright}
-\end{minipage}\\[1cm]
-{June - 2017}\\[0.2cm] 
-\vfill % Fill the rest of the page with whitespace
-\end{titlepage}
-
 
 \begin{titlepage}
 \center % Center everything on the page
@@ -148,24 +108,6 @@
 \end{titlepage}
 
 
-\selectlanguage{english}
-
-\chapter*{Abstract}
-DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes are mainly depends on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches is being done to enhance these critical factors.
-\\
-\\
-The main targets of the next-generation sequencing technologies are: making the vast analysis of genomes less expensive and more spread, hence, they are able produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. Since, these errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.), the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging.
-\\
-\\ 
-The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads. Both of them aim to have raise the accuracy of the DNA sequencing output within the shortest time compared to the existent algorithms. 
-\\
-\\
-The first proposed algorithm is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
-\\
-\\
-The second proposed algorithm (H-RACER) overcomes the time issue of the first algorithm and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While, the major advantage presented by H-RACER is the detection of the nucleotide corrective action and its appliance. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existing algorithms that specialize in correcting these types of nucleotides errors.
-
-%%%%%END ABSTRACT
 
 \selectlanguage{arabic}
 
@@ -188,10 +130,67 @@ The second proposed algorithm (H-RACER) overcomes the time issue of the first al
 
 %%%%%END ABSTRACT
 
+\selectlanguage{english}
+
+\begin{titlepage}
+\center % Center everything on the page
+\includegraphics[scale=0.2]{./figs/aast}\\[0.7cm]
+{\Large \bfseries Arab Academy for Science, Technology and Maritime Transport \\[0.2cm](AAST)}\\[0.6cm]
+{\large \bfseries College of Computing and Information Technology}\\[0.3cm]
+{\large \bfseries Computer Science Department}\\[0.3cm] 
+\HRule \\[0.3cm]
+{\LARGE \bfseries DNA Sequencing Error Correction Algorithms}\\[0.3cm]
+\HRule \\[0.7cm]
+{\large \bfseries A Thesis}\\[0.3cm]
+{\large \bfseries Submitted in Partial Fulfillment to the Requirements for the}\\[0.3cm]
+{\Large \bfseries Master of Computer Science}\\[0.5cm]
+{\large \bfseries Submitted by:}\\[0.3cm]
+{\Large \bfseries Salma Mahmoud Mohamed Gomaa}\\[0.5cm]
+{\large \bfseries Under Supervision of}\\[0.7cm]
+\begin{minipage}{0.45\textwidth}
+\begin{flushleft}
+\center
+{\large \bfseries Prof.Dr.Yasser El-sonbaty}\\
+{Professor of Computer Science}\\
+{Arab Academy for Science and Technology and Maritime Transport}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.47\textwidth}
+\begin{flushright}
+\center
+{\large \bfseries Dr.Nahla A. Belal}\\
+{Assistant Professor of Computer Science}\\
+{Arab Academy for Science and Technology and Maritime Transport}
+\end{flushright}
+\end{minipage}\\[1cm]
+{June - 2017}\\[0.2cm] 
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+
+
+\chapter*{Abstract}
+DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes are mainly depends on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches is being done to enhance these critical factors.
+\\
+\\
+The main targets of the next-generation sequencing technologies are: making the vast analysis of genomes less expensive and more spread, hence, they are able produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. Since, these errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.), the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging.
+\\
+\\ 
+The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads. Both of them aim to have raise the accuracy of the DNA sequencing output within the shortest time compared to the existent algorithms. 
+\\
+\\
+The first proposed algorithm is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
+\\
+\\
+The second proposed algorithm (H-RACER) overcomes the time issue of the first algorithm and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While, the major advantage presented by H-RACER is the detection of the nucleotide corrective action and its appliance. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existing algorithms that specialize in correcting these types of nucleotides errors.
+
+%%%%%END ABSTRACT
 
 \newpage
 \selectlanguage{english}
 \tableofcontents
+
+
 
 \newpage
 \section{Introduction}
@@ -1037,5 +1036,6 @@ Available at: drive.google.com/open?id=0B7Otgzz7lZlldkE2ZFVwcU5qN1U
 
 \input{H-RACER-llncs.bbl} 
 
+\selectlanguage{english}
 
 \end{document}

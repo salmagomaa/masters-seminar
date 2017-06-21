@@ -63,4 +63,30 @@ Yang, X., Dorman, K., Aluru, S.: Reptile: representative tiling for short read
 Zerbino, D., Birney, E.: Velvet: Algorithms for de novo short read assembly
   using de bruijn graphs. Genome Res.  18,  821--829 (2008)
 
+\bibitem{DNA1}
+https://ghr.nlm.nih.gov/primer/basics/dna
+
+\bibitem{DNA2}
+https://arstechnica.com/science/2017/03/new-technique-efficiently-stores-error-resistant-data-in-dna/
+
+\bibitem{seq1}
+https://www.genome.gov/25019999/understanding-bioinformatics-and-sequencing/
+\bibitem{seq2}
+http://www.nature.com/nbt/journal/v26/n10/full/nbt1486.html
+\bibitem{seq3}
+https://www.illumina.com/content/dam/illumina\-marketing/documents/products/illumina\_sequencing\_introduction.pdf
+\bibitem{seq4}
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3841808/
+\bibitem{seq5}
+https://www.nature.com/subjects/next-generation-sequencing
+
+\bibitem{fasta-fastq1}
+https://academic.oup.com/nar/article/38/6/1767/3112533/The-Sanger-FASTQ-file-format-for-sequences-with
+\bibitem{fasta-fastq2}
+https://en.wikipedia.org/wiki/FASTA	
+\bibitem{fasta-fastq3}
+https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web\&PAGE\_TYPE=BlastDocs\&DOC\_TYPE=BlastHelp
+\bibitem{deBruijn}
+http://www.homolog.us/Tutorials/index.php?p=2.1\&s=1
+
 \end{thebibliography}

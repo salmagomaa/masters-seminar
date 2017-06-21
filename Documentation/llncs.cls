@@ -310,7 +310,7 @@
                     \fi}
 \def\@makechapterhead#1{%
 % \vspace*{50\p@}%
-  {\centering
+  {
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
         \large\bfseries \@chapapp{} \thechapter

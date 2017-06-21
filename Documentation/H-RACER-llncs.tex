@@ -120,7 +120,7 @@
  تعد الخوارزميات المقدمة في تلك الرسالة من الآليات الجديدة التى تعمل على تصحيح جميع أنواع أخطاء التي تتعرض لها النواة (الإبدال، و الإدخال، و الحذف)؛ فكلتا الآليتين تعمل على زيادة الدقة الخاصة بناتج عملية تسلسل الحمض النووي في أقصر وقت ممكن مقارنة بالخوارزميات المجودة حالياً.
 \\
 \\
-الخوارزم الأول يعتمد على إقامة مجموعات من نواتج تجزئ القراءات حيث يعتمد قرار التصحيح على تكرارات النوى. تلك الآلية قدمت دقة عالية لمجموعة البيانات الصغيرة؛ و لكنها عجزت عن إكمال مهمتها لتلك المجموعات الكبيرة؛ حيث إنها تحتاج لوقت طويل جداً ، بالإضافة إلى أن محاولة تحسين الوقت أثرت سلبياً على عامل الدقة.
+الخوارزم الأول يعتمد على إقامة مجموعات من نتاج تجزئة القراءات حيث يعتمد قرار التصحيح على تكرارات النوى. تلك الآلية قدمت دقة عالية لمجموعة البيانات الصغيرة؛ و لكنها عجزت عن إكمال مهمتها لتلك المجموعات الكبيرة؛ حيث إنها تحتاج لوقت طويل جداً ، بالإضافة إلى أن محاولة تحسين الوقت أثرت سلبياً على عامل الدقة.
 \\
 \\
  بينما تغلب الخوارزم الثاني على مشكلة الوقت التي أعاقت الخوارزم الأول بالإضافة أنه حقق الهدف الأساسي ألا و هو زيادة الدقة لناتج عملية تسلسل الحمض النووي. تلك الآلية تعتمد في إكتشاف الأخطاء و تقرير قيمة تصحيحه على الخوازم المسمى 
@@ -167,7 +167,6 @@
 \vfill % Fill the rest of the page with whitespace
 \end{titlepage}
 
-
 \chapter*{Abstract}
 DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes are mainly depends on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches is being done to enhance these critical factors.
 \\
@@ -181,29 +180,66 @@ The proposed algorithms are new error correcting tools that fix all types of nuc
 The first proposed algorithm is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
 \\
 \\
-The second proposed algorithm (H-RACER) overcomes the time issue of the first algorithm and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While, the major advantage presented by H-RACER is the detection of the nucleotide corrective action and its appliance. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existing algorithms that specialize in correcting these types of nucleotides errors.
+The second proposed algorithm (H-RACER) overcomes the time issue of the first algorithm and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While, the major advantage presented by H-RACER is the detection of the nucleotide corrective action and its appliance. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existent algorithms that specialize in correcting these types of nucleotides errors.
 
 %%%%%END ABSTRACT
+
+\chapter*{Acknowledgement}
+
+I would like to seize this opportunity to express my sincere gratitude for the
+unconditional and unlimited help and support that I have received from my supervisors Prof.
+Dr. Yasser El-sonbaty and Dr. Nahla Belal. Their continuous guidance and tutoring were
+critical for the successful completion of this thesis. Great part of the success of this research stems from the open access to the academy various facilities. 
+\\
+\\
+All Gratitude is first due to ALLAH. Then, I'm deeply grateful for my father, my mother, my husband and my sisters for their enormous support in all aspects. Their continuous encouragement and motivation were the key for overcoming the obstacles encountered during the course of this research. I will be grateful forever for your love.
+\\
+\\
+You all make the journey worthwhile .... Thank you all
+\\
+\\
+\begin{flushright}
+Salma Mahmoud Mohamed Gomaa\\
+Computer Science, AASTMT,\\
+June - 2017
+\end{flushright}
 
 \newpage
 \selectlanguage{english}
 \tableofcontents
 
 
-
 \newpage
-\section{Introduction}
+\section{\label{chap:1}Introduction}
 %
-The Next-Generation sequencing (NGS) high-throughput technologies \cite{NGS} were originally proposed in order to help make the vast analysis of genomes less expensive and more spread, this was doable by enhancing the sequencing time, where too many reads can be generated in a very efficient time. But unfortunately, this type of sequencing introduced two painful issues; the first issue is that the read length becomes much shorter than the conventional sequencing, while the second issue is the decrement of the accuracy, where each erroneous nucleotide can be introduced to the read sequence via one of the three erroneous actions; which are substitution, insertion and deletion. The substitution takes place when the nucleotide is replaced with another erroneous one, while the insertion is when an erroneous nucleotide is newly inserted to the read sequence, and finally the deletion results due to the deletion of a nucleotide from the sequence.
+In bioinformatics, the DNA sequencing is one of the very pivotal research fields. Many researches has been done in order to enhance the DNA sequencing methodologies, as most of the processes that are related to the DNA genomes are mainly depends on the DNA sequencing. So the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, where the target of the researches is to enhance these critical factors.
 \\
-The reads accuracy is a vital factor in all processes that can be applied to the output reads. As an example, the assembly of NGS reads can not be accomplished successfully until the reads errors are corrected or eliminated. So detecting and correcting (or eliminating) the reads errors is an essential step that should precede the assembly process. This step can be accomplished either by a standalone solution or implicitly within the assembly mechanism. The frequency and quality value of the nucleotide are the two main factors used in evaluating it to be erroneous or not \cite{ErrCorr}.
 \\
-This newly proposed error correction methodology aims to correct all types of errors (substitutions, insertions, and deletions) taking into consideration both accuracy and time. This methodology builds its correction decisions on RACER \cite{Racer} (an already existing algorithm that handles substitution errors only) with some tuning to handle the insertions and deletions errors.
-This paper is organized as follows; existing methodologies for error correction are demonstrated in Sect. \ref{sec:2}, then the proposed algorithm is introduced in Sect. \ref{sec:3}. In Sect. \ref{sec:4}, a comparison is set between the new methodology versus existing ones through experimental data. The conclusion is shown in Sect. \ref{sec:5}.
+The next-generation sequencing (NGS) high-throughput technologies \cite{NGS} were originally proposed in order to help make the vast analysis of genomes less expensive and more spread, So they are targeting the enhancement of the sequencing time, where too many reads can be generated in a very efficient time. But unfortunately, this type of sequencing introduced two painful issues. The first painful issue introduced by next-generation sequencing is that the read length becomes much shorter than the conventional sequencing, consequently the second painful issue has been raised, which is the decrement of the accuracy of the generated reads. 
+\\
+\\
+In the generated reads, each erroneous nucleotide can be introduced to the read sequence via one of the three erroneous actions; which are substitution, insertion and deletion. 
+The substitution erroneous action takes place when the nucleotide is substituted or replaced with another erroneous nucleotide. While the insertion erroneous action is the insertion or injection of a newly erroneous nucleotide into the read sequence. Finally, the deletion erroneous action results from the deletion or removal of a proper nucleotide from the read sequence.
+\\
+\\
+The reads accuracy is a very vital factor, since, all of the processes, applications and projects that can be applied on the reads are affected by their accuracy. As an example, the assembly of next-generation sequencing (NGS) reads can not be accomplished successfully until the reads errors are corrected or eliminated. So detecting and correcting (or eliminating) the reads errors is an essential step that should precede the assembly process. 
+\\
+\\
+In most of the error correction methodologies, the erroneous nucleotide detection and its correction value decision mainly depends on the nucleotide frequency with its quality value\cite{ErrCorr}. While, the error correction methodology itself can be accomplished either by a standalone solution or implicitly within the assembly mechanism. 
+\\
+\\
+The newly proposed error correction methodologies aim to correct all types of errors (substitutions erroneous action, insertions erroneous action, and deletions erroneous action) in order to enhance the reads accuracy within a suitable time. 
+\\
+The first algorithm has the ability to enhance the accuracy, but unfortunately it takes too much time to accomplish his mission. The analysis of the results and time of this proposal will be illustrated later in the following chapters. 
+\\
+While the second algorithm builds its correction decisions based on RACER \cite{Racer} (an already existent algorithm that handles substitution errors only and will be discussed in details later) with some tuning to handle the insertions and deletions errors. This algorithm has the ability to enhance both the accuracy and the time, as it shows almost the highest accuracy with the shortest time for different datasets in comparison with the existent algorithms specialized in correcting substitution, insertion and deletion errors.
+\\
+\\
+This thesis documentation is organized as follows; illustrating some basics about deoxyribonucleic acid (DNA), deoxyribonucleic acid (DNA) sequencing, next-generation sequencing (NGS), and next-generation sequencing (NGS) errors correction in Chap. \ref{chap:1}, while the  existing methodologies for error correction are demonstrated in Chap. \ref{chap:2}, then the first proposed algorithm is demonstrated and evaluated in Chap. \ref{chap:3}, while the second proposed algorithm is demonstrated in Chap. \ref{chap:4}. In Chap. \ref{chap:5}, a comparison is set between the new methodology of the second proposed algorithm versus the existent ones through experimental data. The conclusion and future work are shown in Chap. \ref{chap:6}.
 %
 
-\section{\label{sec:2}Background}
-\subsection{Deoxyribonucleic Acid}
+\subsection{Background}
+\subsubsection{Deoxyribonucleic Acid}
 Deoxyribonucleic Acid,or DNA, is the hereditary material in humans and almost all other organisms. Nearly every cell in an organism’s body has the same DNA. Most DNA is located in the cell nucleus (where it is called nuclear DNA).
 The information in DNA is stored as a code made up of four chemical bases: adenine (A), guanine (G), cytosine (C), and thymine (T). Human DNA consists of about 3 billion bases, and more than 99 percent of those bases are the same in all people. The order, or sequence, of these bases determines the information available for building and maintaining an organism, similar to the way in which letters of the alphabet appear in a certain order to form words and sentences.
 DNA bases pair up with each other, A with T and C with G, to form units called base pairs. Each base is also attached to a sugar molecule and a phosphate molecule. Together, a base, sugar, and phosphate are called a nucleotide. Nucleotides are arranged in two long strands that form a spiral called a double helix. The structure of the double helix is somewhat like a ladder, with the base pairs forming the ladder’s rungs and the sugar and phosphate molecules forming the vertical sidepieces of the ladder.
@@ -212,7 +248,7 @@ DNA bases pair up with each other, A with T and C with G, to form units called b
 	\centering
 	\includegraphics{./figs/DNA-1}
 	\label{fig:fig1}
-	\caption[caption]{This is the caption}
+	\caption[caption]{DNA}
 \end{figure}
 
 \begin{figure}
@@ -224,26 +260,26 @@ DNA bases pair up with each other, A with T and C with G, to form units called b
 		\includegraphics[width=.9\linewidth]{./figs/DNA-3}
 		\label{fig:subfig2}
 	\end{subfigure}
-	\caption[caption]{This is the caption}
+	\caption[caption]{DNA scientific analysis}
 \end{figure}
 
 An important property of DNA is that it can replicate, or make copies of itself. Each strand of DNA in the double helix can serve as a pattern for duplicating the sequence of bases. This is critical when cells divide because each new cell needs to have an exact copy of the DNA present in the old cell.
 
-\subsection{DNA Sequencing}
+\subsubsection{DNA Sequencing}
 DNA sequence represents a single format onto which a broad range of biological phenomena can be projected for high-throughput data collection. 
 Over the past years, massively parallel DNA sequencing platforms have become widely available, reducing the cost of DNA sequencing by over two orders of magnitude, and democratizing the field by putting the sequencing capacity of a major genome center in the hands of individual investigators. These new technologies are rapidly evolving, and near-term challenges include the development of robust protocols for generating sequencing libraries, building effective new approaches to data-analysis, and often a rethinking of experimental design.
 \begin{figure}
 	\centering
 	\includegraphics{./figs/NGS-1}
 	\label{fig:fig2}
-	\caption[caption]{This is the caption}
+	\caption[caption]{DNA sequencing}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=.911\linewidth]{./figs/NGS-2}
 	\label{fig:fig3}
-	\caption[caption]{This is the caption}
+	\caption[caption]{DNA sequencing - Gene example}
 \end{figure}
 
 One of the core issues of Bioinformatics is dealing with a file formats. Some ad hoc simple human readable formats have over time attained the status of de facto standards. A ubiquitous example of this is the ‘FASTA sequence file format’, originally invented by Bill Pearson as an input format for his FASTA suite of tools.
@@ -282,23 +318,24 @@ Early FASTQ uses PHRED quality score (which is a measure of the quality of the i
 	\caption[caption]{FASTQ VS FASTA}
 \end{figure}
 
-\subsection{Next-Generation Sequencing}
-The field of DNA sequencing technology development has a rich and diverse history. Over the past years, the incentive for developing entirely new strategies for DNA sequencing has emerged on at least four levels, undeniably reinvigorating this field. First, in the wake of the Human Genome Project, there are few remaining avenues of optimization through which significant reductions in the cost of conventional DNA sequencing can be achieved. Second, the potential utility of short-read sequencing has been tremendously strengthened by the availability of whole genome assemblies for all major model organisms, as these effectively provide a reference against which short reads can be mapped. Third, a growing variety of molecular methods have been developed, whereby a broad range of biological phenomena can be assessed by high-throughput DNA sequencing. And fourth, general progress in technology across disparate fields, including microscopy, surface chemistry, nucleotide biochemistry, polymerase engineering, computation, data storage and others, have made alternative strategies for DNA sequencing increasingly practical to realize. Next-generation DNA sequencing has the potential to dramatically accelerate biological and biomedical research, by enabling the comprehensive analysis of genomes to become inexpensive, routine and widespread, rather than requiring significant production-scale efforts. Since the next-generation sequencing aims to make the vast analysis of genomes less expensive and more spread, it works on enhancing the sequencing time, where too many reads can be generated in a very efficient time. Consequently, it negatively affects the read length and also the sequences accuracy. Actually the next-generation sequencing raises two critical issues, where the first issue is that the read length becomes much shorter than the conventional sequencing, while the second issue is the decrement of the accuracy, where each erroneous nucleotide can be introduced to the read sequence via any of the erroneous actions. There are three erroneous actions are substitution, insertion and deletion. The substitution takes place when the nucleotide is replaced with another erroneous one, while the insertion is when an erroneous nucleotide is newly inserted to the read sequence, and finally the deletion results due to the deletion of a nucleotide from the sequence.
+\subsubsection{Next-Generation Sequencing}
+As stated above, the field of DNA sequencing technology development has a rich and diverse history. Over the past years, the incentive for developing entirely new strategies for DNA sequencing has emerged on at least four levels, undeniably reinvigorating this field. First, in the wake of the Human Genome Project, there are few remaining avenues of optimization through which significant reductions in the cost of conventional DNA sequencing can be achieved. Second, the potential utility of short-read sequencing has been tremendously strengthened by the availability of whole genome assemblies for all major model organisms, as these effectively provide a reference against which short reads can be mapped. Third, a growing variety of molecular methods have been developed, whereby a broad range of biological phenomena can be assessed by high-throughput DNA sequencing. And fourth, general progress in technology across disparate fields, including microscopy, surface chemistry, nucleotide biochemistry, polymerase engineering, computation, data storage and others, have made alternative strategies for DNA sequencing increasingly practical to realize. Next-generation DNA sequencing has the potential to dramatically accelerate biological and biomedical research, by enabling the comprehensive analysis of genomes to become inexpensive, routine and widespread, rather than requiring significant production-scale efforts. Since the next-generation sequencing aims to make the vast analysis of genomes less expensive and more spread, it works on enhancing the sequencing time, where too many reads can be generated in a very efficient time. Consequently, it negatively affects the read length and also the sequences accuracy. Actually the next-generation sequencing raises two critical issues, where the first issue is that the read length becomes much shorter than the conventional sequencing, while the second issue is the decrement of the accuracy, where each erroneous nucleotide can be introduced to the read sequence via any of the erroneous actions. There are three erroneous actions are substitution, insertion and deletion. The substitution takes place when the nucleotide is replaced with another erroneous one, while the insertion is when an erroneous nucleotide is newly inserted to the read sequence, and finally the deletion results due to the deletion of a nucleotide from the sequence.
 
+\newpage
 \begin{figure}
 	\centering
 	\includegraphics[width=.911\linewidth]{./figs/ErrCrr-1}
 	\label{fig:fig7}
 	\caption[caption]{\textbf{Substitution Error} - \textbf{T} has been erroneously substituted with \underline{A}}
 \end{figure}
-
+\vspace{2cm}
 \begin{figure}
 	\centering
 	\includegraphics[width=.911\linewidth]{./figs/ErrCrr-2}
 	\label{fig:fig8}
 	\caption[caption]{\textbf{Insertion Error} - \underline{G} has been erroneously inserted}
 \end{figure}
-
+\vspace{2cm}
 \begin{figure}
 	\centering
 	\includegraphics[width=.911\linewidth]{./figs/ErrCrr-3}
@@ -306,11 +343,16 @@ The field of DNA sequencing technology development has a rich and diverse histor
 	\caption[caption]{\textbf{Deletion Error} - \underline{T} has been erroneously deleted}
 \end{figure}
 
-\subsection{NGS Sequences Errors Correction}
+
+\newpage
+\subsubsection{NGS Sequences Errors Correction}
 The reads accuracy is a vital factor in all reads processes that can be applied to the output reads. As an example, the assembly of next-generation sequencing reads can not be accomplished successfully until the reads errors are corrected or eliminated. So detecting and correcting (or eliminating) the reads errors is an essential step that should precede the assembly process. This step can be accomplished either by a standalone solution or implicitly within the assembly mechanism. The nucleotide frequency and its quality value are two main factors that are used in evaluating the nucleotide to erroneous or not \cite{ErrCorr}. 
 
-\subsection{Correction Concepts and Definitions}
-There are common concepts and definitions used by most of the corrective algorithms. Most of the corrective algorithms generates all the possible sub-sequences (of length k) from a read, which is called \textit{k-mer} fig. [TODO]; while the term k-mer frequency represents the number of repetition of a k-mer (a specific sub-sequence of length k) in all the reads. Some of the corrective algorithms set a threshold for the k-mer frequency while classifying the k-mer into strong and weak ones. The strong k-mers are those k-mers that are repeated all over the reads x times, where x is greater than the preset threshold; while the weak k-mers are those ones that are repeated y times all over the reads, where y is less than the k-mer frequency threshold. The filtration step that works on classifying the k-mers into strong and weak ones is called "Spectrum Alignment". The spectrum alignment depends on the k-mers frequencies and/or the nucleotides quality values. 
+\subsubsection{Correction Concepts and Definitions}
+There are common concepts and definitions used by most of the corrective algorithms. Most of the corrective algorithms generates all the possible sub-sequences (of length k) from a read, which is called \textit{k-mer} fig. [TODO]; while the term k-mer frequency represents the number of repetition of a k-mer (a specific sub-sequence of length k) in all the reads. Some of the corrective algorithms set a threshold for the k-mer frequency while classifying the k-mer into strong and weak ones. The strong k-mers are those k-mers that are repeated all over the reads x times, where x is greater than the preset threshold; while the weak k-mers are those ones that are repeated y times all over the reads, where y is less than the k-mer frequency threshold. The filtration step that works on classifying the k-mers into strong and weak ones is called "Spectrum Alignment". The spectrum alignment depends on the k-mers frequencies and/or the nucleotides quality values.
+\\
+A de Bruijn graph can be constructed for any sequence, short or long. The first step is to choose a k-mer size, and split the original sequence into its k-mer components. Then a directed graph is constructed by connecting pairs of k-mers with overlaps between the first k-1 nucleotides and the last k-1 nucleotides. The direction of arrow goes from the k-mer, whose last k-1 nucleotides are overlapping, to the k-mer, whose first k-1 nucleotides are overlapping\ref{fig:debruijn}.
+\\ 
 The number of reads that include a given nucleotide in the sequence is called "Coverage" and it can be calculated as:
 \[ C = L.N/G \]
 where L is the average read length, N is the number of reads and G is the genome length.
@@ -333,16 +375,23 @@ While the sensitivity rate represents its ability to detect the erroneous nucleo
 And finally the accuracy represents the all over error rate, and it can be calculated as: 
 \[ Accuracy = (TP+TN)/(TP+FP+FN+TN) \] 
 
-
+\newpage
 \begin{figure}
 	\centering
-	\includegraphics{./figs/CrrConcepts-1}
+	\includegraphics[width=.3\linewidth]{./figs/CrrConcepts-1}
 	\label{fig:fig10}
 	\caption[caption]{\textbf{K-mer} - All the possible sub-sequences (of length k) from a read}
 \end{figure}
+\vspace{2cm}
+\begin{figure}
+	\centering
+	\includegraphics[width=.8\linewidth]{./figs/CrrConcepts-2}
+	\label{fig:debruijn}
+	\caption[caption]{\textbf{De Bruijn Graph} - k-mer of length 7}
+\end{figure}
 %
-
-\section{\label{sec:2}Related Work}
+\newpage
+\section{\label{chap:2}Related Work}
 The error correction methodologies can be either an implicit process within the assembly methodology or a standalone solution that reproduces reads after correction. The assemblers that have embedded error correction are Euler \cite{Euler}, Velvet \cite{Velvet}, AllPaths \cite{AllPaths} and SOAP \cite{Soap}. While the standalone methodologies are Coral \cite{Coral}, Quake \cite{Quake}, Reptile \cite{Reptile}, HSHREC \cite{HShrec}, HiTEC \cite{HiTec}, RACER \cite{Racer}, Pollux \cite{Pollux}, Parallel Error Correction with CUDA \cite{Cuda}, and Error Corrector (EC) \cite{EC}.
 \subsection{Substitution Only Corrective Algorithms}
 They are algorithms that are able to correct only the substitution DNA reads errors, these algorithms are: Euler \cite{Euler}, Velvet \cite{Velvet}, AllPaths \cite{AllPaths}, SOAP \cite{Soap}, Quake \cite{Quake}, Reptile \cite{Reptile}, HiTEC \cite{HiTec}, RACER \cite{Racer}, Parallel Error Correction with CUDA \cite{Cuda}, and Error Corrector (EC) \cite{EC}. TODO- Fig12
@@ -359,7 +408,12 @@ Where increasing the length of k, will help in reducing the false positive rate 
 Also in Euler, the reads with erroneous ends are trimmed, because the ends of reads tend to have more errors than the rest of the read, so it's difficult to determine the correct changes to the ends of reads.
 
 \subsubsection{Velvet}
-Velvet's \cite{Velvet} tour bus algorithm uses breadth-first search (BFS), starting at nodes with multiple out-going edges, where candidate paths are traversed in step, moving ahead one node on all paths per iteration, until the path lengths exceed a threshold. Velvet removes the path representing fewer reads then re-aligns reads from the removed path to the remaining path.
+Velvet's \cite{Velvet} works by efficiently manipulating de Bruijn graphs through simplification and compression, without the loss of graph information, by converging non-intersecting paths into single nodes, i.e. it merges nodes that do not affect the path generated in the graph, so that, whenever a node A has only one outgoing arc that points to node B, with only one ingoing arc, the nodes can be merged.
+\\
+Velvet eliminates errors and resolves repeats by first using an error correction algorithm that merges sequences together. Repeats are then removed from the sequence via the repeat solver that separates paths which share local overlaps.
+\\
+\\
+In other words, velvet's tour bus algorithm uses breadth-first search (BFS), starting at nodes with multiple out-going edges, where candidate paths are traversed in step, moving ahead one node on all paths per iteration, until the path lengths exceed a threshold. Velvet removes the path representing fewer reads then re-aligns reads from the removed path to the remaining path.
 
 \subsubsection{AllPaths}
 AllPaths \cite{AllPaths} uses a read-correcting preprocessor related to the spectral alignment in Euler, where the reads filtration is based on quality values, which is further used in correcting some substitutional errors. 
@@ -367,298 +421,92 @@ AllPaths \cite{AllPaths} uses a read-correcting preprocessor related to the spec
 \subsubsection{SOAP}
 SOAP \cite{Soap} filters and corrects reads using pre-set thresholds for k-mer frequencies. It removes bubbles with an algorithm like Velvet's tour bus, with higher read coverage determining the surviving path (read).
 
-\subsection{Quake}
+\subsubsection{Quake}
 Quake \cite{Quake} determines a cut-off value which separates trusted k-mers from untrusted k-mers, using the distribution of k-mers based on their quality scores. The intersection of the untrusted k-mers is used to localize the search for an error in a read. Quake tries to evaluate the conditional probability of assigning the actual nucleotides of the sequenced fragment, given the observed nucleotides.
-%TODO
-
-Quake relies on k-mer coverage and quality scores to correct reads. 
-
-Quake uses a method of evaluating the quality of a k-mer based on the associated quality scores for each base. 
-
-The k-mers weighing is based on quality scores, then:
-- Low coverage true k-mers will have high quality scores.
-- High coverage k-mers with errors will have low quality scores.
-1) Counting k-mers:
-- Quake begins by counting all the k-mers in the data set.
-
-- The value of k, has a significant impact on the performance of Quake.
-
-- For an appropriate choice for k, Quake uses: k %TODO≈ log4 200G.
-
-- Quake determines a cutoff value which separates trusted k-mers from untrusted k-mers, using the distribution of k-mers based on their quality values. 
-2) Localizing Errors and Correcting Reads:
-- The reads with untrusted k-mers are considered for correction. 
-
-- An intersection of the untrusted k-mers is used to localize the search for an error in a read.
-
-- If the errors are near the end of a read,  Quake considers every base covered by the right most trusted k-mer, and left most trusted k-mers to be correct.
-
-- Quake tries to evaluate the conditional probability of a assigning the actual nucleotides of the sequenced fragment, given the observed nucleotides.
-3) Heuristics
-
-- Ambiguous true correction: 
-  - Repeats implies to having multiple sets of valid corrections, with a small difference in the likelihood of
-     each correction, so a true correction is ambiguous.
-  - Quake continues past the threshold to ensure that another valid set does not exist. 
-
--Quake stops correcting if the region is filled with low quality scores.
-   - Reads with a region containing %TODO≥ 13 positions with a probability of error > 1\% are not corrected. 
-   - For reads with regions containing %TODO≥ 9 such positions, the likelihood ratio threshold is increased to 10−3 .
-\subsection{Reptile}
+\\
+It relies on k-mer coverage and quality scores to correct reads, as it uses a method of evaluating the quality of a k-mer based on the associated quality scores for each base. 
+\\
+The k-mers weighing is based on quality scores, where the low coverage true k-mers will have high quality scores and the high coverage k-mers with errors will have low quality scores.
+\\
+Quake begins by counting all the k-mers in the data set, so the value of k, has a significant impact on the performance of Quake. But actually for an appropriate choice for k, Quake uses the following formula to set k (where G is the size of the genome).
+\[ k \approx log_{4} 200G \]  
+After then, it determines a cut-off value which separates trusted k-mers from untrusted k-mers, using the distribution of k-mers based on their quality values, where the reads with untrusted k-mers are considered for correction, and the errors are detected based on the intersection of the untrusted k-mers, which is used to localize the search for an error in a read. 
+\\
+Actually, Quake considers every base covered by the right most trusted k-mer, and left most trusted k-mers to be correct, so if the errors are near the end of a read, it will be checked first whether it is in the right most or left most, after then the decision will be taken. Also it tries to evaluate the conditional probability of a assigning the actual nucleotides of the sequenced fragment, given the observed nucleotides.
+\\
+\\
+Quake has some heuristics, like ambiguous true correction, where the repeats implies to having multiple sets of valid corrections, with a small difference in the likelihood of each correction, so a true correction is ambiguous. So, it continues past the threshold to ensure that another valid set does not exist. 
+\\
+Quake stops correcting if the region is filled with low quality scores, where the reads with a region containing $\geq$ 13 positions with a probability of error $>$ 1\% are not corrected. And the reads with regions containing $\geq$ 9 positions with a probability of error $>$ 1\%, the likelihood ratio threshold is increased to $10^{-3}$.
+\subsubsection{Reptile}
 Reptile \cite{Reptile} uses the spectral alignment approach used in Euler, with the quality score information if available. Trying to create approximate multiple alignments by considering all reads with pairwise hamming distance less than a pre-set threshold. 
-%TODO
-Reptile uses quality score information if it is available. 
-
-Reptile is designed to correct short reads with substitution errors.
-
-Reptile considers all reads with pairwise Hamming distance less than a set threshold. 
-
-Reptile finds the multiple alignments by only aligning k-mers in the reads. 
-
-The size of k is chosen so that the expected number of occurrences of any
-k-mer in the genome should be no more than one.
-
-
-Reptile uses contextual information to help resolve errors without increasing k.
-
-
+\\
+\\
+Reptile considers all reads with pairwise Hamming distance less than a set threshold, where it finds the multiple alignments by only aligning k-mers in the reads. Actually, it chooses the size of k so that the expected number of occurrences of any k-mer in the genome should be no more than one. And it uses contextual information to help resolve errors without increasing k.
+\\
+\\
 The main disadvantage of Reptile is that the user have to set the parameters, so it
 requires running scripts and analyzing the results to obtain the proper parameters.
 
-\subsection{HSHREC}
-HSHREC \cite{HShrec} is able to correct all types of errors (substitution, insertion and deletion). The methodology depends on the alignment of a read with others using a suffix trie, where the edges are labelled with DNA letters and a node weight is the number of leaves in the sub-trie rooted at that node. On the down levels, a node with more than one child is considered to have a substitution error, while extra branching in the generalized suffix trie is caused by indels.
-%TODO
-SHREC was designed to correct substitution errors, and HSHREC is able to correct both substitution errors and indels.
-
-HSHREC assumes that the input contains k reads randomly sampled from a genome with read length n, where n can vary in length. 
-
-Errors are detected in a read by aligning it to the other reads using a suffix trie.
-
-The erroneous region of the read has a low weight in the trie and this is the area that will be corrected.
-
-Single nucleotide polymorphisms (SNPs) are single nucleotide changes that differ between individuals of the same species, they can appear as errors. 
-
-Since errors at the SNP location will only be in a few reads, and SNPs will be present in several reads, it is possible to differentiate them.
-Each read has a unique suffix by concatenating a unique number from 1 to 2k to the end of each string in R (the set of reads, and their reverse complements). 
-
-The edges of the trie are labeled with DNA letters, and an ambiguous letter N.
-
-The concatenation of edge labels from the root to a node is called a path-label. 
-
-For any suffix of a sting in R, there is a path-label that contains that suffix. 
-
-The weight of a node in the trie is the number of leaves in the subtrie that is rooted at that node, and is the number of suffixes in that subtrie. 
-
-The level of a node is the length of the path from the root to the node.
-In the top levels of the trie almost all nodes have four or five children.
-
-In the down levels of the trie almost all nodes have only one child. 
-
-If a child at down levels has more than one child then it is likely an error. 
-
-The node with the lower weight is likely the erroneous base. 
-
-The HSHREC algorithm traverses the trie to identify errors at the intermediate levels of the trie. 
-
-The HSHREC tries to correct each error with a substitution, and the remaining errors are treated as insertions or deletions.
-
-SHREC compares the subtrie rooted at the low weight node to the subtries rooted at the siblings of the node.
-
-Indels cause extra branching in the generalized suffix trie. 
-
-An insertion creates a low weight node.
-
-Deleting the node causes the children rooted at the node and their siblings to
-be merged. 
-
-A comparison of the subtries before and after the deletion determine if the deletion
-was a proper way to correct the node. 
-
-\subsection{HiTEC}
-HiTEC \cite{HiTec} uses a suffix array that is built using a string of reads and their reverse complements. The correction of an erroneous nucleotide takes place with the letter that appears most at that position.
-%TODO --SUFFIX ARRAY
-%TODO
-HiTEC (High Throughput Error Correction) uses a suffix array that is built using a string of the reads and their reverse complements. 
-
-Suffix array is a more time and space efficient data structure than the suffix trie.
-
-The most accurate read error correction program to date is HiTEC.
-
-The length of the genome and the error rate of the data set is supplied. 
-
-HiTEC has been shown to be the most accurate algorithm for correcting substitution errors, as its parameters is set using statistical analysis.
-
-HiTEC uses an array that stores the length of the longest common prefix (LCP) between consecutive suffixes in the suffix array.
-The reads and their reverse complements are stored in a string:
-R = r1 \$ %TODŌr1\$r2 \$ ̄r2 \$...rn \$ ̄rn \$, where \$ is a letter not in Σ.
-
-HiTEC assumes that a read ri, starting at position j of the genome, contains an error in position k and that the previous w positions, ri [k - w..k - 1], are correct. 
-
-Using the majority of one base at a position, then the erroneous base is changed to the base that appears most at that position. 
-
-For a %TODO∈ Σ, the support of u for a is supp(u, a), which is the total number of occurrences of the string ua in R.
-
-Repeats in the genome can cause problems with a small u.
-
-Long u will be less likely to appear in the genome \& will be covered by fewer reads.
-Statistical analysis helps compute a threshold, T , that is used to detect errors. 
-
-To cover the case when low coverage causes very low values for T.
-
-Reads with no w consecutive correct positions, makes it impossible to fit a correct witness at any position. And they cannot be corrected.
-
+\subsubsection{HiTEC}
+High Throughput Error Correction (HiTEC) \cite{HiTec} uses a suffix array that is built using a string of reads and their reverse complements. The correction of an erroneous nucleotide takes place with the letter that appears most at that position.
+\\
+\\
+HiTec uses the suffix array as it is a more time and space efficient data structure than the suffix trie, where it uses an array that stores the length of the longest common prefix (LCP) between consecutive suffixes in the suffix array.
+\\
+\\
+Actually, it assumes that the length of the genome and the error rate of the data set is supplied. Also HiTEC assumes that a read, starting at position j of the genome, contains an error in position m and that the previous w positions, $r_{i} [m - w..m - 1]$, are correct.
+\\
 As the length of witness length (w) decreases:
-- The number of uncorrectable reads U(w) decreases.
-- The probability of seeing the witness increases, so the correct positions changed incorrectly. 
-- The number of destructible reads D(w) increases.
-- A value for w must be found that minimizes U(w)+ D(w). 
 
-HiTEC uses a variation of witness lengths based on the optimal witness length to achieve high accuracy.
-If there is no ambiguity in the correct letter then the correction is made.
+\begin{itemize}
+	\item The number of uncorrectable reads U(w) decreases.
+	\item The probability of seeing the witness increases, so the correct positions changed incorrectly. 
+	\item The number of destructible reads D(w) increases.
+	\item A value for w must be found that minimizes U(w)+ D(w). 
+\end{itemize}
 
-If there is ambiguity, then the next two letters are checked in order to decide how to correct the read.
+So, HiTEC uses a variation of witness lengths based on the optimal witness length to achieve high accuracy.
+\\
+\\
+After then, HiTEC uses the majority of one base at a position, the erroneous base is changed to the base that appears most at that position. If there is no ambiguity in the correct letter then the correction is made. But, if there is ambiguity, then the next two letters are checked in order to decide how to correct the read. And finally, it stops correcting when the number of bases changed during one iteration is less than 0.01\% of the total number of bases, or after nine iterations or corrections.
+\\
+\\
+HiTEC only requires modest coverage to make corrections. So, the datasets with high coverage are split into several sets with lower coverage that are independently corrected. 
+\\
+\\
+The disadvantages of HiTEC can be listed as:
+\begin{itemize}
+	\item It does not correct reads with ambiguous letters.
+	\item It can only correct data sets if the reads are all the same length.
+	\item It does not run in parallel mode.
+\end{itemize}
 
-HiTEC stops correcting when the number of bases changed during one iteration is less than 0.01\% of the total number of bases, or after nine iterations or corrections.
+\subsubsection{RACER}
+Rapid and Accurate Correction of Errors in Reads (RACER) \cite{Racer} is able to correct data sets that have varying read lengths. Using a hash table that stores the total times each nucleotide appears before and after each k-mer, where the error is corrected via the counts.
+\\
+\\
+Actually, RACER replaces the suffix array approached used in HiTEC with a more time and space efficient hash table. And as stated above, this hash table stores the k-mers in each read, and the total times each base appears before and after each k-mer. While, the optimal k-mer length is calculated with a similar statistical analysis as HiTEC, i.e, it's value must be found that minimizes U + D, where U is the number of uncorrectable reads and D is the number of destructible reads. In other words, it choose k that will minimize the number of false positives and maximize the number of corrections. And after the k-mers and the counters have been calculated, the reads are corrected based on the counts.
+\\
+\\
+RACER encodes the input sequences using two bits to represent each base, where the k-mer and its reverse complement must be searched, and only the one with the smaller encoding key is stored. Consequently, it shows a great enhancement in time and memory usage, where there is no algorithm can beat RACER in time.
+\\
+One more significant advantage of RACER is that it is able to correct data sets that have varying read lengths, and runs in both serial and parallel mode.
+ 
 
-HiTEC only requires modest coverage to make corrections.
-
-Datasets with high coverage are split into several sets with lower coverage that are independently corrected. 
-
-The disadvantages of HiTEC are:
-- It does not correct reads with ambiguous letters.
-- It can only correct data sets if the reads are all the same length
-- It does not run in parallel mode.
-
-\subsection{RACER}
-RACER \cite{Racer} is able to correct data sets that have varying read lengths. Using a hash table that stores the total times each nucleotide appears before and after each k-mer, where the error is corrected via the counts.
-%TODO
-Rapid and Accurate Correction of Errors in Reads.
-
-RACER replaces the suffix array approached used in HiTEC with a more time and space efficient hash table. 
-
-The hash table stores the k-mers in each read, and the total times each base appears before and after each k-mer.
-
-The optimal k-mer length is calculated with a similar statistical analysis as HiTEC.
-
-After the k-mers and the counters have been calculated, the reads are corrected
-based on the counts.
-
-RACER encodes the input sequences using two bits to represent each base.
-The k-mer and its reverse complement must be searched, and only the one with the smaller encoding key is stored. 
-
-
-RACER is able to correct data sets that have varying read lengths, and runs in both serial and parallel mode.
-
-
-RACER requires three parameters to be calculated:
-1. A threshold for determining and correcting an error.
-2. A k-mer length K that will minimize the number of false positives.
-3. A k-mer length k that will maximize the number of corrections. 
-\subsection{Pollux}
-Pollux \cite{Pollux} calculates the k-mer frequencies in the entire set of reads. Identifying the discontinuities by comparing the frequencies of adjacent k-mers within reads, assuming that individual k-mers are not erroneous. The discontinuities within reads are used to find error locations and evaluate correctness. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity.
-%TODO
-Pollux decomposes each read into k-mers and then calculates the k-mer frequencies in the entire set of reads. The nucleotide is represented with a two-bit alphabet and a hash-table strategy is used to help in using large k-mers (with length 31) to avoid common short repeats which might otherwise confound the correction procedure.
-Identifying the individual k-mers as not erroneous, then identifying the discontinuities by comparing the frequencies of adjacent k-mers within reads. The discontinuities within reads are used to find error locations and evaluate correctness. A read that is not erroneous is assumed to have a k-mer count profile that is reflective of a random sampling process, given local coverage. In contrast, a read that contains an error is likely to have k-mer counts that deviate unexpectedly from this random process. Evaluating multiple k-mers containing bases following the erroneous base to ensure our correction is appropriate. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity. If there exist multiple corrections which achieve this, the correction is chosen to be the one that improves the most k-mer counts maximally beyond the current erroneous location. Pollux corrects each read independently and does not update recorded k-mer counts as a result of correction.
-
-
-\subsection{Parallel Error Correction with CUDA}
-Parallel Error Correction with CUDA \cite{Cuda} uses the spectrum alignment besides a voting algorithm for the single-mutation using each letter, hence errors can be fixed based on high values in the voting matrix.
-%TODO
-CUDA (Compute Unified Device Architecture) is an extension of C/C++ to write scalable multi-threaded programs for CUDA-enabled GPUs.
-
-CUDA programs can be executed on GPUs with NVIDIA’s Tesla unified computing architecture.
-
-CUDA programs contain a sequential part, called a kernel.
-
-Error correction consists of a set of reads R that need to independently access the spectrum Tm.l(R), so the correction of an individual read ri.
-
-The kernel is then invoked using a thread for each ri %TODO∈ R.
-Algorithm 1: Single-mutation voting algorithm used in the CUDA kernel.
-
-Input: Read ri[0...L-1] and spectrum Tm.l(R).
-Output: Voting matrix Vi[][] of size L*4
-
-Steps: 
-  1. Initialize the voting matrix by zeros: Vi[j][c] := 0, j := 0...L-1, c %TODO∈ {A, C, G, T}
-  
-  2. For each l-tuple in ri:
-        if it isn't an l-tuple in Tm.l(R):
-	   For each nucleotide in the l-tuple 
-	     For each letter in c
-		If the replacement of the nucleotide by the letter makes the l-tuple %TODO∈ Tm.l(R)
-                     Increase the voting matrix for this nucleotide \& this letter by 1.
- - Errors can be fixed based on high values in the voting matrix. 
-
-
-- In case of having two errors are close to each other:
-
-     The single-mutation voting algorithm cannot correct the errors. 
-
-      It is still possible to identify the read as erroneous and to trim it at certain 
-      positions or discard it. 
-      
-  Algorithm 2: Single-mutation fixing/trimming/ discarding procedure used in the CUDA kernel.
-
-
-Input: Read ri[0...L-1] and Voting matrix Vi[][] of size (L-(l+1))*4.
-
-Output: Fixed, trimmed, discarded or unchanged read
-
-Steps:
-  1. maxV is the max value in the given voting matrix
-     (maxj,maxc) is the indices of the maxV
-
-2. If (maxV = 0) return ri;  input read is error-free
-      Else: 
-         a. rci  string concatenation after replacement for correction
-            Set corrected\_flag = true \& trimmed\_flag = false
-         b. For each l-tuple in rci:
-               If it isn't an l-tuple in Tm.l(R):
-                  Set corrected\_flag = false
-               Else 
-                  Set trimmed\_flag = true
-         c. If (corrected\_flag) return rci; corrected read
-             Else 
-               If(trimmed\_flag) return rci[k1...k2]; the longest substring of rci in which all l-tuples belong to Tm.l(R)
-               Else 
-                   return %TODOε; discarded read as empty string
-         
-Time complexity of the kernel is dominated by the spectrum membership test in  the voting algorithm.
-
-(L-l).(1+p.3.l), where p is the number of l-tuples of the read that do not belong to the spectrum. 
-
-Hashing can perform membership tests to a hashing table in constant time. 
-         The single-mutation voting algorithm contains the data-dependent that checks if it isn't an l-tuple in Tm.l(R) for each l-tuple in the given read.
-
-Threads, for which this statement is true, execute another 3.l membership tests.
-
-Threads, for which this statement is false, need to wait for these threads within the same warp to finish these tests.
-  
-Thus, the number of waiting threads per warp is decreasing for higher error-rates.
-
-So, The speedup increases for higher error rates.
-Our implementation outputs four datasets:
-1. unchanged reads, 
-2. corrected reads, 
-3. trimmed reads, and
-4. discarded reads. 
-
-The union of unchanged, corrected and trimmed reads is usually taken as an input dataset to a subsequent de-novo DNA fragment assembly algorithm. 
-Accuracy:
-
-Identification: identifying reads as erroneous or error-free.
-Correction: correcting reads, which have been identified as erroneous.
-
-The identification of erroneous reads can be defined as a binary classification test.
-
-Sensitivity = TP/(TP+FP)
-Specificity = TN/(TN+FN)
-
-The accuracy of the actual correction/trimming operation; i.e. if correction/trimming is done at the correct read positions.
-
-Also, the amount of corrected/trimmed reads relative to the number of discarded reads is measured. 
-\subsection{Error Corrector}
+\subsubsection{Parallel Error Correction with CUDA}
+Parallel Error Correction with CUDA (Compute Unified Device Architecture) \cite{Cuda} uses the spectrum alignment besides a voting algorithm for the single-mutation using each letter, hence errors can be fixed based on high values in the voting matrix.
+\\
+\\
+CUDA (Compute Unified Device Architecture) is an extension of C/C++ to write scalable multi-threaded programs for CUDA-enabled GPUs, where CUDA programs can be executed on GPUs with NVIDIA’s Tesla unified computing architecture, while CUDA programs contain a sequential part, called a kernel.
+\\
+\\
+CUDA uses the single-mutation voting algorithm, where it firstly initialize the voting matrix by zeros for each of (A, C, T, G) for every nucleotide, and loop on every read to check whether it is in the spectrum or not. If it found that the read is not in the spectrum, it loops on every nucleotide against its voting matrix and increase the vote by 1 for every successful replacement (that makes the reads fit into the spectrum). After then the errors can be fixed based on high values in the voting matrix.
+\subsubsection{Error Corrector}
 Error Corrector (EC) \cite{EC} an error correction algorithm for correcting short reads with substitution errors only. Using k-mers hashing tables to find the neighbours of each of the reads, where each read is corrected using its neighbours.
+\\
+\\
+In other words, the steps of Error Corrector (EC) can be broken into three independent tasks. At first it builds k-mers and hashes the k-mers into hash tables. After then, by using these hash tables it finds the neighbours of each of the reads. And finally, each read is then corrected using the neighbours of the read.
 
 \begin{figure}
 	\centering
@@ -698,6 +546,37 @@ The complexity of Coral is illustrated as follow (assuming that where M is the c
 	\item The space complexity for computing the MSA is O(Lr + r\textsuperscript{2}).
 	\item The overall space complexity is O(M).
 \end{itemize}
+
+\subsubsection{HSHREC}
+HSHREC \cite{HShrec} is able to correct all types of errors (substitution, insertion and deletion). The methodology depends on the alignment of a read with others using a suffix trie, where the edges are labelled with DNA letters and a node weight is the number of leaves in the sub-trie rooted at that node. On the down levels, a node with more than one child is considered to have a substitution error, while extra branching in the generalized suffix trie is caused by insertion and deletion erroneous actions.
+\\
+\\
+SHREC was designed to correct substitution errors, and HSHREC is able to correct both substitution errors and insertion and deletion erroneous actions.
+\\
+HSHREC assumes that the input contains k reads randomly sampled from a genome with read length n, where n can vary in length. The errors are detected in a read by aligning it to the other reads using a suffix trie, where the erroneous region of the read has a low weight in the trie and this is the area that will be corrected.
+\\
+\\
+HSHREC resolves the ambiguity that can be caused by single nucleotide polymorphisms (SNPs). The single nucleotide polymorphisms (SNPs) is the phenomena of changing single nucleotide that differ between individuals of the same species, and they can appear as errors. But HSHREC analyse it as: since the errors at the SNP location will only be in a few reads, and SNPs will be present in several reads, it is possible to differentiate them.
+\\
+\\
+In HSREC, each read has a unique suffix by concatenating a unique number from 1 to 2k to the end of each string in R (the set of reads, and their reverse complements). And the edges of the trie are labeled with DNA letters, and an ambiguous letter N, where the concatenation of edge labels from the root to a node is called a path-label. 
+\\
+For any suffix of a string in R, there is a path-label that contains that suffix. And the weight of a node in the trie is the number of leaves in the subtrie that is rooted at that node, and is the number of suffixes in that subtrie. 
+\\
+The level of a node is the length of the path from the root to the node. In the top levels of the trie almost all nodes have four or five children. while in the down levels of the trie almost all nodes have only one child. So, if a child at down levels has more than one child then it is likely an error, and the node with the lower weight is likely the erroneous base. 
+\\
+So, HSHREC algorithm traverses the trie to identify errors at the intermediate levels of the trie. And it tries to correct each error with a substitution, and the remaining errors are treated as insertions or deletions.
+\\
+In SHREC, it compares the subtrie rooted at the low weight node to the subtries rooted at the siblings of the node, while the insertion and deletion erroneous actions cause extra branching in the generalized suffix trie. The insertion erroneous action creates a low weight node, so the deletion corrective action of the node causes the children rooted at the node and their siblings to be merged. And a comparison of the subtries before and after the deletion determine if the deletion is a proper way to correct the node or not. 
+
+\subsubsection{Pollux}
+Pollux \cite{Pollux} calculates the k-mer frequencies in the entire set of reads. Identifying the discontinuities by comparing the frequencies of adjacent k-mers within reads, assuming that individual k-mers are not erroneous. The discontinuities within reads are used to find error locations and evaluate correctness. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity.
+\\
+\\
+Pollux decomposes each read into k-mers and then calculates the k-mer frequencies in the entire set of reads. The nucleotide is represented with a two-bit alphabet and a hash-table strategy is used to help in using large k-mers (with length 31) to avoid common short repeats which might otherwise confound the correction procedure.
+\\
+\\
+Firstly it identifies the individual k-mers as not erroneous, then identifies the discontinuities by comparing the frequencies of adjacent k-mers within reads. The discontinuities within reads are used to find error locations and evaluate correctness. A read that is not erroneous is assumed to have a k-mer count profile that is reflective of a random sampling process, given local coverage. In contrast, a read that contains an error is likely to have k-mer counts that deviate unexpectedly from this random process. Evaluating multiple k-mers containing bases following the erroneous base to ensure our correction is appropriate. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity. If there exist multiple corrections which achieve this, the correction is chosen to be the one that improves the most k-mer counts maximally beyond the current erroneous location. Pollux corrects each read independently and does not update recorded k-mer counts as a result of correction.
  
 \begin{figure}
 	\centering
@@ -706,10 +585,11 @@ The complexity of Coral is illustrated as follow (assuming that where M is the c
 	\caption[caption]{An illustrative summary for the substitution, insertion and deletion corrective algorithms}
 \end{figure}
 
-%TODO
+\newpage
 \section{The First Proposed Algorithm}
 
-Aiming to correct all types of errors
+\subsection{Methodology}
+This proposal aims to correct all types of errors
 
 Hashing the k-mers into integers
 
@@ -725,8 +605,18 @@ Re-grouping the k-mers depending on the non-corrected ones, where only the three
 
 Diagnosing each k-mer group, then fixing the misalignment in the three nucleotides based on their occurrences and quality values.
 
+ 
+\begin{figure}
+	\centering
+	\includegraphics[width=.911\linewidth]{./figs/First-Proposal-1}
+	\label{fig:fig13}
+	\caption[caption]{First Proposal Steps}
+\end{figure}
+
+\subsection{Evaluation}
 For Lactis, the data with smallest size:
 It shows the best accuracy with a very small difference (0.05\%), but with the worst time with a big difference; 1 hr compared to 15, 5, and 3 mins
+
 
 For Pallidum, data with larger size:
 It runs more than 16 hrs compared to 22, 12, and 3 mins; which enforced the interruption of the running without getting the results
@@ -740,8 +630,34 @@ The kmers grouping takes place by generating all of the possible cases of the co
 
 The main major step of the proposal implies to it's weakness point, which proves that this proposal won't get a better results
 
+\begin{longtable}{|m{22.5mm}|m{17.5mm}|m{19.5mm}|m{14.5mm}|m{10.5mm}|m{14.5mm}|m{14mm}|}
+	    \caption{\label{tab:eval-data}Data sets used in evaluation} \\
+        \hline
+        Name & Accession Number & Genome & Genome Length & Read Length & Number of Reads & Coverage\TBstrut\\ % top and bottom struts
+        \hline
+        Lactococcus Lactis & SRR088759 & NC\_013656.1 & 2,598,144 & 36 & 4,370,050 & 60.55\TBstrut\\ % top and bottom struts
+        \hline
+        Treponema Pallidum & SRR361468 & CP002376.1 & 1,139,417 & 35 & 7,133,663 & 219.13\TBstrut\\ % top and bottom struts
+        \hline
+        E.coli 75a & SRR396536 & NC\_000913.2 & 4,639,675 & 75 & 3,454,048 & 55.83\TBstrut\\ % top and bottom struts
+        \hline
+        E.coli 75b & SRR396532 & NC\_000913.2 & 4,639,675 & 75 & 4,341,061 & 70.17\TBstrut\\ % top and bottom struts
+        \hline
+\end{longtable}
 
-\section{\label{sec:3}The Proposed Algorithm}
+\begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
+	    \caption{\label{tab:eval-1}Evaluation comparison table for Lactococcus Lactis}\\
+        \hline
+           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
+        \hline
+           Accuracy & 91.45\% & 94.15\% & 95.34\% & 95.39\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+        \hline
+           Time in Minutes& 5 & 3 & 15 & 61\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+        \hline
+\end{longtable}
+
+\newpage
+\section{\label{sec:3}The Second Proposed Algorithm}
 H-RACER is the newly proposed approach for correcting all types of errors (substitution, insertion, and deletion). Although RACER is the fastest DNA error correction algorithm existent nowadays with a high accuracy, but it can not correct all types of errors, it can only correct substitutions. So, H-RACER is proposed in order to correct all types of errors. H-RACER follows the same algorithm of RACER in detecting errors and deciding their corrections, the newly added part in H-RACER is the detection of the error type in order to apply the correction properly for data sets with varying error types.
 \\
 H-RACER detects the error type for an erroneous nucleotide by studying its correction value (obtained by RACER) against its neighbours, then decides the corrective action (substitute, insert, delete) according to the detected error type.
@@ -833,6 +749,14 @@ Then,
 \end{figure}
 
 \begin{figure}
+	\centering
+	\includegraphics[width=.911\linewidth]{./figs/Second-Proposal-1}
+	\label{fig:fig13}
+	\caption[caption]{H-Racer Flow Chart}
+\end{figure}
+
+
+\begin{figure}
 \vspace{0.2cm}
 \begin{bordered}
 \noindent\hspace{3ex}for every \textit{read} in \textit{reads} do
@@ -888,6 +812,7 @@ Then,
 \caption{\label{fig:3}H-RACER Pseudo-Code - O(\textit{r})}
 \end{figure}
 
+\newpage
 \section{\label{sec:4}Evaluation}
 \subsection{Datasets and Platform}
 The testing was performed on a wide variety of real data sets, shown below in table \ref{tab:eval-data}, with different read length, genome size and coverage. It was preferred to use real data sets and to avoid any simulated ones as they do not offer a good indication of real life performance. All data sets were brought from the National Center for Biotechnology Information (NCBI).
@@ -1026,15 +951,24 @@ Finally, the remarkable great difference in time between H-RACER and the rest of
         \hline
 \end{longtable}
 
-\section{\label{sec:5}Conclusion}
-H-RACER comes up with the advantage of correcting different error types which were missed in RACER. H-RACER followed in the footsteps of RACER's implementation in order to acquire the major advantages of RACER in both aspects performance and time, then added its elegant algorithm in detecting the errors types and properly applying their corrections. Consequently, H-RACER shows great results in both performance and time compared to existing algorithms specialized in correcting all types of errors for large and small genome lengths. And by comparing H-RACER with existing algorithms specialized in correcting all types of errors, it is proved that H-RACER is the fastest with the highest accuracy algorithm.
+\newpage
+\section{\label{sec:5}Conclusion and Future Work}
+H-RACER comes up with the advantage of correcting different error types which were missed in RACER. H-RACER followed in the footsteps of RACER's implementation in order to acquire the major advantages of RACER in both aspects performance and time, then added its elegant algorithm in detecting the errors types and properly applying their corrections. Consequently, H-RACER shows great results in both performance and time compared to existent algorithms specialized in correcting all types of errors for large and small genome lengths. And by comparing H-RACER with existent algorithms specialized in correcting all types of errors, it is proved that H-RACER is the fastest with the highest accuracy algorithm.
+\\
+\\
+As a future work, the main points will be for enhancing the memory usage of H-RACER for long genomes, so as to be able to run long genomes within 244GiB RAM.
+\\
+Also, implementing H-RACER with parallel threads, where both time and memory will be enhanced, especially for long genomes.
+\\
+And finally, get another trial in inventing a new algorithm to group the k-mers in the first algorithm with a reasonable complexity.
 \\
 Finally, H-RACER algorithm has been implemented in C/C++ as an open source program.
 \\
-Available at: drive.google.com/open?id=0B7Otgzz7lZlldkE2ZFVwcU5qN1U
+\\
+Available at: https://github.com/salmagomaa/H-RACER \\
+and: drive.google.com/open?id=0B7Otgzz7lZlldkE2ZFVwcU5qN1U
 
+\newpage
 \input{H-RACER-llncs.bbl} 
-
-\selectlanguage{english}
 
 \end{document}

@@ -1,7 +1,7 @@
 % This is LLNCS.DOC the documentation file of
 % the LaTeX2e class from Springer-Verlag
 % for Lecture Notes in Computer Science, version 2.4
-\documentclass{llncs}
+\documentclass[12pt]{llncs}
 \usepackage{llncsdoc}
 \bibliographystyle{splncs}
 %
@@ -31,28 +31,29 @@
 \newmdenv[leftline=false,rightline=false,topline=false,bottomline=false,innertopmargin=2pt,innerbottommargin=2pt]{bordered}
 
 % TABLE
-\newcommand{\TBstrut}{{\rule{0pt}{2ex}}{\rule[2ex]{0pt}{0pt}}} % top&bottom struts
+\newcommand{\TBstrut}{{\rule{0pt}{7ex}}{\rule[2ex]{0pt}{0pt}}} % top&bottom struts
 \definecolor{DarkGray}{gray}{0.6}
 \definecolor{LightGray}{gray}{0.9}
 \begin{document}
 
+{\small
 \begin{titlepage}
 \center % Center everything on the page
 \includegraphics[scale=0.2]{./figs/aast}\\[0.7cm]
 \selectlanguage{arabic}
 {\Large \bfseries 
 الاكاديمية العربية للعلوم والتكنولوجيا والنقل البحرى
-}\\[0.6cm]
+}\\[0.3cm]
 {\large \bfseries 
 كلية الحاسبات و تكنولوجيا المعلومات
 }\\[0.3cm]
 {\large \bfseries 
 قسم علوم الحاسب
-}\\[0.3cm] 
+}\\[0.2cm] 
 \HRule \\[0.3cm]
 {\LARGE \bfseries 
 خوارزميات لتصحيح الأخطاء الناتجة عن عملية تسلسل الحمض النووي
-}\\[0.3cm]
+}\\[0.2cm]
 \HRule \\[0.7cm]
 {\large \bfseries 
 الرسالة
@@ -71,7 +72,7 @@
 }\\[0.5cm]
 {\large \bfseries 
 تحت إشراف
-}\\[0.7cm]
+}\\[0.5cm]
 \begin{minipage}{0.45\textwidth}
 \begin{flushleft}
 \center
@@ -100,13 +101,14 @@
 الاكاديمية العربية للعلوم والتكنولوجيا والنقل البحرى
 }
 \end{flushright}
-\end{minipage}\\[1cm]
+\end{minipage}\\[0.2cm]
 {
 يونيو - 7102
-}\\[0.2cm] 
+}\\[0cm] 
 \vfill % Fill the rest of the page with whitespace
 \end{titlepage}
 
+}
 
 \selectlanguage{arabic}
 
@@ -134,24 +136,24 @@
 \begin{titlepage}
 \center % Center everything on the page
 \includegraphics[scale=0.2]{./figs/aast}\\[0.7cm]
-{\Large \bfseries Arab Academy for Science, Technology and Maritime Transport \\[0.2cm](AAST)}\\[0.6cm]
+{\Large \bfseries Arab Academy for Science, Technology and Maritime Transport \\[0.2cm](AAST)}\\[0.2cm]
 {\large \bfseries College of Computing and Information Technology}\\[0.3cm]
 {\large \bfseries Computer Science Department}\\[0.3cm] 
-\HRule \\[0.3cm]
-{\LARGE \bfseries DNA Sequencing Error Correction Algorithms}\\[0.3cm]
-\HRule \\[0.7cm]
-{\large \bfseries A Thesis}\\[0.3cm]
-{\large \bfseries Submitted in Partial Fulfillment to the Requirements for the}\\[0.3cm]
+\HRule \\[0.2cm]
+{\LARGE \bfseries DNA Sequencing Error Correction Algorithms}\\[0.1cm]
+\HRule \\[0.2cm]
+{\large \bfseries A Thesis}\\[0.2cm]
+{\large \bfseries Submitted in Partial Fulfillment to the Requirements for the}\\[0.2cm]
 {\Large \bfseries Master of Computer Science}\\[0.5cm]
-{\large \bfseries Submitted by:}\\[0.3cm]
+{\large \bfseries Submitted by:}\\[0.2cm]
 {\Large \bfseries Salma Mahmoud Mohamed Gomaa}\\[0.5cm]
-{\large \bfseries Under Supervision of}\\[0.7cm]
+{\large \bfseries Under Supervision of}\\[0.2cm]
 \begin{minipage}{0.45\textwidth}
 \begin{flushleft}
 \center
 {\large \bfseries Prof.Dr.Yasser El-sonbaty}\\
-{Professor of Computer Science}\\
-{Arab Academy for Science and Technology and Maritime Transport}
+{\small Professor of Computer Science}\\
+{\small Arab Academy for Science and Technology and Maritime Transport}
 \end{flushleft}
 \end{minipage}
 ~
@@ -159,13 +161,14 @@
 \begin{flushright}
 \center
 {\large \bfseries Dr.Nahla A. Belal}\\
-{Assistant Professor of Computer Science}\\
-{Arab Academy for Science and Technology and Maritime Transport}
+{\small Assistant Professor of Computer Science}\\
+{\small Arab Academy for Science and Technology and Maritime Transport}
 \end{flushright}
-\end{minipage}\\[1cm]
-{June - 2017}\\[0.2cm] 
+\end{minipage}\\[0.2cm]
+{\small June - 2017}\\[0cm] 
 \vfill % Fill the rest of the page with whitespace
 \end{titlepage}
+
 
 \chapter*{Abstract}
 DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes are mainly depends on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches is being done to enhance these critical factors.
@@ -174,7 +177,7 @@ DNA sequencing is one of the very pivotal research fields in bioinformatics. Mos
 The main targets of the next-generation sequencing technologies are: making the vast analysis of genomes less expensive and more spread, hence, they are able produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. Since, these errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.), the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging.
 \\
 \\ 
-The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads. Both of them aim to have raise the accuracy of the DNA sequencing output within the shortest time compared to the existent algorithms. 
+The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads, where both of them aim to raise the accuracy of the DNA sequencing output within the shortest time compared to the existent algorithms. 
 \\
 \\
 The first proposed algorithm is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
@@ -235,7 +238,7 @@ The first algorithm has the ability to enhance the accuracy, but unfortunately i
 While the second algorithm builds its correction decisions based on RACER \cite{Racer} (an already existent algorithm that handles substitution errors only and will be discussed in details later) with some tuning to handle the insertions and deletions errors. This algorithm has the ability to enhance both the accuracy and the time, as it shows almost the highest accuracy with the shortest time for different datasets in comparison with the existent algorithms specialized in correcting substitution, insertion and deletion errors.
 \\
 \\
-This thesis documentation is organized as follows; illustrating some basics about deoxyribonucleic acid (DNA), deoxyribonucleic acid (DNA) sequencing, next-generation sequencing (NGS), and next-generation sequencing (NGS) errors correction in Chap. \ref{chap:1}, while the  existing methodologies for error correction are demonstrated in Chap. \ref{chap:2}, then the first proposed algorithm is demonstrated and evaluated in Chap. \ref{chap:3}, while the second proposed algorithm is demonstrated in Chap. \ref{chap:4}. In Chap. \ref{chap:5}, a comparison is set between the new methodology of the second proposed algorithm versus the existent ones through experimental data. The conclusion and future work are shown in Chap. \ref{chap:6}.
+This thesis documentation is organized as follows; illustrating some basics about deoxyribonucleic acid (DNA), deoxyribonucleic acid (DNA) sequencing, next-generation sequencing (NGS), and next-generation sequencing (NGS) errors correction in chapter \ref{chap:1}, while the  existing methodologies for error correction are demonstrated in chapter \ref{chap:2}, then the first proposed algorithm is demonstrated and evaluated in chapter \ref{chap:3}, while the second proposed algorithm is demonstrated in chapter \ref{chap:4}. In chapter \ref{chap:5}, a comparison is set between the new methodology of the second proposed algorithm versus the existent ones through experimental data. The conclusion and future work are shown in chapter \ref{chap:6}.
 %
 
 \subsection{Background}
@@ -290,11 +293,11 @@ FASTA format is a text-based format for representing either nucleotide sequences
 	\label{fig:fig5}
 	\caption[caption]{FASTA sample sequences}
 \end{figure}
-Following the initial line (used for a unique description of the sequence) is the actual sequence itself in standard one-letter code. Anything other than a valid code would be ignored (including spaces, tabulators, asterisks, etc...). Originally it was also common to end the sequence with an "*" (asterisk) character as illustrated in Fig. [TODO]. 
+Following the initial line (used for a unique description of the sequence) is the actual sequence itself in standard one-letter code. Anything other than a valid code would be ignored (including spaces, tabulators, asterisks, etc...). Originally it was also common to end the sequence with an "*" (asterisk) character as illustrated below in figure 4. 
 Over time, this format has evolved by consensus; however, in the absence of an explicit standard some parsers will fail to cope with very long ‘\textgreater’ title lines or very long sequences without line wrapping. There is also no standardization for record identifiers.
 
 In the area of DNA sequencing, the FASTQ file format has emerged as another de facto common format for data exchange between tools. It provides a simple extension to the FASTA format: the ability to store a numeric quality score associated with each nucleotide in a sequence. 
-Early FASTQ uses PHRED quality score (which is a measure of the quality of the identification of the nucleobases generated by automated DNA sequencing where it is logarithmically linked to error probabilities as illustrated below in Fig. [TODO]). Storing PHRED scores as single characters (or bytes) gave a simple but reasonably space efficient encoding. In order that the file be human readable and easily edited, this restricted the choices to the ASCII printable characters 32–126 (decimal), and since ASCII 32 is the space character, ASCII 33–126 is used instead to encode PHRED qualities from 0 to 93 (i.e. PHRED scores with an ASCII offset of 33).
+Early FASTQ uses PHRED quality score (which is a measure of the quality of the identification of the nucleobases generated by automated DNA sequencing where it is logarithmically linked to error probabilities as illustrated below in figure 6). Storing PHRED scores as single characters (or bytes) gave a simple but reasonably space efficient encoding. In order that the file be human readable and easily edited, this restricted the choices to the ASCII printable characters 32–126 (decimal), and since ASCII 32 is the space character, ASCII 33–126 is used instead to encode PHRED qualities from 0 to 93 (i.e. PHRED scores with an ASCII offset of 33).
 
 
 \begin{figure}
@@ -349,7 +352,7 @@ As stated above, the field of DNA sequencing technology development has a rich a
 The reads accuracy is a vital factor in all reads processes that can be applied to the output reads. As an example, the assembly of next-generation sequencing reads can not be accomplished successfully until the reads errors are corrected or eliminated. So detecting and correcting (or eliminating) the reads errors is an essential step that should precede the assembly process. This step can be accomplished either by a standalone solution or implicitly within the assembly mechanism. The nucleotide frequency and its quality value are two main factors that are used in evaluating the nucleotide to erroneous or not \cite{ErrCorr}. 
 
 \subsubsection{Correction Concepts and Definitions}
-There are common concepts and definitions used by most of the corrective algorithms. Most of the corrective algorithms generates all the possible sub-sequences (of length k) from a read, which is called \textit{k-mer} fig. [TODO]; while the term k-mer frequency represents the number of repetition of a k-mer (a specific sub-sequence of length k) in all the reads. Some of the corrective algorithms set a threshold for the k-mer frequency while classifying the k-mer into strong and weak ones. The strong k-mers are those k-mers that are repeated all over the reads x times, where x is greater than the preset threshold; while the weak k-mers are those ones that are repeated y times all over the reads, where y is less than the k-mer frequency threshold. The filtration step that works on classifying the k-mers into strong and weak ones is called "Spectrum Alignment". The spectrum alignment depends on the k-mers frequencies and/or the nucleotides quality values.
+There are common concepts and definitions used by most of the corrective algorithms. Most of the corrective algorithms generates all the possible sub-sequences (of length k) from a read, which is called \textit{k-mer} figure 12; while the term k-mer frequency represents the number of repetition of a k-mer (a specific sub-sequence of length k) in all the reads. Some of the corrective algorithms set a threshold for the k-mer frequency while classifying the k-mer into strong and weak ones. The strong k-mers are those k-mers that are repeated all over the reads x times, where x is greater than the preset threshold; while the weak k-mers are those ones that are repeated y times all over the reads, where y is less than the k-mer frequency threshold. The filtration step that works on classifying the k-mers into strong and weak ones is called "Spectrum Alignment". The spectrum alignment depends on the k-mers frequencies and/or the nucleotides quality values.
 \\
 A de Bruijn graph can be constructed for any sequence, short or long. The first step is to choose a k-mer size, and split the original sequence into its k-mer components. Then a directed graph is constructed by connecting pairs of k-mers with overlaps between the first k-1 nucleotides and the last k-1 nucleotides. The direction of arrow goes from the k-mer, whose last k-1 nucleotides are overlapping, to the k-mer, whose first k-1 nucleotides are overlapping\ref{fig:debruijn}.
 \\ 
@@ -394,7 +397,7 @@ And finally the accuracy represents the all over error rate, and it can be calcu
 \section{\label{chap:2}Related Work}
 The error correction methodologies can be either an implicit process within the assembly methodology or a standalone solution that reproduces reads after correction. The assemblers that have embedded error correction are Euler \cite{Euler}, Velvet \cite{Velvet}, AllPaths \cite{AllPaths} and SOAP \cite{Soap}. While the standalone methodologies are Coral \cite{Coral}, Quake \cite{Quake}, Reptile \cite{Reptile}, HSHREC \cite{HShrec}, HiTEC \cite{HiTec}, RACER \cite{Racer}, Pollux \cite{Pollux}, Parallel Error Correction with CUDA \cite{Cuda}, and Error Corrector (EC) \cite{EC}.
 \subsection{Substitution Only Corrective Algorithms}
-They are algorithms that are able to correct only the substitution DNA reads errors, these algorithms are: Euler \cite{Euler}, Velvet \cite{Velvet}, AllPaths \cite{AllPaths}, SOAP \cite{Soap}, Quake \cite{Quake}, Reptile \cite{Reptile}, HiTEC \cite{HiTec}, RACER \cite{Racer}, Parallel Error Correction with CUDA \cite{Cuda}, and Error Corrector (EC) \cite{EC}. TODO- Fig12
+They are algorithms that are able to correct only the substitution DNA reads errors, these algorithms are: Euler \cite{Euler}, Velvet \cite{Velvet}, AllPaths \cite{AllPaths}, SOAP \cite{Soap}, Quake \cite{Quake}, Reptile \cite{Reptile}, HiTEC \cite{HiTec}, RACER \cite{Racer}, Parallel Error Correction with CUDA \cite{Cuda}, and Error Corrector (EC) \cite{EC}. Check figure 14.
 \subsubsection{Euler}
 Euler \cite{Euler} assembly method runs a filtration step called spectrum alignment that aims to classify the k-mers into two categories according to their frequencies all over the reads. Strong k-mers are the ones with high frequencies, while weak k-mers are the ones with lower frequencies. The correction takes place by executing a greedy exploration for base call substitutions aiming to reduce the weak k-mers count.
 \\
@@ -517,7 +520,7 @@ In other words, the steps of Error Corrector (EC) can be broken into three indep
 
 
 \subsection{Substitution, Insertion And Deletion Corrective Algorithms}
-They are algorithms that are able to correct all types of DNA reads errors, these algorithms are: Coral \cite{Coral}, HSHREC \cite{HShrec}, and Pollux \cite{Pollux} TODO- Fig13
+They are algorithms that are able to correct all types of DNA reads errors, these algorithms are: Coral \cite{Coral}, HSHREC \cite{HShrec}, and Pollux \cite{Pollux}. Check figure 15.
 
 \subsubsection{Coral}
 Coral \cite{Coral} is able to correct all types of errors (substitution, insertion and deletion). The methodology is built on scoring the alignments between short reads, where each alignment runs on a base read with all the reads that have at least one common k-mer with this base read. Then the correction takes place for the misaligned positions depending on the number of times each letter occurs in addition to quality scores of the nucleotide.
@@ -586,52 +589,32 @@ Firstly it identifies the individual k-mers as not erroneous, then identifies th
 \end{figure}
 
 \newpage
-\section{The First Proposed Algorithm}
-
+\section{\label{chap:3}The First Proposed Algorithm}
+This algorithm aims to correct all types of errors and to raise the next-generation sequencing output accuracy. It tries to compete in the accomplishment time with the currently existent algorithms specialized in correcting all types of the errors found in the output of the next-generation sequencing, i.e. the substitution erroneous actions, the insertion erroneous actions and the deletion erroneous actions). Also it has the flexibility to run more than a correction iteration, which usually helps in enhancing the accuracy.
 \subsection{Methodology}
-This proposal aims to correct all types of errors
+As stated before, this algorithm aims to correct all types of errors (substitution, insertion and deletion). It mainly depends on k-mers grouping. So, firstly it builds a hash table that maps the k-mer into integer and saves its frequency all over the reads. The hashing algorithm is inverted from Coral \cite{Coral}, where the k-mer and its complement will map to the same integer. Then, it groups k-mer based on having same nucleotides in the same order, with a mutation in the first, middle and last positions. After then, each k-mer group will search for the k-mer with the highest frequency to use it in unifying all of the rest of the group members (k-mers) to make them all have the same nucleotides in the same order of the k-mer with the highest frequency. In case of having more than a k-mer having the same highest frequency within the same group, the algorithm searches for the one with the highest frequency and highest quality value average of its nucleotides, where the quality value of the nucleotide in the k-mer is calculated as the average of the quality value of this nucleotide in the reads that have this k-mer as a subsequent. 
+\\
+\\
+After correcting the k-mer groups with their best k-mer, it checks those k-mers that does not belong to any group and consequently is not corrected yet, and tries to re-group them again but this time based on having same nucleotides in the same order, with a mutation in the three positions of the nucleotides that have lowest three quality values compared to the rest of the nucleotides within the same k-mer. And similarly, each k-mer group will search for the k-mer with the highest frequency to use it in unifying all of the rest of the group members (k-mers) to make them all have the same nucleotides in the same order of the k-mer with the highest frequency (and highest quality value average if needed).
+\\
+\\
+Finally, the algorithm corrects the reads with corrected k-mers, where it decides the corrective action (substitution, insertion and deletion) based on the studying the erroneous nucleotide and its neighbours. After this step, it will repeat the flow again if it was running in iterative mode (set by a given parameter that sets the iterations count).
 
-Hashing the k-mers into integers
-
-Flexible to run more correction iterations
-
-Correction takes place by:
-Grouping k-mers, where only the three nucleotides located at the first, middle and last positions of the read can vary.
-
-Diagnosing each k-mer group, then fixing the misalignment in the three nucleotides based on their occurrences and quality values.
-
-Correction takes place by:
-Re-grouping the k-mers depending on the non-corrected ones, where only the three nucleotides with the lowest quality value in the read can vary.
-
-Diagnosing each k-mer group, then fixing the misalignment in the three nucleotides based on their occurrences and quality values.
-
- 
 \begin{figure}
 	\centering
 	\includegraphics[width=.911\linewidth]{./figs/First-Proposal-1}
 	\label{fig:fig13}
-	\caption[caption]{First Proposal Steps}
+	\caption[caption]{First Proposal Diagram}
 \end{figure}
 
 \subsection{Evaluation}
-For Lactis, the data with smallest size:
-It shows the best accuracy with a very small difference (0.05\%), but with the worst time with a big difference; 1 hr compared to 15, 5, and 3 mins
-
-
-For Pallidum, data with larger size:
-It runs more than 16 hrs compared to 22, 12, and 3 mins; which enforced the interruption of the running without getting the results
-
-For e.Coli, the largest dataset:
-It has been running for a day (24 hrs) without completion; which enforced the interruption of the running without getting the results
-
-This algorithm is mainly dependent on the k-mers grouping
-
-The kmers grouping takes place by generating all of the possible cases of the corrections of every kmer, and here goes the time defect
-
-The main major step of the proposal implies to it's weakness point, which proves that this proposal won't get a better results
+\subsubsection{Datasets and Platform}
+The testing was performed on a wide variety of real data sets, shown below in table \ref{tab:eval1-data}, with different read length, genome size and coverage. It was preferred to use real data sets and to avoid any simulated ones as they do not offer a good indication of real life performance. All data sets were brought from the National Center for Biotechnology Information (NCBI).
+\\
+All algorithms were executed on the same amazon elastic cloud (AWS EC2) instance with 32 vCPU and 244GiB RAM, with Linux (Ubuntu) operating system.
 
 \begin{longtable}{|m{22.5mm}|m{17.5mm}|m{19.5mm}|m{14.5mm}|m{10.5mm}|m{14.5mm}|m{14mm}|}
-	    \caption{\label{tab:eval-data}Data sets used in evaluation} \\
+	    \caption{\label{tab:eval1-data}Data sets used in evaluation} \\
         \hline
         Name & Accession Number & Genome & Genome Length & Read Length & Number of Reads & Coverage\TBstrut\\ % top and bottom struts
         \hline
@@ -645,8 +628,25 @@ The main major step of the proposal implies to it's weakness point, which proves
         \hline
 \end{longtable}
 
+\subsubsection{Results and Discussion}
+The comparisons, shown below in tables \ref{tab:eval1-1}, were established between H-RACER and algorithms specialized in correcting all types of errors (substitutions, insertions, and deletions). While the obtained measurements were brought via the verification code implemented by RACER, that has the advantage of avoiding the interference of mapping or assembling programs. 
+\\\\
+For Lactococcus Lactis, the data with smallest size, the proposed algorithm shows the best accuracy with a very small difference (0.05\%), but with the worst time with a big difference; 1 hr compared to 15, 5, and 3 mins.
+\\
+\\
+While for Treponema Pallidum, data with larger size, the algorithm has been running for more than 16 hrs compared to 22, 12, and 3 mins; which enforced the interruption of the running without getting the results.
+\\
+\\
+For E.coli 75a and E.coli 75b, the largest dataset, the algorithm has been running for a day (24 hrs) without completion; which enforced the interruption of the running without getting the results.
+\\
+\\
+The defect in time of this algorithm caused from the k-mers grouping steps illustrated above in chapter \ref{chap:3}, where the algorithm is mainly dependent on the k-mers grouping, and the kmers grouping takes place by generating all of the possible cases of the corrections of every kmer, and here goes the time defect, as the complexity of the k-mers grouping step in exponential of the k-mers count.
+\\
+\\
+The main major step of the proposal implies to its weakness point, which proves that this proposal will not get a better results, and in practice, some trials were done in order to replace the k-mers grouping and consequently the removal of the exponential complexity but it negatively affects the accuracy.
+
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
-	    \caption{\label{tab:eval-1}Evaluation comparison table for Lactococcus Lactis}\\
+	    \caption{\label{tab:eval1-1}Evaluation comparison table for Lactococcus Lactis}\\
         \hline
            & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
         \hline
@@ -657,17 +657,22 @@ The main major step of the proposal implies to it's weakness point, which proves
 \end{longtable}
 
 \newpage
-\section{\label{sec:3}The Second Proposed Algorithm}
-H-RACER is the newly proposed approach for correcting all types of errors (substitution, insertion, and deletion). Although RACER is the fastest DNA error correction algorithm existent nowadays with a high accuracy, but it can not correct all types of errors, it can only correct substitutions. So, H-RACER is proposed in order to correct all types of errors. H-RACER follows the same algorithm of RACER in detecting errors and deciding their corrections, the newly added part in H-RACER is the detection of the error type in order to apply the correction properly for data sets with varying error types.
+\section{\label{chap:4}The Second Proposed Algorithm}
+The second proposed algorithm (Hybird RACER or H-RACER) is the newly proposed approach for correcting all types of errors (substitution, insertion, and deletion). Although RACER is the fastest DNA error correction algorithm existent nowadays with a high accuracy, but it can not correct all types of errors, it can only correct substitutions. So, H-RACER is proposed in order to correct all types of errors. H-RACER follows the same algorithm of RACER in detecting errors and deciding their corrections, the newly added part in H-RACER is the detection of the error type in order to apply the correction properly for data sets with varying error types.
+\\
 \\
 H-RACER detects the error type for an erroneous nucleotide by studying its correction value (obtained by RACER) against its neighbours, then decides the corrective action (substitute, insert, delete) according to the detected error type.
 Once the error detection and correction stages are done, H-RACER starts applying correction using its own methodology which mainly depends on detecting the error type in order to apply the detected correction with the proper action (substitution, insertion or deletion).
 \\
+\\
 H-RACER starts the error type detection by looping on every nucleotide in the whole reads set, to check if this nucleotide is an erroneous one. For every erroneous nucleotide H-RACER checks the position of this nucleotide in the read not to be the last one in the read (so that there is at least one nucleotide following it) where the follower nucleotide is erroneous too. Then H-RACER starts to examine the erroneous and corrective values for both nucleotides (the current and its follower). H-RACER checks if the correction value of the current erroneous nucleotide is equal to the erroneous value of its follower, so it will be concluded that this current erroneous nucleotide is a result of an insertion erroneous action. Hence, H-RACER applies the correction as a deletion action for this current erroneous nucleotide. But, if it is found that the erroneous value of the current nucleotide is equal to the correction value of its erroneous follower, so it will be concluded that this current erroneous nucleotide is a result of a deletion erroneous action. Hence, H-RACER applies the correction as an insertion action at a position directly before the current erroneous nucleotide with the correction value of it (the current erroneous nucleotide). Otherwise, if there is not any criss-cross equality relation between the erroneous and correction values of the current nucleotide and its erroneous follower (i.e. the correction/erroneous value of the current erroneous nucleotide is not equal to the erroneous/correction value of its follower), then it will be concluded that this current erroneous is a result of a substitution erroneous action. Hence, H-RACER applies the corrective action as a substitution action for the erroneous value of the current nucleotide with its correction value.
+\\
 \\
 On another side, if it is found that the current nucleotide is the last one in the read or its follower nucleotide is not erroneous, then H-RACER will check the position of this nucleotide in the read not to be the first in the read (so that there is at least one nucleotide that precedes it) where the precedent nucleotide is erroneous too. Then H-RACER starts to examine the erroneous and corrective values for both nucleotides (the current and its precedent). H-RACER checks if the correction value of the current erroneous nucleotide is equal to the erroneous value of its precedent, so it will be concluded that this current erroneous nucleotide is a result of an insertion erroneous action. Hence, H-RACER applies the correction as a deletion action for this current erroneous nucleotide. But, if it is found that the erroneous value of the current nucleotide is equal to the correction value of its erroneous precedent, so it will be concluded that this current erroneous nucleotide is a result of a deletion erroneous action. Hence, H-RACER applies the correction as an insertion action at a position directly after the current erroneous nucleotide with the correction value of it (the current erroneous nucleotide). Otherwise, if there is no criss-cross equality relation between the erroneous and correction values of the current nucleotide and its erroneous precedent (i.e. the correction/erroneous value of the current erroneous nucleotide is not equal to the erroneous/correction value of its precedent), then it will be concluded that this current erroneous is a result of a substitution erroneous action. Hence, H-RACER applies the corrective action as a substitution action for the erroneous value of the current nucleotide with its correction value.
 \\
+\\
 Finally, if H-RACER finds that the current nucleotide is either the last or the first in the read, or neither its follower nor precedent nucleotides are erroneous, then it will be concluded that this current erroneous is a result of a substitution erroneous action. Hence, H-RACER applies the corrective action as a substitution action for the erroneous value of the current nucleotide with its correction value.
+\\
 \\
 H-RACER error detection algorithm has a complexity O(\textit{r}), where \textit{r} is the number of reads. For more illustration check the examples shown below in Fig. \ref{fig:1} and Fig. \ref{fig:2}, and the pseudo-code shown in Fig. \ref{fig:3}.
 
@@ -813,7 +818,7 @@ Then,
 \end{figure}
 
 \newpage
-\section{\label{sec:4}Evaluation}
+\section{\label{chap:5}Evaluation}
 \subsection{Datasets and Platform}
 The testing was performed on a wide variety of real data sets, shown below in table \ref{tab:eval-data}, with different read length, genome size and coverage. It was preferred to use real data sets and to avoid any simulated ones as they do not offer a good indication of real life performance. All data sets were brought from the National Center for Biotechnology Information (NCBI).
 \\
@@ -875,7 +880,7 @@ Finally, the remarkable great difference in time between H-RACER and the rest of
            Time in Minutes& 5 & 3 & 15 & 1\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
         \hline
 \end{longtable}
-
+\newpage
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
 	    \caption{\label{tab:eval-2}Evaluation comparison table for Treponema Pallidum}\\
         \hline
@@ -900,7 +905,7 @@ Finally, the remarkable great difference in time between H-RACER and the rest of
            Time in Minutes& 12 & 3 & 22 & 2\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
         \hline
 \end{longtable}
-
+\newpage
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
 	    \caption{\label{tab:eval-3}Evaluation comparison table for E.coli 75a}\\
         \hline
@@ -925,7 +930,7 @@ Finally, the remarkable great difference in time between H-RACER and the rest of
            Time in Minutes& 9 & 16 & N/A & 1\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
         \hline
 \end{longtable}
-
+\newpage
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
         \caption{\label{tab:eval-4}Evaluation comparison table for E.coli 75b}\\
         \hline
@@ -952,20 +957,38 @@ Finally, the remarkable great difference in time between H-RACER and the rest of
 \end{longtable}
 
 \newpage
-\section{\label{sec:5}Conclusion and Future Work}
-H-RACER comes up with the advantage of correcting different error types which were missed in RACER. H-RACER followed in the footsteps of RACER's implementation in order to acquire the major advantages of RACER in both aspects performance and time, then added its elegant algorithm in detecting the errors types and properly applying their corrections. Consequently, H-RACER shows great results in both performance and time compared to existent algorithms specialized in correcting all types of errors for large and small genome lengths. And by comparing H-RACER with existent algorithms specialized in correcting all types of errors, it is proved that H-RACER is the fastest with the highest accuracy algorithm.
+\section{\label{chap:6}Conclusion and Future Work}
+The next-generation sequencing generated too many short reads in a reasonable time, but unfortunately it introduced too many errors with different type (substitution, insertion and deletion), and the accuracy of the reads decreased. But, accuracy of the output reads is a vital and a necessary factor, where the reads processes, applications and projects depends on it and  it is greatly affected by it. Consequently, fixing the errors and raising reads accuracy is an interesting field with many challenges.
 \\
 \\
-As a future work, the main points will be for enhancing the memory usage of H-RACER for long genomes, so as to be able to run long genomes within 244GiB RAM.
-\\
-Also, implementing H-RACER with parallel threads, where both time and memory will be enhanced, especially for long genomes.
-\\
-And finally, get another trial in inventing a new algorithm to group the k-mers in the first algorithm with a reasonable complexity.
-\\
-Finally, H-RACER algorithm has been implemented in C/C++ as an open source program.
+The two proposed algorithms aim to fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads, in order to raise the accuracy of the DNA sequencing output within the shortest time compared to the existent algorithms. 
 \\
 \\
-Available at: https://github.com/salmagomaa/H-RACER \\
+The first proposed algorithm is mainly invented based on k-mers grouping and nucleotide frequencies and quality values. It accomplishes the correction mission properly with a high accuracy for the small dataset, but unfortunately it takes too much long time. Consequently, it is not able to compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
+\\
+\\
+The second proposed algorithm (H-RACER) overcomes the time issue of the first algorithm and also it accomplishes the mission successfully, it is able to raise the next-generation sequencing output accuracy. 
+\\
+\\
+The second proposed algorithm (H-RACER) comes up with the advantage of correcting different error types which were missed in RACER. H-RACER followed in the footsteps of RACER's implementation in order to acquire the major advantages of RACER in both aspects performance and time, then added its elegant algorithm in detecting the errors types and properly applying their corrections. Consequently, H-RACER shows great results in both performance and time compared to existent algorithms specialized in correcting all types of errors for large and small genome lengths. And by comparing H-RACER with existent algorithms specialized in correcting all types of errors, it is proved that H-RACER is the fastest with the highest accuracy algorithm.
+\\
+\\
+As a future work, the main target will be the memory usage enhancement for the second proposed algorithm (H-RACER) for long genomes, so as to be able to run long genomes within 244GiB RAM.
+\\
+\\
+Also, one of the most interesting point to be added into consideration for the future work is implementing H-RACER with parallel threads, where both time and memory will be enhanced, especially for long genomes.
+\\
+\\
+And finally, the first proposed algorithm can get another chance by inventing a new algorithm to group the k-mers in with a reasonable complexity instead of the exponential one.
+\\
+\\
+Finally, both algorithms have been implemented in C/C++ as an open source program.
+\\
+\\
+The first algorithm available at: https://github.com/salmagomaa/DNA-EC/tree/master/4-Best-49g-with-61(Best)
+\\
+\\
+The second algorithm (H-RACER) available at: https://github.com/salmagomaa/H-RACER \\
 and: drive.google.com/open?id=0B7Otgzz7lZlldkE2ZFVwcU5qN1U
 
 \newpage

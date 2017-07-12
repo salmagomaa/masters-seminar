@@ -6,10 +6,18 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {table}{\numberline {\if@rl \I {1}\else \textLR {1}\fi }{\ignorespaces First Proposal - Data sets used in evaluation}}{36}
-\contentsline {table}{\numberline {\if@rl \I {2}\else \textLR {2}\fi }{\ignorespaces First Proposal - Evaluation comparison table for Lactococcus Lactis}}{37}
-\contentsline {table}{\numberline {\if@rl \I {3}\else \textLR {3}\fi }{\ignorespaces Second Proposal - Data sets used in evaluation}}{43}
-\contentsline {table}{\numberline {\if@rl \I {4}\else \textLR {4}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for Lactococcus Lactis}}{46}
-\contentsline {table}{\numberline {\if@rl \I {5}\else \textLR {5}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for Treponema Pallidum}}{47}
-\contentsline {table}{\numberline {\if@rl \I {6}\else \textLR {6}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for E.coli 75a}}{48}
-\contentsline {table}{\numberline {\if@rl \I {7}\else \textLR {7}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for E.coli 75b}}{49}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces First Proposal - Data sets used in evaluation}}{\if@rlmain \I {37}\else \textLR {37}\fi }
+\contentsline {table}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces First Proposal - Evaluation comparison table for Lactococcus Lactis}}{\if@rlmain \I {38}\else \textLR {38}\fi }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces Second Proposal - Data sets used in evaluation}}{\if@rlmain \I {45}\else \textLR {45}\fi }
+\contentsline {table}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for Lactococcus Lactis}}{\if@rlmain \I {49}\else \textLR {49}\fi }
+\contentsline {table}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for Treponema Pallidum}}{\if@rlmain \I {50}\else \textLR {50}\fi }
+\contentsline {table}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for E.coli 75a}}{\if@rlmain \I {51}\else \textLR {51}\fi }
+\contentsline {table}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for E.coli 75b}}{\if@rlmain \I {52}\else \textLR {52}\fi }
+\addvspace {10\p@ }

@@ -41,14 +41,12 @@
 
 % languages
 \let\switcht@@therlang\relax
-\def\ds@deutsch{\def\switcht@@therlang{\switcht@deutsch}}
-\def\ds@francais{\def\switcht@@therlang{\switcht@francais}}
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 
 \ProcessOptions
 
-\LoadClass[twoside]{article}
+\LoadClass[twoside]{book}
 \RequirePackage{multicol} % needed for the list of participants, index
 \RequirePackage{aliascnt}
 
@@ -57,24 +55,6 @@
 \renewcommand\@pnumwidth{2em}
 \renewcommand\@tocrmarg{3.5em}
 %
-\def\@dottedtocline#1#2#3#4#5{%
-  \ifnum #1>\c@tocdepth \else
-    \vskip \z@ \@plus.2\p@
-    {\leftskip #2\relax \rightskip \@tocrmarg \advance\rightskip by 0pt plus 2cm
-               \parfillskip -\rightskip \pretolerance=10000
-     \parindent #2\relax\@afterindenttrue
-     \interlinepenalty\@M
-     \leavevmode
-     \@tempdima #3\relax
-     \advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
-     {#4}\nobreak
-     \leaders\hbox{$\m@th
-        \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
-        mu$}\hfill
-     \nobreak
-     \hb@xt@\@pnumwidth{\hfil\normalfont \normalcolor #5}%
-     \par}%
-  \fi}
 %
 \def\switcht@albion{%
 \def\abstractname{Abstract.}%
@@ -226,16 +206,8 @@
 
 \setcounter{secnumdepth}{2}
 
-\newcounter {chapter}
 \renewcommand\thechapter      {\@arabic\c@chapter}
 
-\newif\if@mainmatter \@mainmattertrue
-\newcommand\frontmatter{\cleardoublepage
-            \@mainmatterfalse\pagenumbering{Roman}}
-\newcommand\mainmatter{\cleardoublepage
-       \@mainmattertrue\pagenumbering{arabic}}
-\newcommand\backmatter{\if@openright\cleardoublepage\else\clearpage\fi
-      \@mainmatterfalse}
 
 \renewcommand\part{\cleardoublepage
                  \thispagestyle{empty}%
@@ -282,11 +254,6 @@
                 \twocolumn
               \fi}
 
-\newcommand\chapter{\clearpage
-                    \thispagestyle{empty}%
-                    \global\@topnum\z@
-                    \@afterindentfalse
-                    \secdef\@chapter\@schapter}
 \def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
                        \if@mainmatter
                          \refstepcounter{chapter}%
@@ -565,34 +532,9 @@ to0pt{\kern0.55\wd0\vrule height0.45\ht0\hss}\box0}}}}
 \@ifnextchar[{\@adcmk}{\@adcmk[3]}%
 }
 
-\def\l@chapter#1#2{\addpenalty{-\@highpenalty}
- \vskip 1.0em plus 1pt \@tempdima 1.5em \begingroup
- \parindent \z@ \rightskip \@tocrmarg
- \advance\rightskip by 0pt plus 2cm
- \parfillskip -\rightskip \pretolerance=10000
- \leavevmode \advance\leftskip\@tempdima \hskip -\leftskip
- {\large\bfseries\boldmath#1}\ifx0#2\hfil\null
- \else
-      \nobreak
-      \leaders\hbox{$\m@th \mkern \@dotsep mu.\mkern
-      \@dotsep mu$}\hfill
-      \nobreak\hbox to\@pnumwidth{\hss #2}%
- \fi\par
- \penalty\@highpenalty \endgroup}
 
-\def\l@title#1#2{\addpenalty{-\@highpenalty}
- \addvspace{8pt plus 1pt}
- \@tempdima \z@
- \begingroup
- \parindent \z@ \rightskip \@tocrmarg
- \advance\rightskip by 0pt plus 2cm
- \parfillskip -\rightskip \pretolerance=10000
- \leavevmode \advance\leftskip\@tempdima \hskip -\leftskip
- #1\nobreak
- \leaders\hbox{$\m@th \mkern \@dotsep mu.\mkern
- \@dotsep mu$}\hfill
- \nobreak\hbox to\@pnumwidth{\hss #2}\par
- \penalty\@highpenalty \endgroup}
+
+
 
 \def\l@author#1#2{\addpenalty{\@highpenalty}
  \@tempdima=15\p@ %\z@
@@ -1165,14 +1107,6 @@ to0pt{\kern0.55\wd0\vrule height0.45\ht0\hss}\box0}}}}
       \item[\hskip\labelsep{##3##1}]{##3##2\@thmcounterend\ }}
       }
 
-\renewenvironment{abstract}{%
-      \list{}{\advance\topsep by0.35cm\relax\small
-      \leftmargin=1cm
-      \labelwidth=\z@
-      \listparindent=\z@
-      \itemindent\listparindent
-      \rightmargin\leftmargin}\item[\hskip\labelsep
-                                    \bfseries\abstractname]}
     {\endlist}
 
 \newdimen\headlineindent             % dimension for space between

@@ -1,0 +1,28 @@
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\select@language {arabic}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\contentsline {figure}{\numberline {\if@rl \I {1}\else \textLR {1}\fi }{\ignorespaces DNA\relax }}{10}
+\contentsline {figure}{\numberline {\if@rl \I {2}\else \textLR {2}\fi }{\ignorespaces DNA scientific analysis\relax }}{11}
+\contentsline {figure}{\numberline {\if@rl \I {3}\else \textLR {3}\fi }{\ignorespaces DNA sequencing\relax }}{12}
+\contentsline {figure}{\numberline {\if@rl \I {4}\else \textLR {4}\fi }{\ignorespaces DNA sequencing - Gene example\relax }}{12}
+\contentsline {figure}{\numberline {\if@rl \I {5}\else \textLR {5}\fi }{\ignorespaces FASTA sample sequences\relax }}{13}
+\contentsline {figure}{\numberline {\if@rl \I {6}\else \textLR {6}\fi }{\ignorespaces Phred quality scores \textit {\textbf {Q}} are defined as a property which is logarithmically related to the base-calling error probabilities \textit {\textbf {P}}\relax }}{14}
+\contentsline {figure}{\numberline {\if@rl \I {7}\else \textLR {7}\fi }{\ignorespaces Phred quality scores are logarithmically linked to error probabilities\relax }}{15}
+\contentsline {figure}{\numberline {\if@rl \I {8}\else \textLR {8}\fi }{\ignorespaces FASTQ VS FASTA\relax }}{15}
+\contentsline {figure}{\numberline {\if@rl \I {9}\else \textLR {9}\fi }{\ignorespaces {Substitution Error} - \textbf {T} has been erroneously substituted with \relax $\@@underline {\hbox {A}}\mathsurround \z@ $\relax \relax }}{17}
+\contentsline {figure}{\numberline {\if@rl \I {10}\else \textLR {10}\fi }{\ignorespaces {Insertion Error} - \relax $\@@underline {\hbox {G}}\mathsurround \z@ $\relax has been erroneously inserted\relax }}{17}
+\contentsline {figure}{\numberline {\if@rl \I {11}\else \textLR {11}\fi }{\ignorespaces {Deletion Error} - \relax $\@@underline {\hbox {T}}\mathsurround \z@ $\relax has been erroneously deleted\relax }}{17}
+\contentsline {figure}{\numberline {\if@rl \I {12}\else \textLR {12}\fi }{\ignorespaces {K-mer} - All the possible sub-sequences (of length k) from a read\relax }}{21}
+\contentsline {figure}{\numberline {\if@rl \I {13}\else \textLR {13}\fi }{\ignorespaces {De Bruijn Graph} - k-mer of length 7\relax }}{21}
+\contentsline {figure}{\numberline {\if@rl \I {14}\else \textLR {14}\fi }{\ignorespaces An illustrative summary for the substitution only corrective algorithms\relax }}{28}
+\contentsline {figure}{\numberline {\if@rl \I {15}\else \textLR {15}\fi }{\ignorespaces An illustrative summary for the substitution, insertion and deletion corrective algorithms\relax }}{33}
+\contentsline {figure}{\numberline {\if@rl \I {16}\else \textLR {16}\fi }{\ignorespaces First Proposal Diagram\relax }}{35}
+\contentsline {figure}{\numberline {\if@rl \I {17}\else \textLR {17}\fi }{\ignorespaces H-RACER Error Type Detection Examples\relax }}{41}
+\contentsline {figure}{\numberline {\if@rl \I {18}\else \textLR {18}\fi }{\ignorespaces H-RACER Error Type Detection Abstraction\relax }}{41}
+\contentsline {figure}{\numberline {\if@rl \I {19}\else \textLR {19}\fi }{\ignorespaces H-Racer Flow Chart\relax }}{42}
+\contentsline {figure}{\numberline {\if@rl \I {20}\else \textLR {20}\fi }{\ignorespaces H-RACER Pseudo-Code - O(\textit {r})\relax }}{42}

@@ -7,17 +7,20 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces First Proposal - Data sets used in evaluation}}{\if@rlmain \I {37}\else \textLR {37}\fi }
-\contentsline {table}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces First Proposal - Evaluation comparison table for Lactococcus Lactis}}{\if@rlmain \I {38}\else \textLR {38}\fi }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces Second Proposal - Data sets used in evaluation}}{\if@rlmain \I {45}\else \textLR {45}\fi }
-\contentsline {table}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for Lactococcus Lactis}}{\if@rlmain \I {49}\else \textLR {49}\fi }
-\contentsline {table}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for Treponema Pallidum}}{\if@rlmain \I {50}\else \textLR {50}\fi }
-\contentsline {table}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for E.coli 75a}}{\if@rlmain \I {51}\else \textLR {51}\fi }
-\contentsline {table}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces Second Proposal - Evaluation comparison table for E.coli 75b}}{\if@rlmain \I {52}\else \textLR {52}\fi }
+\contentsline {table}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces Datasets used in evaluation}}{\if@rlmain \I {55}\else \textLR {55}\fi }
+\contentsline {table}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces KGEC - Evaluation comparison table for Lactococcus Lactis}}{\if@rlmain \I {56}\else \textLR {56}\fi }
+\contentsline {table}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces H-RACER - Evaluation comparison table for Lactococcus Lactis}}{\if@rlmain \I {59}\else \textLR {59}\fi }
+\contentsline {table}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces H-RACER - Evaluation comparison table for Treponema Pallidum}}{\if@rlmain \I {60}\else \textLR {60}\fi }
+\contentsline {table}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces H-RACER - Evaluation comparison table for E.coli 75a}}{\if@rlmain \I {61}\else \textLR {61}\fi }
+\contentsline {table}{\numberline {\if@rl \I {6.6}\else \textLR {6.6}\fi }{\ignorespaces H-RACER - Evaluation comparison table for E.coli 75b}}{\if@rlmain \I {62}\else \textLR {62}\fi }
 \addvspace {10\p@ }

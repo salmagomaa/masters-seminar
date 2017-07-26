@@ -49,8 +49,8 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {\textLR {6}}\bgroup \beginL \latintext Experimental Results\endL \egroup }{\if@rlmain \I {53}\else \textLR {53}\fi }
 \contentsline {section}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }Datasets and Platform}{\if@rlmain \I {53}\else \textLR {53}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }Results}{\if@rlmain \I {55}\else \textLR {55}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }K-mer Grouping Error Correction Algorithm}{\if@rlmain \I {55}\else \textLR {55}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }Results}{\if@rlmain \I {54}\else \textLR {54}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }K-mer Grouping Error Correction Algorithm}{\if@rlmain \I {54}\else \textLR {54}\fi }
 \contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }H-RACER Algorithm}{\if@rlmain \I {56}\else \textLR {56}\fi }
 \select@language {english}
 \contentsline {chapter}{\numberline {\textLR {7}}\bgroup \beginL \latintext Conclusion and Future Work\endL \egroup }{\if@rlmain \I {63}\else \textLR {63}\fi }

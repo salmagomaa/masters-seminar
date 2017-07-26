@@ -43,8 +43,15 @@
     {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{2pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{0pt}{4pt}
 
+\makeatletter
+\newcommand*{\centerfloat}{%
+  \parindent \z@
+  \leftskip \z@ \@plus 1fil \@minus \textwidth
+  \rightskip\leftskip
+  \parfillskip \z@skip}
+\makeatother
 %ABBREVIATIONS
-\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \dotfill}}
+\newcommand{\abbrlabel}[1]{\makebox[4cm][l]{\textbf{#1}\ \dotfill}}
 \newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
 
 \begin{document}
@@ -252,12 +259,29 @@ June - 2017
 \\
 \begin{abbreviations}
 \item[AWS EC2] Amazon Elastic Cloud
+\item[Coral] Correction with Alignments
+\item[CUDA] Compute Unified Device Architecture
 \item[DNA] Deoxyribonucleic Acid
+\item[EC] Error Corrector
 \item[FN] False Negative
 \item[FP] False Positive
+\item[HiTEC] High Throughput Error Correction
+\item[HSHREC] Hybird Short Read Error Correction
 \item[H-RACER] Hybird RACER
 \item[KGEC] K-mer Grouping Error Correction
 \item[NGS] Next-generation Sequencing
+\item[Pollux] Platform Independent Error Correction of 
+
+\noindent\hspace{3.6cm}Single and Mixed Genomes
+\item[Quake] Quality-aware Detection and Correction of 
+
+\noindent\hspace{3.6cm}Sequencing Errors
+\item[RACER] Rapid and Accurate Correction of Errors in 
+
+\noindent\hspace{3.6cm}Reads
+\item[Reptile] Representative Tiling for Short Read Error
+
+\noindent\hspace{3.6cm}Correction
 \item[TN] True Negative
 \item[TP] True Positive
 \end{abbreviations}
@@ -327,8 +351,8 @@ Over the past years, massively parallel DNA sequencing platforms have become wid
 \end{figure}
 
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/NGS-2}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/NGS-2}
 	\caption{\label{fig:fig-NGS-2}DNA sequencing - Gene example}
 \end{figure}
 
@@ -336,8 +360,8 @@ Over the past years, massively parallel DNA sequencing platforms have become wid
 One of the core issues of Bioinformatics is dealing with a file formats. Some ad hoc simple human readable formats have over time attained the status of de facto standards. A ubiquitous example of this is the ‘FASTA sequence file format’, originally invented by Bill Pearson as an input format for his FASTA suite of tools.
 FASTA format is a text-based format for representing either nucleotide sequences, in which nucleotides are represented using single-letter codes. FASTA format allows for sequence names and comments to precede the sequences. As illustrated in Fig. \ref{fig:fig-NGS-5}, the first line in a FASTA file starts either with a ``\textgreater" (greater-than) symbol or, less frequently, a ``;" (semicolon) and was taken as a comment. Subsequent lines starting with a semicolon would be ignored by software. Since the only comment used was the first, it quickly became used to hold a summary description of the sequence, often starting with a unique library accession number, and with time it has become commonplace use to always use ``\textgreater" for the first line and to not use ``;" comments (which would otherwise be ignored) \cite{fasta-fastq1}.
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/NGS-5}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/NGS-5}
 	\caption{\label{fig:fig-NGS-5}FASTA sample sequences}
 \end{figure}
 Following the initial line (used for a unique description of the sequence) is the actual sequence itself in standard one-letter code. Anything other than a valid code would be ignored (including spaces, tabulators, asterisks, etc...). Originally it was also common to end the sequence with an ``*" (asterisk) character. 
@@ -354,14 +378,14 @@ Early FASTQ uses PHRED quality score \cite{fasta-fastq0} (which is a measure of 
 	\textit{\textbf{Q}} are defined as a property which is logarithmically related to the base-calling error probabilities \textit{\textbf{P}}}
 \end{figure}
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/NGS-4}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/NGS-4}
 	\caption{\label{fig:fig-NGS-4}Phred quality scores are logarithmically linked to error probabilities}
 \end{figure}
 
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/NGS-6}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/NGS-6}
 	\caption{\label{fig:fig-NGS-6}FASTQ VS FASTA}
 \end{figure}
 
@@ -370,20 +394,20 @@ Early FASTQ uses PHRED quality score \cite{fasta-fastq0} (which is a measure of 
 As stated above, the field of DNA sequencing technology development has a rich and diverse history. Over the past years, the incentive for developing entirely new strategies for DNA sequencing has emerged on at least four levels, undeniably reinvigorating this field\cite{NGS,NGS1}. First, in the wake of the Human Genome Project, there are few remaining avenues of optimization through which significant reductions in the cost of conventional DNA sequencing can be achieved. Second, the potential utility of short-read sequencing has been tremendously strengthened by the availability of whole genome assemblies for all major model organisms, as these effectively provide a reference against which short reads can be mapped. Third, a growing variety of molecular methods have been developed, whereby a broad range of biological phenomena can be assessed by high-throughput DNA sequencing. And fourth, general progress in technology across disparate fields, including microscopy, surface chemistry, nucleotide biochemistry, polymerase engineering, computation, data storage and others, have made alternative strategies for DNA sequencing increasingly practical to realize. Next-generation DNA sequencing has the potential to dramatically accelerate biological and biomedical research, by enabling the comprehensive analysis of genomes to become inexpensive, routine and widespread, rather than requiring significant production-scale efforts. Since the next-generation sequencing aims to make the vast analysis of genomes less expensive and more spread, it works on enhancing the sequencing time, where too many reads can be generated in a very efficient time. Consequently, it negatively affects the read length and also the sequences accuracy \cite{NGS2}. Actually the next-generation sequencing raises two critical issues, where the first issue is that the read length becomes much shorter than the conventional sequencing, while the second issue is the decrement of the accuracy, where each erroneous nucleotide can be introduced to the read sequence via any of the erroneous actions. There are three erroneous actions are substitution, insertion and deletion illustrated in Fig. \ref{fig:fig-ErrCrr-1}, \ref{fig:fig-ErrCrr-2}, and \ref{fig:fig-ErrCrr-3} respectively. The substitution takes place when the nucleotide is replaced with another erroneous one, while the insertion is when an erroneous nucleotide is newly inserted to the read sequence, and finally the deletion results due to the deletion of a nucleotide from the sequence.
 
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/ErrCrr-1}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/ErrCrr-1}
 	\caption{\label{fig:fig-ErrCrr-1}{Substitution Error} - \textbf{T} has been erroneously substituted with \underline{A}}
 \end{figure}
 \vspace{2cm}
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/ErrCrr-2}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/ErrCrr-2}
 	\caption{\label{fig:fig-ErrCrr-2}{Insertion Error} - \underline{G} has been erroneously inserted}
 \end{figure}
 \vspace{2cm}
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/ErrCrr-3}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/ErrCrr-3}
 	\caption{\label{fig:fig-ErrCrr-3}{Deletion Error} - \underline{T} has been erroneously deleted}
 \end{figure}
 
@@ -429,14 +453,14 @@ And finally the accuracy represents the all over error rate, and it is calculate
 
 \newpage
 \begin{figure}
-	\centering
+	\centerfloat
 	\includegraphics[width=.3\linewidth]{./figs/CrrConcepts-1}
 	\caption{\label{fig:fig-CrrConcepts-1}{K-mer} - All the possible sub-sequences (of length k) from a read}
 \end{figure}
 \vspace{2cm}
 \begin{figure}
-	\centering
-	\includegraphics[width=.8\linewidth]{./figs/CrrConcepts-2}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/CrrConcepts-2}
 	\caption{\label{fig:fig-CrrConcepts-2}{De Bruijn Graph} - k-mer of length 7}
 \end{figure}
 %
@@ -476,7 +500,7 @@ AllPaths \cite{AllPaths} uses a read-correcting preprocessor related to the spec
 SOAP \cite{Soap} filters and corrects reads using pre-set thresholds for k-mer frequencies. It removes bubbles with an algorithm like Velvet's tour bus, with higher read coverage determining the surviving path (read).
 
 \subsection{Quake}
-Quake \cite{Quake} determines a cut-off value which separates trusted k-mers from untrusted k-mers, using the distribution of k-mers based on their quality scores. The intersection of the untrusted k-mers is used to localize the search for an error in a read. Quake tries to evaluate the conditional probability of assigning the actual nucleotides of the sequenced fragment, given the observed nucleotides.
+Quality-aware Detection and Correction of Sequencing Errors (Quake) \cite{Quake} determines a cut-off value which separates trusted k-mers from untrusted k-mers, using the distribution of k-mers based on their quality scores. The intersection of the untrusted k-mers is used to localize the search for an error in a read. Quake tries to evaluate the conditional probability of assigning the actual nucleotides of the sequenced fragment, given the observed nucleotides.
 \\
 It relies on k-mer coverage and quality scores to correct reads, as it uses a method of evaluating the quality of a k-mer based on the associated quality scores for each base. 
 \\
@@ -495,7 +519,7 @@ Quake has some heuristics, like ambiguous true correction, where the repeats imp
 \\
 Quake stops correcting if the region is filled with low quality scores, where the reads with a region containing $\geq$ 13 positions with a probability of error $>$ 1\% are not corrected. And the reads with regions containing $\geq$ 9 positions with a probability of error $>$ 1\%, the likelihood ratio threshold is increased to $10^{-3}$.
 \subsection{Reptile}
-Reptile \cite{Reptile} uses the spectral alignment approach used in Euler, with the quality score information if available. Trying to create approximate multiple alignments by considering all reads with pairwise hamming distance less than a pre-set threshold. 
+Representative Tiling for Short Read Error Correction (Reptile) \cite{Reptile} uses the spectral alignment approach used in Euler, with the quality score information if available. Trying to create approximate multiple alignments by considering all reads with pairwise hamming distance less than a pre-set threshold. 
 \\
 \\
 Reptile considers all reads with pairwise Hamming distance less than a set threshold, where it finds the multiple alignments by only aligning k-mers in the reads. Actually, it chooses the size of k so that the expected number of occurrences of any k-mer in the genome should be no more than one. And it uses contextual information to help resolve errors without increasing k.
@@ -551,7 +575,7 @@ One more significant advantage of RACER is that it is able to correct datasets t
  
 
 \subsection{Parallel Error Correction with CUDA}
-Parallel Error Correction with CUDA (Compute Unified Device Architecture) \cite{Cuda} uses the spectrum alignment besides a voting algorithm for the single-mutation using each letter, hence errors can be fixed based on high values in the voting matrix.
+Parallel Error Correction with Compute Unified Device Architecture (CUDA) \cite{Cuda} uses the spectrum alignment besides a voting algorithm for the single-mutation using each letter, hence errors can be fixed based on high values in the voting matrix.
 \\
 \\
 CUDA (Compute Unified Device Architecture) is an extension of C/C++ to write scalable multi-threaded programs for CUDA-enabled GPUs, where CUDA programs can be executed on GPUs with NVIDIA’s Tesla unified computing architecture, while CUDA programs contain a sequential part, called a kernel.
@@ -565,8 +589,8 @@ Error Corrector (EC) \cite{EC} an error correction algorithm for correcting shor
 In other words, the steps of Error Corrector (EC) can be broken into three independent tasks. At first it builds k-mers and hashes the k-mers into hash tables. After then, by using these hash tables it finds the neighbours of each of the reads. And finally, each read is then corrected using the neighbours of the read.
 
 \begin{figure}
-	\centering
-	\includegraphics[width=.951\linewidth]{./figs/RW-1}
+	\centerfloat
+	\includegraphics[width=1.35\linewidth]{./figs/RW-1}
 	\caption{\label{fig:fig-RW-1}An illustrative summary for the substitution only corrective algorithms}
 \end{figure}
 
@@ -575,7 +599,7 @@ In other words, the steps of Error Corrector (EC) can be broken into three indep
 They are algorithms that are able to correct all types of DNA reads errors, these algorithms are: Coral \cite{Coral}, HSHREC \cite{HShrec}, and Pollux \cite{Pollux}. Check Fig. \ref{fig:fig-RW-2}
 
 \subsection{Coral}
-Coral \cite{Coral} is able to correct all types of errors (substitution, insertion and deletion). The methodology is built on scoring the alignments between short reads, where each alignment runs on a base read with all the reads that have at least one common k-mer with this base read. Then the correction takes place for the misaligned positions depending on the number of times each letter occurs in addition to quality scores of the nucleotide.
+Correction with Alignments (Coral) \cite{Coral} is able to correct all types of errors (substitution, insertion and deletion). The methodology is built on scoring the alignments between short reads, where each alignment runs on a base read with all the reads that have at least one common k-mer with this base read. Then the correction takes place for the misaligned positions depending on the number of times each letter occurs in addition to quality scores of the nucleotide.
 \\
 Coral uses multiple sequence alignments (MSA) \cite{coral-alignment} between short reads to detect errors, where the calculates the gap penalty and mismatch penalty (parameters for scoring the alignments) have a significant impact on the quality of the corrections. 
 \\
@@ -603,7 +627,7 @@ The complexity of Coral is illustrated as follow (assuming that where M is the c
 \end{itemize}
 
 \subsection{HSHREC}
-HSHREC \cite{HShrec} is able to correct all types of errors (substitution, insertion and deletion). The methodology depends on the alignment of a read with others using a suffix trie, where the edges are labelled with DNA letters and a node weight is the number of leaves in the sub-trie rooted at that node. On the down levels, a node with more than one child is considered to have a substitution error, while extra branching in the generalized suffix trie is caused by insertion and deletion erroneous actions.
+Hybird Short Read Error Correction (HSHREC) \cite{HShrec} is able to correct all types of errors (substitution, insertion and deletion). The methodology depends on the alignment of a read with others using a suffix trie, where the edges are labelled with DNA letters and a node weight is the number of leaves in the sub-trie rooted at that node. On the down levels, a node with more than one child is considered to have a substitution error, while extra branching in the generalized suffix trie is caused by insertion and deletion erroneous actions.
 \\
 \\
 SHREC was designed to correct substitution errors, and HSHREC is able to correct both substitution errors and insertion and deletion erroneous actions.
@@ -625,7 +649,7 @@ So, HSHREC algorithm traverses the trie to identify errors at the intermediate l
 In SHREC, it compares the subtrie rooted at the low weight node to the subtries rooted at the siblings of the node, while the insertion and deletion erroneous actions cause extra branching in the generalized suffix trie. The insertion erroneous action creates a low weight node, so the deletion corrective action of the node causes the children rooted at the node and their siblings to be merged. And a comparison of the subtries before and after the deletion determine if the deletion is a proper way to correct the node or not. 
 
 \subsection{Pollux}
-Pollux \cite{Pollux} calculates the k-mer frequencies in the entire set of reads. Identifying the discontinuities by comparing the frequencies of adjacent k-mers within reads, assuming that individual k-mers are not erroneous. The discontinuities within reads are used to find error locations and evaluate correctness. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity.
+Platform Independent Error Correction of Single and Mixed Genomes (Pollux) \cite{Pollux} calculates the k-mer frequencies in the entire set of reads. Identifying the discontinuities by comparing the frequencies of adjacent k-mers within reads, assuming that individual k-mers are not erroneous. The discontinuities within reads are used to find error locations and evaluate correctness. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity.
 \\
 \\
 Pollux decomposes each read into k-mers and then calculates the k-mer frequencies in the entire set of reads. The nucleotide is represented with a two-bit alphabet and a hash-table strategy is used to help in using large k-mers (with length 31) to avoid common short repeats which might otherwise confound the correction procedure.
@@ -634,8 +658,8 @@ Pollux decomposes each read into k-mers and then calculates the k-mer frequencie
 Firstly it identifies the individual k-mers as not erroneous, then identifies the discontinuities by comparing the frequencies of adjacent k-mers within reads. The discontinuities within reads are used to find error locations and evaluate correctness. A read that is not erroneous is assumed to have a k-mer count profile that is reflective of a random sampling process, given local coverage. In contrast, a read that contains an error is likely to have k-mer counts that deviate unexpectedly from this random process. Evaluating multiple k-mers containing bases following the erroneous base to ensure our correction is appropriate. The correction is chosen to be the one that removes or minimizes the k-mer count discontinuity. If there exist multiple corrections which achieve this, the correction is chosen to be the one that improves the most k-mer counts maximally beyond the current erroneous location. Pollux corrects each read independently and does not update recorded k-mer counts as a result of correction.
  
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/RW-2}
+	\centerfloat
+	\includegraphics[width=1\linewidth]{./figs/RW-2}
 	\caption{\label{fig:fig-RW-2}An illustrative summary for the substitution, insertion and deletion corrective algorithms}
 \end{figure}
 
@@ -888,8 +912,8 @@ End For
 \end{figure}
 
 \begin{figure}
-	\centering
-	\includegraphics[width=.911\linewidth]{./figs/First-Proposal-1}
+	\centerfloat
+	\includegraphics[width=1.6\linewidth]{./figs/First-Proposal-1}
 	\caption{\label{fig:fig-First-Proposal-1}KGEC Diagram}
 \end{figure}
 
@@ -996,7 +1020,7 @@ Then,
 \end{figure}
 
 \begin{figure}
-	\centering
+	\centerfloat
 	\includegraphics[width=1.3\linewidth]{./figs/Second-Proposal-1}
 	\caption{\label{fig:fig-Second-Proposal-1}H-Racer Flow Chart}
 \end{figure}
@@ -1071,7 +1095,7 @@ About ``E.coli 75a", it is a little bit larger dataset with the smallest coverag
 All datasets were brought from the National Center for Biotechnology Information (NCBI).
 \\
 All algorithms were executed on the same amazon elastic cloud (AWS EC2) instance with 32 vCPU and 244GiB RAM, with Linux (Ubuntu) operating system.
-\newpage
+
 \begin{longtable}{|m{22mm}|m{21mm}|m{23mm}|m{16.5mm}|m{12mm}|m{17mm}|m{16mm}|}
 	    \caption{\label{tab:eval-data}Datasets used in evaluation} \\
         \hline

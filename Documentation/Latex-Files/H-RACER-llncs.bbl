@@ -46,6 +46,12 @@ Salmela, L., Schröder, J.: Correcting errors in short reads by multiple
 Shendure, J., Ji, H.: Next-generation dna sequencing. Nat Biotechnol.  26,
   1135--1145 (2008)
 
+\bibitem{NGS1}
+Dalca, A.V. and Brudno, M.: Genome variation discovery with high-throughput sequencing data. Briefings in bioinformatics, 11(1), pp.3-14 (2010)
+
+\bibitem{NGS2}
+Scholz, M.B., Lo, C.C. and Chain, P.S.: Next generation sequencing and bioinformatic bottlenecks: the current state of metagenomic data analysis. Current opinion in biotechnology, 23(1), pp.9-15 (2012)
+
 \bibitem{Cuda}
 Shi, H., Schmidt, B., Liu, W., et~al.: A parallel algorithm for error
   correction in high throughput short-read data on cuda-enabled graphics
@@ -54,6 +60,9 @@ Shi, H., Schmidt, B., Liu, W., et~al.: A parallel algorithm for error
 \bibitem{ErrCorr}
 Yang, X., Chockalingam, S., Aluru, S.: A survey of error-correction methods for
   next-generation sequencing. Brief. Bioinform.  14,  56--66 (2013)
+
+\bibitem{ErrCorr1}
+Pop, M.: Genome assembly reborn: recent computational challenges. Briefings in bioinformatics, 10(4), pp.354-366 (2009)
 
 \bibitem{Reptile}
 Yang, X., Dorman, K., Aluru, S.: Reptile: representative tiling for short read
@@ -69,6 +78,15 @@ https://ghr.nlm.nih.gov/primer/basics/dna
 \bibitem{DNA2}
 https://arstechnica.com/science/2017/03/new-technique-efficiently-stores-error-resistant-data-in-dna/
 
+\bibitem{DNA3}
+Khan FA.: Biotechnology fundamentals. CRC Press 20.10 (2011)
+
+\bibitem{DNA4}
+Venter, J.C., Adams, M.D., et al.: The sequence of the human genome. science, 291(5507), pp.1304-1351 (2001)
+
+\bibitem{DNA5}
+Watson, J.D. and Crick, F.H.: The structure of DNA. In Cold Spring Harbor symposia on quantitative biology (Vol. 18, pp. 123-131). Cold Spring Harbor Laboratory Press (1953)
+
 \bibitem{seq1}
 Shendure, Jay, and Hanlee Ji. : Next-generation DNA sequencing. Nature biotechnology 26.10, 1135--1145 (2008)
 
@@ -79,14 +97,46 @@ Behjati S, Tarpey PS.: What is next generation sequencing? Archives of Disease i
 \bibitem{seq3}
 https://www.genome.gov/25019999/understanding-bioinformatics-and-sequencing/
 
+\bibitem{fasta-fastq0}
+Patel, R.K. and Jain, M.: NGS QC Toolkit: a toolkit for quality control of next generation sequencing data. PloS one, 7(2), p.e30619 (2012)
+
 \bibitem{fasta-fastq1}
 Prasad, Veeram Venkata Siva, and Gunisetti Loshma: HPC-MAQ: a parallel short-read reference assembler. CCSEA 2011 2011: 84 (2011)
 
-\bibitem{fasta-fastq1}
+\bibitem{fasta-fastq2}
 Peter J. A. Cock, Christopher J. Fields, Naohisa Goto, Michael L. Heuer, Peter M. Rice: The Sanger FASTQ file format for sequences with quality scores, and the Solexa/Illumina FASTQ variants. Nucleic Acids Res 38 (6): 1767--1771 (2010)
 
 \bibitem{deBruijn}
 Baker, Joel; De Bruijn graphs and their applications to fault tolerant networks (2011)
 
+\bibitem{deBruijn1}
+Li, Y., Kamousi, P., Han, F., et al.: Memory efficient de Bruijn graph construction. arXiv preprint arXiv:1207.3532 (2012)
+
+\bibitem{SNP1}
+Berger J, Suzuki T, Senti KA, Stubbs J, Schaffner G, et al.: Genetic mapping with SNP markers in Drosophila. Nat Genet 29: 475–481.J. BergerT. SuzukiKA SentiJ. StubbsG. Schaffner2001Genetic mapping with SNP markers in Drosophila.Nat Genet29475481 (2001)
+
+\bibitem{SNP2}
+Wicks SR, Yeh RT, Gish WR, Waterston RH, Plasterk RH: Rapid gene mapping in Caenorhabditis elegans using a high density polymorphism map. Nat Genet 28: 160–164.SR WicksRT YehWR GishRH WaterstonRH Plasterk2001Rapid gene mapping in Caenorhabditis elegans using a high density polymorphism map.Nat Genet28160164 (2001)
+
+\bibitem{SNP3}
+Baird, N.A., Etter, P.D., Atwood, T.S., et al.: Rapid SNP discovery and genetic mapping using sequenced RAD markers. PloS one, 3(10), p.e3376 (2008)
+
+\bibitem{coverage}
+Sims, D., Sudbery, I., Ilott, N.E., Heger, A. and Ponting, C.P.: Sequencing depth and coverage: key considerations in genomic analyses. Nature Reviews Genetics, 15(2), pp.121-132 (2014)
+
+\bibitem{alignment}
+Li, H. and Homer, N.: A survey of sequence alignment algorithms for next-generation sequencing. Briefings in bioinformatics, 11(5), pp.473-483 (2010)
+
+\bibitem{assembly}
+Pop, M.: Genome assembly reborn: recent computational challenges. Briefings in bioinformatics, 10(4), pp.354-366 (2009)
+
+\bibitem{assembly1}
+Pevzner, P.A., Tang, H. and Waterman, M.S.: A new approach to fragment assembly in DNA sequencing. In Proceedings of the fifth annual international conference on Computational biology (pp. 256-267). ACM (2001)
+
+\bibitem{coral-alignment}
+Needleman S.B.,  Wunsch C.D.: A general method applicable to the search for similarities in the amino acid sequence of two proteins. J. Mol. Biol. , vol. 48 (pg. 443-453) (1970)
+
+\bibitem{analysis}
+Zhu, W., Zeng, N. and Wang, N.: Sensitivity, specificity, accuracy, associated confidence interval and ROC analysis with practical SAS implementations. NESUG proceedings: health care and life sciences, Baltimore, Maryland, 19 (2010)
 
 \end{thebibliography}

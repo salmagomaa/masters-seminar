@@ -680,6 +680,92 @@ Check the pseudo-code illustrated in Fig. \ref{fig:fig-KGEC-ALG}, and the digram
 \\
 Finally, the algorithm corrects the reads with corrected k-mers, where it decides the corrective action (substitution, insertion and deletion) based on the studying the erroneous nucleotide and its neighbours (similarly to H-RACER correction action procedure, so it will be explained in details in the following chapter). After this step, it will repeat the flow again if it was running in iterative mode (set by a given parameter that sets the iterations count).
 
+\begin{figure}
+\vspace{0cm}
+\begin{bordered}
+\begin{enumerate}
+	\item \underline{Extracted K-mers with Frequencies}
+	\begin{enumerate}
+		\item CCGTAAT - Freq. = 9
+		\item CGCTACT - Freq. = 13
+		\item GTACGGT - Freq. = 8
+		\item AGCTACT - Freq. = 4
+		\item GTCCTGT - Freq. = 3
+		\item ACGTAAT - Freq. = 2
+		\item GGCCACT - Freq. = 2
+		\item GGCCTAA - Freq. = 1
+		\item TGCCACC - Freq. = 3
+	\end{enumerate}
+	\item \underline{K-mers Grouping (\textit{0, (k-1)/2, k})}
+	  \begin{enumerate}
+		\item \underline{CCGTAAT} \hspace{1.8ex}- Freq. = 9
+		\item \textbf{CGCTACT} - Freq. = 13
+		\item GTACGGT \hspace{1.8ex}- Freq. = 8
+		\item \textbf{AGCTACT} - Freq. = 4
+		\item GTCCTGT \hspace{1.8ex}- Freq. = 3
+		\item \underline{ACGTAAT} \hspace{1.8ex}- Freq. = 2
+		\item \textbf{GGCCACT} - Freq. = 2
+		\item GGCCTAA \hspace{1.8ex}- Freq. = 1
+		\item \textbf{TGCCACC} - Freq. = 3
+	  \end{enumerate}
+	  Hence, there are two groups formed:
+	\begin{itemize}
+	  \item 
+	  \begin{enumerate}
+		\item \underline{C}\textbf{CG}\underline{T}\textbf{AA}\underline{T} - Freq. = 9
+		\item \underline{A}\textbf{CG}\underline{T}\textbf{AA}\underline{T} - Freq. = 2
+	  \end{enumerate}
+	\end{itemize}
+	\begin{itemize}
+	  \item 
+	  \begin{enumerate}
+		\item \underline{C}\textbf{GC}\underline{T}\textbf{AC}\underline{T} - Freq. = 13
+		\item \underline{A}\textbf{GC}\underline{T}\textbf{AC}\underline{T} - Freq. = 4
+		\item \underline{G}\textbf{GC}\underline{C}\textbf{AC}\underline{T} - Freq. = 2
+		\item \underline{T}\textbf{GC}\underline{C}\textbf{AC}\underline{C} - Freq. = 3
+	  \end{enumerate}
+	\end{itemize}
+	While the remaining with no group are:
+	\begin{itemize}
+		\item GTACGGT - Freq. = 8
+		\item GTCCTGT - Freq. = 3
+		\item GGCCTAA - Freq. = 1
+	\end{itemize}
+	\item \underline{Correcting K-mer Groups}
+     \begin{itemize}
+	  \item Corrective: \underline{C}\textbf{CG}\underline{T}\textbf{AA}\underline{T} - \textbf{Freq. = 9}
+	  \begin{enumerate}
+		\item \underline{A}\textbf{CG}\underline{T}\textbf{AA}\underline{T} - Freq. = 2
+	  \end{enumerate}
+	\end{itemize}
+	\begin{itemize}
+	  \item Corrective: \underline{C}\textbf{GC}\underline{T}\textbf{AC}\underline{T} - \textbf{Freq. = 13}
+	  \begin{enumerate}
+		\item \underline{A}\textbf{GC}\underline{T}\textbf{AC}\underline{T} - Freq. = 4
+		\item \underline{G}\textbf{GC}\underline{C}\textbf{AC}\underline{T} - Freq. = 2
+		\item \underline{T}\textbf{GC}\underline{C}\textbf{AC}\underline{C} - Freq. = 3
+	  \end{enumerate}
+	\end{itemize}
+	\item \underline{K-mers (\textit{weakest 3 nucleotides})}
+	\begin{itemize}
+		\item 
+	Hence, one group is formed \textit{assuming weakest 3 nucleotides of GTACGGT are the three middles}
+		\begin{enumerate}
+		\item GT\underline{A}\underline{C}\underline{G}GT - \textbf{Freq. = 8}
+		\item GT\underline{C}\underline{C}\underline{T}GT - Freq. = 3
+		\end{enumerate}
+	\end{itemize}
+	\item \underline{Correcting K-mers Groups}
+	\begin{itemize}
+		\item GT\underline{A}\underline{C}\underline{G}GT - \textbf{Freq. = 8}
+		\begin{enumerate}
+		\item GT\underline{C}\underline{C}\underline{T}GT - Freq. = 3
+		\end{enumerate}
+	\end{itemize}
+\end{enumerate}
+\end{bordered}
+\caption{\label{fig:fig-KGEC-EX}KGEC Grouping and Correction Decision Examples}
+\end{figure}
 
 \begin{figure}
 \vspace{0.1cm}

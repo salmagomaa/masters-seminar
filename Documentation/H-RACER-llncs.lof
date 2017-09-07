@@ -13,31 +13,31 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces DNA\relax }}{\if@rlmain \I {18}\else \textLR {18}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces DNA scientific analysis\relax }}{\if@rlmain \I {18}\else \textLR {18}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces DNA sequencing\relax }}{\if@rlmain \I {19}\else \textLR {19}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces DNA sequencing - Gene example\relax }}{\if@rlmain \I {20}\else \textLR {20}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces FASTA sample sequences\relax }}{\if@rlmain \I {21}\else \textLR {21}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces Phred quality scores \textit {\textbf {Q}} are defined as a property which is logarithmically related to the base-calling error probabilities \textit {\textbf {P}}\relax }}{\if@rlmain \I {22}\else \textLR {22}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Phred quality scores are logarithmically linked to error probabilities\relax }}{\if@rlmain \I {22}\else \textLR {22}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces FASTQ VS FASTA\relax }}{\if@rlmain \I {22}\else \textLR {22}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces {Substitution Error} - \textbf {T} has been erroneously substituted with \relax $\@@underline {\hbox {A}}\mathsurround \z@ $\relax \relax }}{\if@rlmain \I {24}\else \textLR {24}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces {Insertion Error} - \relax $\@@underline {\hbox {G}}\mathsurround \z@ $\relax has been erroneously inserted\relax }}{\if@rlmain \I {24}\else \textLR {24}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces {Deletion Error} - \relax $\@@underline {\hbox {T}}\mathsurround \z@ $\relax has been erroneously deleted\relax }}{\if@rlmain \I {24}\else \textLR {24}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces {K-mer} - All the possible sub-sequences (of length k) from a read\relax }}{\if@rlmain \I {28}\else \textLR {28}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces {De Bruijn Graph} - k-mer of length 7\relax }}{\if@rlmain \I {28}\else \textLR {28}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces DNA\relax }}{\if@rlmain \I {19}\else \textLR {19}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces DNA scientific analysis\relax }}{\if@rlmain \I {19}\else \textLR {19}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces DNA sequencing\relax }}{\if@rlmain \I {20}\else \textLR {20}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces DNA sequencing - Gene example\relax }}{\if@rlmain \I {21}\else \textLR {21}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces FASTA sample sequences\relax }}{\if@rlmain \I {22}\else \textLR {22}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces Phred quality scores \textit {\textbf {Q}} are defined as a property which is logarithmically related to the base-calling error probabilities \textit {\textbf {P}}\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Phred quality scores are logarithmically linked to error probabilities\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces FASTQ VS FASTA\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces {Substitution Error} - \textbf {T} has been erroneously substituted with \relax $\@@underline {\hbox {A}}\mathsurround \z@ $\relax \relax }}{\if@rlmain \I {25}\else \textLR {25}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces {Insertion Error} - \relax $\@@underline {\hbox {G}}\mathsurround \z@ $\relax has been erroneously inserted\relax }}{\if@rlmain \I {25}\else \textLR {25}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces {Deletion Error} - \relax $\@@underline {\hbox {T}}\mathsurround \z@ $\relax has been erroneously deleted\relax }}{\if@rlmain \I {25}\else \textLR {25}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces {K-mer} - All the possible sub-sequences (of length k) from a read\relax }}{\if@rlmain \I {29}\else \textLR {29}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces {De Bruijn Graph} - k-mer of length 7\relax }}{\if@rlmain \I {29}\else \textLR {29}\fi }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces An illustrative summary for the substitution only corrective algorithms\relax }}{\if@rlmain \I {36}\else \textLR {36}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces An illustrative summary for the substitution, insertion and deletion corrective algorithms\relax }}{\if@rlmain \I {41}\else \textLR {41}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces An illustrative summary for the substitution only corrective algorithms\relax }}{\if@rlmain \I {37}\else \textLR {37}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces An illustrative summary for the substitution, insertion and deletion corrective algorithms\relax }}{\if@rlmain \I {42}\else \textLR {42}\fi }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces KGEC Grouping and Correction Decision Examples\relax }}{\if@rlmain \I {44}\else \textLR {44}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces KGEC K-mer Hashing Abstraction\relax }}{\if@rlmain \I {45}\else \textLR {45}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces KGEC Grouping and Correction Decision Pseudo-Code - O(\textit {$4^m$})\relax }}{\if@rlmain \I {46}\else \textLR {46}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces KGEC Diagram\relax }}{\if@rlmain \I {47}\else \textLR {47}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces KGEC Grouping and Correction Decision Examples\relax }}{\if@rlmain \I {45}\else \textLR {45}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces KGEC Diagram\relax }}{\if@rlmain \I {46}\else \textLR {46}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces KGEC K-mer Hashing Abstraction\relax }}{\if@rlmain \I {47}\else \textLR {47}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces KGEC Grouping and Correction Decision Pseudo-Code - O(\textit {$4^m$})\relax }}{\if@rlmain \I {48}\else \textLR {48}\fi }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces H-RACER Error Type Detection Examples\relax }}{\if@rlmain \I {51}\else \textLR {51}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces H-RACER Error Type Detection Abstraction\relax }}{\if@rlmain \I {52}\else \textLR {52}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces H-Racer Flow Chart\relax }}{\if@rlmain \I {52}\else \textLR {52}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces H-RACER Pseudo-Code - O(\textit {r})\relax }}{\if@rlmain \I {53}\else \textLR {53}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces H-RACER Error Type Detection Examples\relax }}{\if@rlmain \I {52}\else \textLR {52}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces H-RACER Error Type Detection Abstraction\relax }}{\if@rlmain \I {53}\else \textLR {53}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces H-Racer Flow Chart\relax }}{\if@rlmain \I {53}\else \textLR {53}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces H-RACER Pseudo-Code - O(\textit {r})\relax }}{\if@rlmain \I {54}\else \textLR {54}\fi }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

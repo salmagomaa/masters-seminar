@@ -247,6 +247,13 @@ Computer Science, AASTMT,\\
 June - 2017
 \end{flushright}
 
+\clearpage\thispagestyle{empty}
+\section*{Published Work}
+\noindent\hspace{0.6cm}The work in this thesis is published in one paper as follow:
+\\
+\\
+Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors. In International Conference on Bioinformatics and Biomedical Engineering (pp. 62-73). Springer, Cham (2017).
+
 \newpage
 \tableofcontents
 \newpage
@@ -312,7 +319,7 @@ The first algorithm has the ability to enhance the accuracy, but unfortunately i
 While the second algorithm builds its correction decisions based on RACER \cite{Racer} (an already existent algorithm that handles substitution errors only and will be discussed in details later) with some tuning to handle the insertions and deletions errors. This algorithm has the ability to enhance both the accuracy and the time, as it shows almost the highest accuracy with the shortest time for different datasets in comparison with the existent algorithms specialized in correcting substitution, insertion and deletion errors.
 
 \section{Thesis Structure}
-This thesis documentation is organized as follows; giving a briefed introduction in chapter \ref{chap:1}, and illustrating some basics about deoxyribonucleic acid (DNA), deoxyribonucleic acid (DNA) sequencing, next-generation sequencing (NGS), and next-generation sequencing (NGS) errors correction in chapter \ref{chap:2}, while the  existing methodologies for error correction are demonstrated in chapter \ref{chap:3}, then K-mer Grouping Error Correction (KGEC - the first proposed algorithm) is demonstrated and evaluated in chapter \ref{chap:4}, while H-RACER (the second proposed algorithm) is demonstrated in chapter \ref{chap:5}. In chapter \ref{chap:6}, a comparison is set between the new methodology of H-RACER (the second proposed algorithm) versus the existent ones through experimental data. The conclusion and future work are shown in chapter \ref{chap:7}.
+This thesis documentation is organized as follows; giving a briefed introduction in chapter \ref{chap:1}, and illustrating some basics about deoxyribonucleic acid (DNA), deoxyribonucleic acid (DNA) sequencing, next-generation sequencing (NGS), and next-generation sequencing (NGS) errors correction in chapter \ref{chap:2}, while the  existing methodologies for error correction are demonstrated in chapter \ref{chap:3}, then the methodology of K-mer Grouping Error Correction (KGEC - the first proposed algorithm) is demonstrated in chapter \ref{chap:4}, while the methodology of H-RACER (the second proposed algorithm) is demonstrated in chapter \ref{chap:5}. In chapter \ref{chap:6}, the evaluation of both algorithms (K-mer Grouping Error Correction and H-RACER) are illustrated, where the comparisons set using experimental data. The conclusion and future work are shown in chapter \ref{chap:7}.
 %
 
 \newpage
@@ -675,7 +682,7 @@ As stated before, this algorithm aims to correct all types of errors (substituti
 \\
 After correcting the k-mer groups with their best k-mer, it checks those k-mers that does not belong to any group and consequently is not corrected yet, and tries to re-group them again but this time based on having same nucleotides in the same order, with a mutation in the three positions of the nucleotides that have lowest three quality values compared to the rest of the nucleotides within the same k-mer. And similarly, each k-mer group will search for the k-mer with the highest frequency to use it in unifying all of the rest of the group members (k-mers) to make them all have the same nucleotides in the same order of the k-mer with the highest frequency (and highest quality value average if needed). 
 \\
-Check the pseudo-code illustrated in Fig. \ref{fig:fig-KGEC-ALG}, and the digram shown below in Fig. \ref{fig:fig-First-Proposal-1}.
+Check the illustrative example shown in Fig. \ref{fig:fig-KGEC-EX} and the diagram shown below in Fig. \ref{fig:fig-First-Proposal-1}. Also the pseudo-code of the hashing algorithm and that of the correction are illustrated in Fig. \ref{fig:fig-KGEC-HASH} and Fig. \ref{fig:fig-KGEC-ALG} respectively.
 \\
 \\
 Finally, the algorithm corrects the reads with corrected k-mers, where it decides the corrective action (substitution, insertion and deletion) based on the studying the erroneous nucleotide and its neighbours (similarly to H-RACER correction action procedure, so it will be explained in details in the following chapter). After this step, it will repeat the flow again if it was running in iterative mode (set by a given parameter that sets the iterations count).
@@ -765,6 +772,12 @@ Finally, the algorithm corrects the reads with corrected k-mers, where it decide
 \end{enumerate}
 \end{bordered}
 \caption{\label{fig:fig-KGEC-EX}KGEC Grouping and Correction Decision Examples}
+\end{figure}
+
+\begin{figure}
+	\centerfloat
+	\includegraphics[width=1.6\linewidth]{./figs/First-Proposal-1}
+	\caption{\label{fig:fig-First-Proposal-1}KGEC Diagram}
 \end{figure}
 
 \begin{figure}
@@ -997,11 +1010,6 @@ End For
 \caption{\label{fig:fig-KGEC-ALG}KGEC Grouping and Correction Decision Pseudo-Code - O(\textit{$4^m$})}
 \end{figure}
 
-\begin{figure}
-	\centerfloat
-	\includegraphics[width=1.6\linewidth]{./figs/First-Proposal-1}
-	\caption{\label{fig:fig-First-Proposal-1}KGEC Diagram}
-\end{figure}
 
 \chapter{\label{chap:5}H-RACER Algorithm}
 This chapter illustrates the working methodology of H-RACER (the second proposed algorithm) in details, where the pseudo code, flowchart and examples are discussed in details. While the evaluation will be discussed in chapter \ref{chap:6}.

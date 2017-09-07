@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.16)  8 AUG 2017 10:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.16)  7 SEP 2017 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,59 +1242,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--244
 
 [7
 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 252--256
+
+ []
+
+
+Overfull \hbox (12.2617pt too wide) in paragraph at lines 252--256
+\OT1/cmr/m/n/12 Gomaa, S., Be-lal, N.A. and El-Sonbaty, Y.: H-RACER: Hy-brid RA
+CER
+ []
+
+[8
+
 ] (./H-RACER-llncs.toc
 Overfull \hbox (0.27756pt too wide) in paragraph at lines 39--39
  [][] []\OT1/cmr/m/n/12 Substitution, In-ser-tion And Dele-tion Cor-rec-tive Al
 - 
  []
 
-[8])
+[9])
 \tf@toc=\write3
 \openout3 = `H-RACER-llncs.toc'.
 
- [9] (./H-RACER-llncs.lof
+ [10] (./H-RACER-llncs.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10])
+ [11])
 \tf@lof=\write4
 \openout4 = `H-RACER-llncs.lof'.
 
 
-[11] (./H-RACER-llncs.lot)
+[12] (./H-RACER-llncs.lot)
 \tf@lot=\write5
 \openout5 = `H-RACER-llncs.lot'.
 
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
-[13]
+[14]
 Chapter \textLR{1}.
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--306
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--306
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--306
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
 
  []
 
-[14
+[15
 
 ]
-Overfull \hbox (1.98952pt too wide) in paragraph at lines 315--317
+Overfull \hbox (1.98952pt too wide) in paragraph at lines 322--324
 \OT1/cmr/m/n/12 ing, next-generation se-quenc-ing (NGS), and next-generation se
 -quenc-
  []
@@ -1302,32 +1315,32 @@ Overfull \hbox (1.98952pt too wide) in paragraph at lines 315--317
 
 Underfull \vbox (badness 8075) has occurred while \output is active []
 
- [15]
-[16]
+ [16]
+[17]
 Chapter \textLR{2}.
-[17
+[18
 
-] <./figs/DNA-1.jpg, id=65, 192.72pt x 144.54pt>
+] <./figs/DNA-1.jpg, id=68, 192.72pt x 144.54pt>
 File: ./figs/DNA-1.jpg Graphic file (type jpg)
  <use ./figs/DNA-1.jpg>
-Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 328.
+Package pdftex.def Info: ./figs/DNA-1.jpg used on input line 335.
 (pdftex.def)             Requested size: 192.71951pt x 144.53963pt.
 Missing character: There is no D in font aealmohanadb!
 Missing character: There is no N in font aealmohanadb!
 
-<./figs/DNA-2.jpg, id=66, 192.72pt x 251.9814pt>
+<./figs/DNA-2.jpg, id=69, 192.72pt x 251.9814pt>
 File: ./figs/DNA-2.jpg Graphic file (type jpg)
  <use ./figs/DNA-2.jpg>
-Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 334.
+Package pdftex.def Info: ./figs/DNA-2.jpg used on input line 341.
 (pdftex.def)             Requested size: 104.1381pt x 136.1602pt.
 
-<./figs/DNA-3.jpg, id=67, 364.36125pt x 355.3275pt>
+<./figs/DNA-3.jpg, id=70, 364.36125pt x 355.3275pt>
 File: ./figs/DNA-3.jpg Graphic file (type jpg)
  <use ./figs/DNA-3.jpg>
-Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 337.
+Package pdftex.def Info: ./figs/DNA-3.jpg used on input line 344.
 (pdftex.def)             Requested size: 156.20453pt x 152.32698pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 333--339
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 340--346
 []$[]$ $[]$ 
  []
 
@@ -1336,10 +1349,10 @@ Missing character: There is no N in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
-<./figs/NGS-1.jpg, id=68, 223.83624pt x 223.83624pt>
+<./figs/NGS-1.jpg, id=71, 223.83624pt x 223.83624pt>
 File: ./figs/NGS-1.jpg Graphic file (type jpg)
  <use ./figs/NGS-1.jpg>
-Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 349.
+Package pdftex.def Info: ./figs/NGS-1.jpg used on input line 356.
 (pdftex.def)             Requested size: 223.8357pt x 223.8357pt.
 Missing character: There is no D in font aealmohanadb!
 Missing character: There is no N in font aealmohanadb!
@@ -1350,11 +1363,11 @@ Missing character: There is no g in font aealmohanadb!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./figs/DNA-1.jpg> <./figs/DNA-2.jpg> <./figs/DNA-3.jpg>]
-<./figs/NGS-2.png, id=72, 545.03625pt x 127.47626pt>
+ [19 <./figs/DNA-1.jpg> <./figs/DNA-2.jpg> <./figs/DNA-3.jpg>]
+<./figs/NGS-2.png, id=76, 545.03625pt x 127.47626pt>
 File: ./figs/NGS-2.png Graphic file (type png)
  <use ./figs/NGS-2.png>
-Package pdftex.def Info: ./figs/NGS-2.png used on input line 355.
+Package pdftex.def Info: ./figs/NGS-2.png used on input line 362.
 (pdftex.def)             Requested size: 347.12354pt x 81.18771pt.
 Missing character: There is no D in font aealmohanadb!
 Missing character: There is no N in font aealmohanadb!
@@ -1369,18 +1382,18 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-[19 <./figs/NGS-1.jpg>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 361.
+[20 <./figs/NGS-1.jpg>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 368.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 361.
- <./figs/NGS-5.png, id=77, 612.2875pt x 345.29pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 368.
+ <./figs/NGS-5.png, id=80, 612.2875pt x 345.29pt>
 File: ./figs/NGS-5.png Graphic file (type png)
  <use ./figs/NGS-5.png>
-Package pdftex.def Info: ./figs/NGS-5.png used on input line 364.
+Package pdftex.def Info: ./figs/NGS-5.png used on input line 371.
 (pdftex.def)             Requested size: 347.12354pt x 195.75305pt.
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1389,27 +1402,27 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-Overfull \hbox (6.78549pt too wide) in paragraph at lines 370--372
+Overfull \hbox (6.78549pt too wide) in paragraph at lines 377--379
 []\OT1/cmr/m/n/12 In the area of DNA se-quenc-ing, the FASTQ file for-mat has e
 merged
  []
 
-[20 <./figs/NGS-2.png>] <./figs/NGS-3.png, id=82, 144.54pt x 105.39375pt>
+[21 <./figs/NGS-2.png>] <./figs/NGS-3.png, id=85, 144.54pt x 105.39375pt>
 File: ./figs/NGS-3.png Graphic file (type png)
 
 <use ./figs/NGS-3.png>
-Package pdftex.def Info: ./figs/NGS-3.png used on input line 376.
+Package pdftex.def Info: ./figs/NGS-3.png used on input line 383.
 (pdftex.def)             Requested size: 144.53963pt x 105.39348pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 LaTeX Font Info:    Font shape `LAE/cmr/m/it' will be
-(Font)              scaled to size 15.0pt on input line 378.
+(Font)              scaled to size 15.0pt on input line 385.
 LaTeX Font Info:    Font shape `LAE/cmr/bx/it' in size <12> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 378.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 385.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 15.0pt on input line 378.
+(Font)              scaled to size 15.0pt on input line 385.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1433,11 +1446,11 @@ Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
- <./figs/NGS-4.png, id=83, 537.00626pt x 199.74625pt>
+ <./figs/NGS-4.png, id=86, 537.00626pt x 199.74625pt>
 File: ./figs/NGS-4.png Graphic file (type png)
 
 <use ./figs/NGS-4.png>
-Package pdftex.def Info: ./figs/NGS-4.png used on input line 382.
+Package pdftex.def Info: ./figs/NGS-4.png used on input line 389.
 (pdftex.def)             Requested size: 347.12354pt x 129.11726pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
@@ -1454,28 +1467,28 @@ Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
- <./figs/NGS-6.png, id=84, 583.17876pt x 220.825pt>
+ <./figs/NGS-6.png, id=87, 583.17876pt x 220.825pt>
 File: ./figs/NGS-6.png Graphic file (type png)
 
 <use ./figs/NGS-6.png>
-Package pdftex.def Info: ./figs/NGS-6.png used on input line 388.
+Package pdftex.def Info: ./figs/NGS-6.png used on input line 395.
 (pdftex.def)             Requested size: 347.12354pt x 131.44472pt.
- [21 <./figs/NGS-5.png>] [22 <./figs/NGS-3.png> <./figs/NGS-4.png> <./figs/NGS-
+ [22 <./figs/NGS-5.png>] [23 <./figs/NGS-3.png> <./figs/NGS-4.png> <./figs/NGS-
 6.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-<./figs/ErrCrr-1.png, id=94, 730.73pt x 108.405pt>
+ [24]
+<./figs/ErrCrr-1.png, id=97, 730.73pt x 108.405pt>
 File: ./figs/ErrCrr-1.png Graphic file (type png)
  <use ./figs/ErrCrr-1.png>
-Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 398.
+Package pdftex.def Info: ./figs/ErrCrr-1.png used on input line 405.
 (pdftex.def)             Requested size: 347.12354pt x 51.4962pt.
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <12> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 399.
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 15.0pt on input line 399.
+(Font)              scaled to size 15.0pt on input line 406.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1484,11 +1497,11 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/ErrCrr-2.png, id=95, 728.7225pt x 109.40875pt>
+<./figs/ErrCrr-2.png, id=98, 728.7225pt x 109.40875pt>
 File: ./figs/ErrCrr-2.png Graphic file (type png)
 
 <use ./figs/ErrCrr-2.png>
-Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 404.
+Package pdftex.def Info: ./figs/ErrCrr-2.png used on input line 411.
 (pdftex.def)             Requested size: 347.12354pt x 52.11491pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
@@ -1503,11 +1516,11 @@ Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/ErrCrr-3.png, id=96, 729.72626pt x 151.56625pt>
+<./figs/ErrCrr-3.png, id=99, 729.72626pt x 151.56625pt>
 File: ./figs/ErrCrr-3.png Graphic file (type png)
 
 <use ./figs/ErrCrr-3.png>
-Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 410.
+Package pdftex.def Info: ./figs/ErrCrr-3.png used on input line 417.
 (pdftex.def)             Requested size: 347.12354pt x 72.09879pt.
 Missing character: There is no D in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1523,13 +1536,13 @@ Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
- [24 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png> <./figs/ErrCrr-3.png>] [25] [2
-6] [27]
-<./figs/CrrConcepts-1.png, id=110, 175.65625pt x 155.58125pt>
+ [25 <./figs/ErrCrr-1.png> <./figs/ErrCrr-2.png> <./figs/ErrCrr-3.png>] [26] [2
+7] [28]
+<./figs/CrrConcepts-1.png, id=113, 175.65625pt x 155.58125pt>
 File: ./figs/CrrConcepts-1.png Graphic file (type png)
 
 <use ./figs/CrrConcepts-1.png>
-Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 457.
+Package pdftex.def Info: ./figs/CrrConcepts-1.png used on input line 464.
 (pdftex.def)             Requested size: 104.1381pt x 92.23843pt.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1546,11 +1559,11 @@ Missing character: There is no g in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
-<./figs/CrrConcepts-2.png, id=111, 782.17218pt x 418.56375pt>
+<./figs/CrrConcepts-2.png, id=114, 782.17218pt x 418.56375pt>
 File: ./figs/CrrConcepts-2.png Graphic file (type png)
 
 <use ./figs/CrrConcepts-2.png>
-Package pdftex.def Info: ./figs/CrrConcepts-2.png used on input line 463.
+Package pdftex.def Info: ./figs/CrrConcepts-2.png used on input line 470.
 (pdftex.def)             Requested size: 347.12354pt x 185.75891pt.
 Missing character: There is no D in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1562,126 +1575,126 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no g in font aealmohanadb!
- [28 <./figs/CrrConcepts-1.png> <./figs/CrrConcepts-2.png (PNG copy)>]
+ [29 <./figs/CrrConcepts-1.png> <./figs/CrrConcepts-2.png (PNG copy)>]
 Chapter \textLR{3}.
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--474
+Underfull \hbox (badness 10000) in paragraph at lines 477--481
 
  []
 
-[29
+[30
 
 ]
-Overfull \hbox (12.2533pt too wide) in paragraph at lines 489--495
+Overfull \hbox (12.2533pt too wide) in paragraph at lines 496--502
 \OT1/cmr/m/n/12 Velvet's [[]] works by ef-fi-ciently ma-nip-u-lat-ing de Bruijn
  graphs through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--495
+Underfull \hbox (badness 10000) in paragraph at lines 496--502
 
  []
 
-[30]
-Overfull \hbox (6.0867pt too wide) in paragraph at lines 503--510
+[31]
+Overfull \hbox (6.0867pt too wide) in paragraph at lines 510--517
 \OT1/cmr/m/n/12 Quality-aware De-tec-tion and Cor-rec-tion of Se-quenc-ing Er-r
 ors (Quake)
  []
 
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 512--521
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--530
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--530
-
- []
-
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 532--541
+Underfull \hbox (badness 10000) in paragraph at lines 519--528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--541
+Underfull \hbox (badness 10000) in paragraph at lines 529--537
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 543.
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--537
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 539--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--548
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 550.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 543.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 550.
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--559
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--559
+Underfull \hbox (badness 10000) in paragraph at lines 556--566
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--559
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 566--575
+Underfull \hbox (badness 10000) in paragraph at lines 556--566
 
  []
 
 
-Overfull \hbox (3.58823pt too wide) in paragraph at lines 566--575
+Underfull \hbox (badness 10000) in paragraph at lines 556--566
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 573--582
+
+ []
+
+
+Overfull \hbox (3.58823pt too wide) in paragraph at lines 573--582
 \OT1/cmr/m/n/12 Actually, RACER re-places the suf-fix ar-ray ap-proached used i
 n HiTEC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--575
+Underfull \hbox (badness 10000) in paragraph at lines 573--582
 
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 578--585
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 585--592
 
  []
 
 
-Overfull \hbox (4.3506pt too wide) in paragraph at lines 578--585
+Overfull \hbox (4.3506pt too wide) in paragraph at lines 585--592
 \OT1/cmr/m/n/12 C/C++ to write scal-able multi-threaded pro-grams for CUDA-enab
 led
  []
 
 
-Overfull \hbox (17.49783pt too wide) in paragraph at lines 578--585
+Overfull \hbox (17.49783pt too wide) in paragraph at lines 585--592
 \OT1/cmr/m/n/12 GPUs, where CUDA pro-grams can be ex-e-cuted on GPUs with NVIDI
 A's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--585
+Underfull \hbox (badness 10000) in paragraph at lines 585--592
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--590
+Underfull \hbox (badness 10000) in paragraph at lines 593--597
 
  []
 
-[35] <./figs/RW-1.png, id=140, 771.88374pt x 194.7275pt>
+[36] <./figs/RW-1.png, id=143, 771.88374pt x 194.7275pt>
 File: ./figs/RW-1.png Graphic file (type png)
  <use ./figs/RW-1.png>
-Package pdftex.def Info: ./figs/RW-1.png used on input line 593.
+Package pdftex.def Info: ./figs/RW-1.png used on input line 600.
 (pdftex.def)             Requested size: 468.61888pt x 118.22202pt.
 Missing character: There is no v in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1698,50 +1711,50 @@ Missing character: There is no e in font aealmohanadb!
 Missing character: There is no g in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 
-[36 <./figs/RW-1.png>] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 630--650
+[37 <./figs/RW-1.png>] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 637--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--650
+Underfull \hbox (badness 10000) in paragraph at lines 637--657
 
  []
 
 
-Overfull \hbox (4.61588pt too wide) in paragraph at lines 630--650
+Overfull \hbox (4.61588pt too wide) in paragraph at lines 637--657
 \OT1/cmr/m/n/12 cleotide poly-mor-phisms (SNPs). The sin-gle nu-cleotide poly-m
 or-phisms
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--650
+Underfull \hbox (badness 10000) in paragraph at lines 637--657
 
  []
 
-[38]
+[39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Overfull \hbox (2.24231pt too wide) in paragraph at lines 652--659
+ [40]
+Overfull \hbox (2.24231pt too wide) in paragraph at lines 659--666
 \OT1/cmr/m/n/12 Platform In-de-pen-dent Er-ror Cor-rec-tion of Sin-gle and Mixe
 d Genomes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--659
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--659
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
 
  []
 
-<./figs/RW-2.png, id=154, 488.82625pt x 164.615pt>
+<./figs/RW-2.png, id=157, 488.82625pt x 164.615pt>
 File: ./figs/RW-2.png Graphic file (type png)
  <use ./figs/RW-2.png>
-Package pdftex.def Info: ./figs/RW-2.png used on input line 662.
+Package pdftex.def Info: ./figs/RW-2.png used on input line 669.
 (pdftex.def)             Requested size: 347.12354pt x 116.89755pt.
 Missing character: There is no v in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1764,40 +1777,40 @@ Missing character: There is no o in font aealmohanadb!
 
 Underfull \vbox (badness 1708) has occurred while \output is active []
 
- [40]
-[41 <./figs/RW-2.png>]
+ [41]
+[42 <./figs/RW-2.png>]
 Chapter \textLR{4}.
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--672
+Underfull \hbox (badness 10000) in paragraph at lines 675--679
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--682
+Underfull \hbox (badness 10000) in paragraph at lines 680--689
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--682
+Underfull \hbox (badness 10000) in paragraph at lines 680--689
 
  []
 
 
-Overfull \hbox (1.16035pt too wide) in paragraph at lines 673--682
+Overfull \hbox (1.16035pt too wide) in paragraph at lines 680--689
 \OT1/cmr/m/n/12 Finally, the al-go-rithm cor-rects the reads with cor-rected k-
 mers, where
  []
 
-[42
+[43
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 686.
+Package mdframed Info: mdframed works in twoside mode on input line 693.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 714.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 721.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 766.
+ mdframed uses option nobreak mdframed on input line 773.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 766.
+ mdframed uses option nobreak mdframed on input line 773.
 Missing character: There is no G in font aealmohanadb!
 Missing character: There is no G in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
@@ -1815,131 +1828,131 @@ Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 
 
-LaTeX Warning: Float too large for page by 123.19504pt on input line 768.
+LaTeX Warning: Float too large for page by 123.19504pt on input line 775.
 
-Package mdframed Info: mdframed works in twoside mode on input line 773.
-
-Underfull \hbox (badness 10000) in paragraph at lines 773--799
-
- []
-
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 867.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 867.
-Missing character: There is no G in font aealmohanadb!
-Missing character: There is no e in font aealmohanadb!
-Missing character: There is no g in font aealmohanadb!
-Missing character: There is no c in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Package mdframed Info: mdframed works in twoside mode on input line 874.
-
-Underfull \hbox (badness 10000) in paragraph at lines 874--880
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 907--911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 933--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 969--974
-
- []
-
-Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 996.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 996.
-Missing character: There is no G in font aealmohanadb!
-Missing character: There is no G in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no p in font aealmohanadb!
-Missing character: There is no g in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no e in font aealmohanadb!
-Missing character: There is no c in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no D in font aealmohanadb!
-Missing character: There is no e in font aealmohanadb!
-Missing character: There is no c in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no e in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no e in font aealmohanadb!
-
-LaTeX Warning: Float too large for page by 111.51595pt on input line 998.
-
-<./figs/First-Proposal-1.png, id=164, 693.59125pt x 227.85126pt>
+<./figs/First-Proposal-1.png, id=168, 693.59125pt x 227.85126pt>
 File: ./figs/First-Proposal-1.png Graphic file (type png)
 
 <use ./figs/First-Proposal-1.png>
-Package pdftex.def Info: ./figs/First-Proposal-1.png used on input line 1002.
+Package pdftex.def Info: ./figs/First-Proposal-1.png used on input line 779.
 (pdftex.def)             Requested size: 555.39977pt x 182.45856pt.
 Missing character: There is no G in font aealmohanadb!
 Missing character: There is no D in font aealmohanadb!
 Missing character: There is no g in font aealmohanadb!
- [43] [44] [45] [46] [47 <./figs/First-Proposal-1.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 786.
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--812
+
+ []
+
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 880.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 880.
+Missing character: There is no G in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Package mdframed Info: mdframed works in twoside mode on input line 887.
+
+Underfull \hbox (badness 10000) in paragraph at lines 887--893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--924
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--950
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--987
+
+ []
+
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 1009.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 1009.
+Missing character: There is no G in font aealmohanadb!
+Missing character: There is no G in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no p in font aealmohanadb!
+Missing character: There is no g in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no D in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no c in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no o in font aealmohanadb!
+Missing character: There is no e in font aealmohanadb!
+
+LaTeX Warning: Float too large for page by 111.51595pt on input line 1011.
+
+[44] [45] [46 <./figs/First-Proposal-1.png>] [47] [48]
 Chapter \textLR{5}.
 
-Overfull \hbox (11.83524pt too wide) in paragraph at lines 1007--1011
+Overfull \hbox (11.83524pt too wide) in paragraph at lines 1015--1019
 \OT1/cmr/m/n/12 sec-ond pro-posed al-go-rithm) in de-tails, where the pseudo co
 de, flowchart
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1007--1011
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1019
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1038
 
  []
 
-[48
+[49
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-Package mdframed Info: mdframed works in twoside mode on input line 1034.
+ [50]
+Package mdframed Info: mdframed works in twoside mode on input line 1042.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1081
 
  []
 
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 1076.
+ mdframed uses option nobreak mdframed on input line 1084.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 1076.
+ mdframed uses option nobreak mdframed on input line 1084.
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1950,11 +1963,11 @@ Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
-Package mdframed Info: mdframed works in twoside mode on input line 1083.
+Package mdframed Info: mdframed works in twoside mode on input line 1091.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 1104.
+ mdframed uses option nobreak mdframed on input line 1112.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 1104.
+ mdframed uses option nobreak mdframed on input line 1112.
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no p in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
@@ -1965,326 +1978,326 @@ Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
-<./figs/Second-Proposal-1.png, id=194, 745.78625pt x 357.335pt>
+<./figs/Second-Proposal-1.png, id=197, 745.78625pt x 357.335pt>
 File: ./figs/Second-Proposal-1.png Graphic file (type png)
 
 <use ./figs/Second-Proposal-1.png>
-Package pdftex.def Info: ./figs/Second-Proposal-1.png used on input line 1110.
+Package pdftex.def Info: ./figs/Second-Proposal-1.png used on input line 1118.
 (pdftex.def)             Requested size: 451.26164pt x 216.21288pt.
 Missing character: There is no c in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
-Package mdframed Info: mdframed works in twoside mode on input line 1118.
+Package mdframed Info: mdframed works in twoside mode on input line 1126.
 Package mdframed Info: mdframed inside float 
- mdframed uses option nobreak mdframed on input line 1167.
+ mdframed uses option nobreak mdframed on input line 1175.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 1167.
+ mdframed uses option nobreak mdframed on input line 1175.
 Missing character: There is no e in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no o in font aealmohanadb!
 Missing character: There is no e in font aealmohanadb!
- [50] [51] [52 <./figs/Second-Proposal-1.png>] [53]
+ [51] [52] [53 <./figs/Second-Proposal-1.png>] [54]
 Chapter \textLR{6}.
-[54
+[55
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
 []|\OT1/cmr/m/n/12 Accession
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
 []|\OT1/cmr/m/n/12 Genome
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
 []|\OT1/cmr/m/n/12 Read
  []
 
 
-Overfull \hbox (1.92023pt too wide) in paragraph at lines 1188--1188
+Overfull \hbox (1.92023pt too wide) in paragraph at lines 1196--1196
 \OT1/cmr/m/n/12 Length| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1196
 []|\OT1/cmr/m/n/12 Number
  []
 
 
-Overfull \hbox (1.14873pt too wide) in paragraph at lines 1188--1189
+Overfull \hbox (1.14873pt too wide) in paragraph at lines 1196--1197
 []|\OT1/cmr/m/n/12 Coverage[][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1198
 []|\OT1/cmr/m/n/12 Lactococcus
  []
 
 
-Overfull \hbox (0.70525pt too wide) in paragraph at lines 1190--1190
+Overfull \hbox (0.70525pt too wide) in paragraph at lines 1198--1198
 []|\OT1/cmr/m/n/12 2,598,144| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1192--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1200
 []|\OT1/cmr/m/n/12 Treponema
  []
 
 
-Overfull \hbox (0.70525pt too wide) in paragraph at lines 1192--1192
+Overfull \hbox (0.70525pt too wide) in paragraph at lines 1200--1200
 []|\OT1/cmr/m/n/12 1,139,417| 
  []
 
 
-Overfull \hbox (0.70525pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (0.70525pt too wide) in paragraph at lines 1202--1202
 []|\OT1/cmr/m/n/12 4,639,675| 
  []
 
 
-Overfull \hbox (0.70525pt too wide) in paragraph at lines 1196--1196
+Overfull \hbox (0.70525pt too wide) in paragraph at lines 1204--1204
 []|\OT1/cmr/m/n/12 4,639,675| 
  []
 
 
-Overfull \hbox (38.4489pt too wide) in alignment at lines 1185--1198
+Overfull \hbox (38.4489pt too wide) in alignment at lines 1193--1206
  [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1217
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1225
 
  []
 
 
-Overfull \hbox (0.73813pt too wide) in paragraph at lines 1202--1217
+Overfull \hbox (0.73813pt too wide) in paragraph at lines 1210--1225
 \OT1/cmr/m/n/12 go-rithm shows the best ac-cu-racy with a very small dif-fer-en
 ce (0.05%),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1217
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1217
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1217
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1217
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1225
 
  []
 
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
 []|\OT1/cmr/m/n/12 H-RACER
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1231--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1254
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
-Underfull \vbox (badness 1043) has occurred while \output is active []
 
  [57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1043) has occurred while \output is active []
 
  [58]
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1259
 []|\OT1/cmr/m/n/12 H-RACER
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1258--1258
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1266--1266
 []|\OT1/cmr/m/n/12 128,472,552| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1258--1258
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1266--1266
 []|\OT1/cmr/m/n/12 122,790,780| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1258--1258
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1266--1266
 []|\OT1/cmr/m/n/12 124,458,120| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1258--1259
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1266--1267
 []|\OT1/cmr/m/n/12 130,492,044
  []
 
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1276
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
 []|\OT1/cmr/m/n/12 H-RACER
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1283--1283
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1291--1291
 []|\OT1/cmr/m/n/12 179,115,790| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1283--1283
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1291--1291
 []|\OT1/cmr/m/n/12 173,745,635| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1283--1283
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1291--1291
 []|\OT1/cmr/m/n/12 174,444,060| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1283--1284
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1291--1292
 []|\OT1/cmr/m/n/12 182,354,550
  []
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 1300--1301
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
 []|\OT1/cmr/m/n/12 H-RACER
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1308--1308
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1316--1316
 []|\OT1/cmr/m/n/12 153,362,475| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1308--1308
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1316--1316
 []|\OT1/cmr/m/n/12 127,229,400| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1308--1309
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1316--1317
 []|\OT1/cmr/m/n/12 158,872,050
  []
 
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 1325--1326
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
 []|\OT1/cmr/m/n/12 H-RACER
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1331--1331
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1339--1339
 []|\OT1/cmr/m/n/12 108,494,025| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1333--1333
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1341--1341
 []|\OT1/cmr/m/n/12 200,091,375| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1333--1333
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1341--1341
 []|\OT1/cmr/m/n/12 165,984,300| 
  []
 
 
-Overfull \hbox (2.49666pt too wide) in paragraph at lines 1333--1334
+Overfull \hbox (2.49666pt too wide) in paragraph at lines 1341--1342
 []|\OT1/cmr/m/n/12 203,728,125
  []
 
-[63]
+[64]
 Chapter \textLR{7}.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
 
-Overfull \hbox (38.25583pt too wide) in paragraph at lines 1351--1379
+Overfull \hbox (38.25583pt too wide) in paragraph at lines 1359--1387
 \OT1/cmr/m/n/12 - github.com/salmagomaa/DNA-EC/tree/master/4-Best-49g-with-61(B
 est) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1387
 
  []
 
-[64
+[65
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1389
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1389
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1397
 
  []
 
-[65] [66] (./H-RACER-llncs.bbl
+[66] [67] (./H-RACER-llncs.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\OT1/cmr/m/n/9 https://arstechnica.com/science/2017/03/new-technique-efficien
 tly-stores-error-
  []
 
-[67
+[68
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
@@ -2292,11 +2305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 nd-
  []
 
-) [68] (./H-RACER-llncs.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) [69] (./H-RACER-llncs.aux) ) 
 Here is how much of TeX's memory you used:
  13325 strings out of 494976
  226878 string characters out of 6180056
@@ -2305,29 +2314,29 @@ Here is how much of TeX's memory you used:
  63433 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,10n,44p,10445b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/arabi/ararabeyes.enc}</usr/sha
-re/texlive/texmf-dist/fonts/type1/arabi/arabeyes/ae_almateen.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/arabi/arabeyes/ae_almohanad_bold.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti9.pfb>
-Output written on H-RACER-llncs.pdf (68 pages, 1370196 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ar
+abi/ararabeyes.enc}</usr/share/texlive/texmf-dist/fonts/type1/arabi/arabeyes/ae
+_almateen.pfb></usr/share/texlive/texmf-dist/fonts/type1/arabi/arabeyes/ae_almo
+hanad_bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on H-RACER-llncs.pdf (69 pages, 1370869 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
+ 324 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

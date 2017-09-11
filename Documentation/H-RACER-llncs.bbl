@@ -139,4 +139,7 @@ Needleman S.B.,  Wunsch C.D.: A general method applicable to the search for simi
 \bibitem{analysis}
 Zhu, W., Zeng, N. and Wang, N.: Sensitivity, specificity, accuracy, associated confidence interval and ROC analysis with practical SAS implementations. NESUG proceedings: health care and life sciences, Baltimore, Maryland, 19 (2010)
 
+\bibitem{HRACER}
+Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors. In International Conference on Bioinformatics and Biomedical Engineering (pp. 62-73). Springer, Cham (2017).
+
 \end{thebibliography}

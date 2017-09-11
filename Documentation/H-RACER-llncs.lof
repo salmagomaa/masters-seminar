@@ -18,14 +18,14 @@
 \contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces DNA sequencing\relax }}{\if@rlmain \I {20}\else \textLR {20}\fi }
 \contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces DNA sequencing - Gene example\relax }}{\if@rlmain \I {21}\else \textLR {21}\fi }
 \contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces FASTA sample sequences\relax }}{\if@rlmain \I {22}\else \textLR {22}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces Phred quality scores \textit {\textbf {Q}} are defined as a property which is logarithmically related to the base-calling error probabilities \textit {\textbf {P}}\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Phred quality scores are logarithmically linked to error probabilities\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces FASTQ VS FASTA\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces FASTQ VS FASTA\relax }}{\if@rlmain \I {22}\else \textLR {22}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Phred quality scores \textit {\textbf {Q}} are defined as a property which is logarithmically related to the base-calling error probabilities \textit {\textbf {P}}\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces Phred quality scores are logarithmically linked to error probabilities\relax }}{\if@rlmain \I {23}\else \textLR {23}\fi }
 \contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces {Substitution Error} - \textbf {T} has been erroneously substituted with \relax $\@@underline {\hbox {A}}\mathsurround \z@ $\relax \relax }}{\if@rlmain \I {25}\else \textLR {25}\fi }
 \contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces {Insertion Error} - \relax $\@@underline {\hbox {G}}\mathsurround \z@ $\relax has been erroneously inserted\relax }}{\if@rlmain \I {25}\else \textLR {25}\fi }
 \contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces {Deletion Error} - \relax $\@@underline {\hbox {T}}\mathsurround \z@ $\relax has been erroneously deleted\relax }}{\if@rlmain \I {25}\else \textLR {25}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces {K-mer} - All the possible sub-sequences (of length k) from a read\relax }}{\if@rlmain \I {29}\else \textLR {29}\fi }
-\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces {De Bruijn Graph} - k-mer of length 7\relax }}{\if@rlmain \I {29}\else \textLR {29}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces {K-mer} - All the possible sub-sequences (of length k) from a read\relax }}{\if@rlmain \I {27}\else \textLR {27}\fi }
+\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces {De Bruijn Graph} - k-mer of length 7\relax }}{\if@rlmain \I {27}\else \textLR {27}\fi }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces An illustrative summary for the substitution only corrective algorithms\relax }}{\if@rlmain \I {37}\else \textLR {37}\fi }
 \contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces An illustrative summary for the substitution, insertion and deletion corrective algorithms\relax }}{\if@rlmain \I {42}\else \textLR {42}\fi }

@@ -20,7 +20,7 @@
 \contentsline {chapter}{\numberline {\textLR {2}}\bgroup \beginL \latintext Background\endL \egroup }{\if@rlmain \I {18}\else \textLR {18}\fi }
 \contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }Deoxyribonucleic Acid}{\if@rlmain \I {18}\else \textLR {18}\fi }
 \contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }DNA Sequencing}{\if@rlmain \I {20}\else \textLR {20}\fi }
-\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Next-Generation Sequencing}{\if@rlmain \I {24}\else \textLR {24}\fi }
+\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Next-Generation Sequencing}{\if@rlmain \I {23}\else \textLR {23}\fi }
 \contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }NGS Sequences Errors Correction}{\if@rlmain \I {26}\else \textLR {26}\fi }
 \contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Correction Concepts and Definitions}{\if@rlmain \I {26}\else \textLR {26}\fi }
 \select@language {english}
@@ -53,6 +53,6 @@
 \contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }K-mer Grouping Error Correction Algorithm}{\if@rlmain \I {56}\else \textLR {56}\fi }
 \contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }H-RACER Algorithm}{\if@rlmain \I {58}\else \textLR {58}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {7}}\bgroup \beginL \latintext Conclusion and Future Work\endL \egroup }{\if@rlmain \I {65}\else \textLR {65}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.7}\else \textLR {7.1}\fi }Conclusion}{\if@rlmain \I {65}\else \textLR {65}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.7}\else \textLR {7.2}\fi }Future Work}{\if@rlmain \I {66}\else \textLR {66}\fi }
+\contentsline {chapter}{\numberline {\textLR {7}}\bgroup \beginL \latintext Conclusion and Future Work\endL \egroup }{\if@rlmain \I {64}\else \textLR {64}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.7}\else \textLR {7.1}\fi }Conclusion}{\if@rlmain \I {64}\else \textLR {64}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.7}\else \textLR {7.2}\fi }Future Work}{\if@rlmain \I {65}\else \textLR {65}\fi }

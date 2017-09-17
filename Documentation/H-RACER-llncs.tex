@@ -138,7 +138,10 @@
 \vfill % Fill the rest of the page with whitespace
 }
 
+
 \clearpage\thispagestyle{empty}
+\frontmatter
+\pagenumbering{alph}
 
 \selectlanguage{arabic}
 \section*{ملخص}
@@ -205,9 +208,11 @@
 {\small June - 2017}\\[0cm] 
 \vfill % Fill the rest of the page with whitespace
 }
-\clearpage\thispagestyle{empty}
+
+\clearpage
 
 \selectlanguage{english}
+\pagenumbering{roman}
 \section*{Abstract}
 DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes mainly depend on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches are being done to enhance these critical factors.
 \\
@@ -226,7 +231,7 @@ H-RACER (the second proposed algorithm) overcomes the time issue of the first al
 %%%%%END ABSTRACT
 \end{titlepage}
 
-\clearpage\thispagestyle{empty}
+\clearpage
 \section*{Acknowledgement}
 
 I would like to seize this opportunity to express my sincere gratitude for the
@@ -247,20 +252,20 @@ Computer Science, AASTMT,\\
 June - 2017
 \end{flushright}
 
-\clearpage\thispagestyle{empty}
+\clearpage
 \section*{Published Work}
 \noindent\hspace{0.6cm}The work in this thesis is published in one paper as follow:
 \\
 \\
 Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors. In International Conference on Bioinformatics and Biomedical Engineering (pp. 62-73). Springer, Cham (2017).
 
-\newpage
+\clearpage
 \tableofcontents
-\newpage
+\clearpage
 \listoffigures
-\newpage
+\clearpage
 \listoftables
-\newpage
+\clearpage
 
 {\Huge\bfseries List of Abbreviations}
 \\
@@ -294,6 +299,7 @@ Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Subs
 \item[TP] True Positive
 \end{abbreviations}
 
+\mainmatter
 \chapter{\label{chap:1} Introduction}
 This chapter gives a brief introduction to the thesis. It has three major sections, where it illustrates the problem statement, the thesis objective, and the thesis structure.
 \\
@@ -1408,8 +1414,8 @@ Also, one of the most interesting point to be added into consideration for the f
 And finally, K-mer Grouping Error Correction (KGEC - the first proposed algorithm) can get another chance by inventing a new algorithm to group the k-mers in with a reasonable complexity instead of the exponential one.
 
 \newpage
-
-\clearpage\thispagestyle{empty}
+\pagenumbering{roman}
+\backmatter
 \input{H-RACER-llncs.bbl} 
 
 \end{document}

@@ -12,47 +12,47 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {1}}\bgroup \beginL \latintext Introduction\endL \egroup }{\if@rlmain \I {15}\else \textLR {15}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }Problem Statement}{\if@rlmain \I {15}\else \textLR {15}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }Objective}{\if@rlmain \I {16}\else \textLR {16}\fi }
-\contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }Thesis Structure}{\if@rlmain \I {17}\else \textLR {17}\fi }
+\contentsline {chapter}{\numberline {\textLR {1}}\bgroup \beginL \latintext Introduction\endL \egroup }{\if@rlmain \I {1}\else \textLR {1}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }Problem Statement}{\if@rlmain \I {1}\else \textLR {1}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }Objective}{\if@rlmain \I {2}\else \textLR {2}\fi }
+\contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }Thesis Structure}{\if@rlmain \I {3}\else \textLR {3}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {2}}\bgroup \beginL \latintext Background\endL \egroup }{\if@rlmain \I {18}\else \textLR {18}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }Deoxyribonucleic Acid}{\if@rlmain \I {18}\else \textLR {18}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }DNA Sequencing}{\if@rlmain \I {20}\else \textLR {20}\fi }
-\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Next-Generation Sequencing}{\if@rlmain \I {23}\else \textLR {23}\fi }
-\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }NGS Sequences Errors Correction}{\if@rlmain \I {26}\else \textLR {26}\fi }
-\contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Correction Concepts and Definitions}{\if@rlmain \I {26}\else \textLR {26}\fi }
+\contentsline {chapter}{\numberline {\textLR {2}}\bgroup \beginL \latintext Background\endL \egroup }{\if@rlmain \I {4}\else \textLR {4}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }Deoxyribonucleic Acid}{\if@rlmain \I {4}\else \textLR {4}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }DNA Sequencing}{\if@rlmain \I {6}\else \textLR {6}\fi }
+\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Next-Generation Sequencing}{\if@rlmain \I {9}\else \textLR {9}\fi }
+\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }NGS Sequences Errors Correction}{\if@rlmain \I {12}\else \textLR {12}\fi }
+\contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Correction Concepts and Definitions}{\if@rlmain \I {12}\else \textLR {12}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {3}}\bgroup \beginL \latintext Related Work\endL \egroup }{\if@rlmain \I {30}\else \textLR {30}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }Substitution Only Corrective Algorithms}{\if@rlmain \I {30}\else \textLR {30}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {1.1.3}\else \textLR {3.1.1}\fi }Euler}{\if@rlmain \I {30}\else \textLR {30}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {2.1.3}\else \textLR {3.1.2}\fi }Velvet}{\if@rlmain \I {31}\else \textLR {31}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {3.1.3}\else \textLR {3.1.3}\fi }AllPaths}{\if@rlmain \I {32}\else \textLR {32}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {4.1.3}\else \textLR {3.1.4}\fi }SOAP}{\if@rlmain \I {32}\else \textLR {32}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {5.1.3}\else \textLR {3.1.5}\fi }Quake}{\if@rlmain \I {32}\else \textLR {32}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {6.1.3}\else \textLR {3.1.6}\fi }Reptile}{\if@rlmain \I {33}\else \textLR {33}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {7.1.3}\else \textLR {3.1.7}\fi }HiTEC}{\if@rlmain \I {34}\else \textLR {34}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {8.1.3}\else \textLR {3.1.8}\fi }RACER}{\if@rlmain \I {35}\else \textLR {35}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {9.1.3}\else \textLR {3.1.9}\fi }Parallel Error Correction with CUDA}{\if@rlmain \I {36}\else \textLR {36}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {10.1.3}\else \textLR {3.1.10}\fi }Error Corrector}{\if@rlmain \I {36}\else \textLR {36}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }Substitution, Insertion And Deletion Corrective Algorithms}{\if@rlmain \I {37}\else \textLR {37}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }Coral}{\if@rlmain \I {37}\else \textLR {37}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }HSHREC}{\if@rlmain \I {39}\else \textLR {39}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.3}\else \textLR {3.2.3}\fi }Pollux}{\if@rlmain \I {41}\else \textLR {41}\fi }
+\contentsline {chapter}{\numberline {\textLR {3}}\bgroup \beginL \latintext Related Work\endL \egroup }{\if@rlmain \I {16}\else \textLR {16}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }Substitution Only Corrective Algorithms}{\if@rlmain \I {16}\else \textLR {16}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.3}\else \textLR {3.1.1}\fi }Euler}{\if@rlmain \I {16}\else \textLR {16}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.3}\else \textLR {3.1.2}\fi }Velvet}{\if@rlmain \I {17}\else \textLR {17}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {3.1.3}\else \textLR {3.1.3}\fi }AllPaths}{\if@rlmain \I {18}\else \textLR {18}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {4.1.3}\else \textLR {3.1.4}\fi }SOAP}{\if@rlmain \I {18}\else \textLR {18}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {5.1.3}\else \textLR {3.1.5}\fi }Quake}{\if@rlmain \I {18}\else \textLR {18}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {6.1.3}\else \textLR {3.1.6}\fi }Reptile}{\if@rlmain \I {19}\else \textLR {19}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {7.1.3}\else \textLR {3.1.7}\fi }HiTEC}{\if@rlmain \I {20}\else \textLR {20}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {8.1.3}\else \textLR {3.1.8}\fi }RACER}{\if@rlmain \I {21}\else \textLR {21}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {9.1.3}\else \textLR {3.1.9}\fi }Parallel Error Correction with CUDA}{\if@rlmain \I {22}\else \textLR {22}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {10.1.3}\else \textLR {3.1.10}\fi }Error Corrector}{\if@rlmain \I {22}\else \textLR {22}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }Substitution, Insertion And Deletion Corrective Algorithms}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }Coral}{\if@rlmain \I {23}\else \textLR {23}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }HSHREC}{\if@rlmain \I {25}\else \textLR {25}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.3}\else \textLR {3.2.3}\fi }Pollux}{\if@rlmain \I {27}\else \textLR {27}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {4}}\bgroup \beginL \latintext K-mer Grouping Error Correction Algorithm\endL \egroup }{\if@rlmain \I {43}\else \textLR {43}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }Methodology}{\if@rlmain \I {43}\else \textLR {43}\fi }
+\contentsline {chapter}{\numberline {\textLR {4}}\bgroup \beginL \latintext K-mer Grouping Error Correction Algorithm\endL \egroup }{\if@rlmain \I {29}\else \textLR {29}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }Methodology}{\if@rlmain \I {29}\else \textLR {29}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {5}}\bgroup \beginL \latintext H-RACER Algorithm\endL \egroup }{\if@rlmain \I {49}\else \textLR {49}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }Methodology}{\if@rlmain \I {49}\else \textLR {49}\fi }
+\contentsline {chapter}{\numberline {\textLR {5}}\bgroup \beginL \latintext H-RACER Algorithm\endL \egroup }{\if@rlmain \I {35}\else \textLR {35}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }Methodology}{\if@rlmain \I {35}\else \textLR {35}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {6}}\bgroup \beginL \latintext Experimental Results\endL \egroup }{\if@rlmain \I {55}\else \textLR {55}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }Datasets and Platform}{\if@rlmain \I {55}\else \textLR {55}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }Results}{\if@rlmain \I {56}\else \textLR {56}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }K-mer Grouping Error Correction Algorithm}{\if@rlmain \I {56}\else \textLR {56}\fi }
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }H-RACER Algorithm}{\if@rlmain \I {58}\else \textLR {58}\fi }
+\contentsline {chapter}{\numberline {\textLR {6}}\bgroup \beginL \latintext Experimental Results\endL \egroup }{\if@rlmain \I {41}\else \textLR {41}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }Datasets and Platform}{\if@rlmain \I {41}\else \textLR {41}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }Results}{\if@rlmain \I {42}\else \textLR {42}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }K-mer Grouping Error Correction Algorithm}{\if@rlmain \I {42}\else \textLR {42}\fi }
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }H-RACER Algorithm}{\if@rlmain \I {44}\else \textLR {44}\fi }
 \select@language {english}
-\contentsline {chapter}{\numberline {\textLR {7}}\bgroup \beginL \latintext Conclusion and Future Work\endL \egroup }{\if@rlmain \I {64}\else \textLR {64}\fi }
-\contentsline {section}{\numberline {\if@rl \I {1.7}\else \textLR {7.1}\fi }Conclusion}{\if@rlmain \I {64}\else \textLR {64}\fi }
-\contentsline {section}{\numberline {\if@rl \I {2.7}\else \textLR {7.2}\fi }Future Work}{\if@rlmain \I {65}\else \textLR {65}\fi }
+\contentsline {chapter}{\numberline {\textLR {7}}\bgroup \beginL \latintext Conclusion and Future Work\endL \egroup }{\if@rlmain \I {50}\else \textLR {50}\fi }
+\contentsline {section}{\numberline {\if@rl \I {1.7}\else \textLR {7.1}\fi }Conclusion}{\if@rlmain \I {50}\else \textLR {50}\fi }
+\contentsline {section}{\numberline {\if@rl \I {2.7}\else \textLR {7.2}\fi }Future Work}{\if@rlmain \I {51}\else \textLR {51}\fi }

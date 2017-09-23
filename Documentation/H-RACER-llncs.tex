@@ -29,8 +29,6 @@
 
 \newmdenv[leftline=false,rightline=false,topline=false,bottomline=false,innertopmargin=2pt,innerbottommargin=2pt]{bordered}
 
-% TABLE
-\newcommand{\TBstrut}{{\rule{0pt}{7ex}}{\rule[2ex]{0pt}{0pt}}} % top&bottom struts
 \definecolor{DarkGray}{gray}{0.6}
 \definecolor{LightGray}{gray}{0.9}
 
@@ -1208,20 +1206,23 @@ All datasets were brought from the National Center for Biotechnology Information
 \\
 All algorithms were executed on the same amazon elastic cloud (AWS EC2) instance with 32 vCPU and 244GiB RAM, with Linux (Ubuntu) operating system.
 
+\begingroup
+\renewcommand\arraystretch{2.5}
 \begin{longtable}{|m{22mm}|m{21mm}|m{23mm}|m{16.5mm}|m{12mm}|m{17mm}|m{16mm}|}
 	    \caption{\label{tab:eval-data}Datasets used in evaluation} \\
         \hline
-        Name & Accession Number & Genome & Genome Length & Read Length & Number of Reads & Coverage\TBstrut\\ % top and bottom struts
+        Name & Accession Number & Genome & Genome Length & Read Length & Number of Reads & Coverage\\ % top and bottom struts
         \hline
-        Lactococcus Lactis & SRR088759 & NC\_013656.1 & 2,598,144 & 36 & 4,370,050 & 60.55\TBstrut\\ % top and bottom struts
+        Lactococcus Lactis & SRR088759 & NC\_013656.1 & 2,598,144 & 36 & 4,370,050 & 60.55\\ % top and bottom struts
         \hline
-        Treponema Pallidum & SRR361468 & CP002376.1 & 1,139,417 & 35 & 7,133,663 & 219.13\TBstrut\\ % top and bottom struts
+        Treponema Pallidum & SRR361468 & CP002376.1 & 1,139,417 & 35 & 7,133,663 & 219.13\\ % top and bottom struts
         \hline
-        E.coli 75a & SRR396536 & NC\_000913.2 & 4,639,675 & 75 & 3,454,048 & 55.83\TBstrut\\ % top and bottom struts
+        E.coli 75a & SRR396536 & NC\_000913.2 & 4,639,675 & 75 & 3,454,048 & 55.83\\ % top and bottom struts
         \hline
-        E.coli 75b & SRR396532 & NC\_000913.2 & 4,639,675 & 75 & 4,341,061 & 70.17\TBstrut\\ % top and bottom struts
+        E.coli 75b & SRR396532 & NC\_000913.2 & 4,639,675 & 75 & 4,341,061 & 70.17\\ % top and bottom struts
         \hline
 \end{longtable}
+\endgroup
 
 \section{Results}
 \subsection{\label{subsec:eval1-res}K-mer Grouping Error Correction Algorithm}
@@ -1241,17 +1242,19 @@ The defect in time of this algorithm caused from the k-mers grouping steps illus
 \\
 The main major step of the proposal implies to its weakness point, which proves that this proposal will not get a better results, and in practice, some trials were done in order to replace the k-mers grouping and consequently the removal of the exponential complexity but it negatively affects the accuracy.
 
+\begingroup
+\renewcommand\arraystretch{2}
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
 	    \caption{\label{tab:eval-0}KGEC - Evaluation comparison table for Lactococcus Lactis}\\
         \hline
-           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
+           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \\ % top and bottom struts
         \hline
-           Accuracy & 91.45\% & 94.15\% & 95.34\% & 95.39\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Accuracy & 91.45\% & 94.15\% & 95.34\% & 95.39\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Time in Minutes& 5 & 3 & 15 & 61\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Time in Minutes& 5 & 3 & 15 & 61\cellcolor{LightGray} \\ % top and bottom struts
         \hline
 \end{longtable}
-
+\endgroup
 
 \subsection{\label{subsec:eval2-res}H-RACER Algorithm}
 The comparisons, shown below in tables \ref{tab:eval-1}, \ref{tab:eval-2}, \ref{tab:eval-3}, and \ref{tab:eval-4}, were established between H-RACER and the algorithms specialized in correcting all types of errors (substitutions, insertions, and deletions). While the obtained measurements were brought via the verification code implemented by RACER \cite{Racer}, that has the advantage of avoiding the interference of mapping or assembling programs. 
@@ -1270,105 +1273,123 @@ For long genomes \enquote{E.coli 75a} and \enquote{E.coli 75b}, illustrated in t
 \\\\ 
 Finally, the remarkable great difference in time between H-RACER and the rest of the algorithms is due to the bitwise orientation in implementation (inherited from RACER), and also H-RACER keeps RACER's complexity, consequently, H-RACER gains the advantage of having the best time. 
 
+\begingroup
+\renewcommand\arraystretch{2.5}
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
 	    \caption{\label{tab:eval-1}H-RACER - Evaluation comparison table for Lactococcus Lactis}\\
         \hline
-           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
+           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \\ % top and bottom struts
         \hline
-           True Positive & 15,396,336 &  25,325,532 & 25,537,644 & 21,237,660\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Positive & 15,396,336 &  25,325,532 & 25,537,644 & 21,237,660\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Positive & 2,039,148 &  7,720,920 & 6,053,580 & 19,656\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Positive & 2,039,148 &  7,720,920 & 6,053,580 & 19,656\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Negative & 11,413,764 & 1,484,568 & 1,272,456 & 5,572,440\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Negative & 11,413,764 & 1,484,568 & 1,272,456 & 5,572,440\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           True Negative & 128,472,552 & 122,790,780 & 124,458,120 & 130,492,044\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Negative & 128,472,552 & 122,790,780 & 124,458,120 & 130,492,044\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Sensitivity & 57.43\% & 94.46\% & 95.25\% & 79.22\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Sensitivity & 57.43\% & 94.46\% & 95.25\% & 79.22\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Specificity & 98.44\% & 94.08\% & 95.36\% & 99.98\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Specificity & 98.44\% & 94.08\% & 95.36\% & 99.98\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Gain & 49.82\% & 65.66\% & 72.67\% & 79.14\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Gain & 49.82\% & 65.66\% & 72.67\% & 79.14\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Accuracy & 91.45\% & 94.15\% & 95.34\% & 96.45\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Accuracy & 91.45\% & 94.15\% & 95.34\% & 96.45\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Time in Minutes& 5 & 3 & 15 & 1\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Time in Minutes& 5 & 3 & 15 & 1\cellcolor{LightGray} \\ % top and bottom struts
         \hline
 \end{longtable}
+\endgroup
+
 \newpage
+
+\begingroup
+\renewcommand\arraystretch{2.9}
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
 	    \caption{\label{tab:eval-2}H-RACER - Evaluation comparison table for Treponema Pallidum}\\
         \hline
-           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
+           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \\ % top and bottom struts
         \hline
-           True Positive & 25,553,185 & 63,845,425 & 64,381,905 & 56,277,270\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Positive & 25,553,185 & 63,845,425 & 64,381,905 & 56,277,270\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Positive & 3,462,165 & 8,832,320 & 8,133,895 & 223,405\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Positive & 3,462,165 & 8,832,320 & 8,133,895 & 223,405\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Negative & 41,547,065 & 3,254,825 & 2,718,345 & 10,822,980\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Negative & 41,547,065 & 3,254,825 & 2,718,345 & 10,822,980\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           True Negative & 179,115,790 & 173,745,635 & 174,444,060 & 182,354,550\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Negative & 179,115,790 & 173,745,635 & 174,444,060 & 182,354,550\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Sensitivity & 38.08\% & 95.15\% & 95.95\% & 83.87\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Sensitivity & 38.08\% & 95.15\% & 95.95\% & 83.87\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Specificity & 98.10\% &  95.16\% & 95.55\% & 99.88\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Specificity & 98.10\% &  95.16\% & 95.55\% & 99.88\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Gain & 32.92\% & 81.99\% & 83.83\% & 83.54\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Gain & 32.92\% & 81.99\% & 83.83\% & 83.54\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Accuracy & 81.97\% & 95.16\% & 95.65\% & 95.58\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Accuracy & 81.97\% & 95.16\% & 95.65\% & 95.58\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Time in Minutes& 12 & 3 & 22 & 2\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Time in Minutes& 12 & 3 & 22 & 2\cellcolor{LightGray} \\ % top and bottom struts
         \hline
 \end{longtable}
+\endgroup
+
 \newpage
+
+\begingroup
+\renewcommand\arraystretch{3}
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
 	    \caption{\label{tab:eval-3}H-RACER - Evaluation comparison table for E.coli 75a}\\
         \hline
-           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
+           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \\ % top and bottom struts
         \hline
-           True Positive & 26,434,125 & 79,984,425 & N/A & 76,325,475\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Positive & 26,434,125 & 79,984,425 & N/A & 76,325,475\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Positive & 5,549,925 & 31,675,650 & N/A & 33,000\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Positive & 5,549,925 & 31,675,650 & N/A & 33,000\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Negative & 73,707,075 & 20,164,125 & N/A & 23,823,075\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Negative & 73,707,075 & 20,164,125 & N/A & 23,823,075\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           True Negative & 153,362,475 & 127,229,400 & N/A & 158,872,050\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Negative & 153,362,475 & 127,229,400 & N/A & 158,872,050\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Sensitivity & 26.40\% & 79.87\% & N/A & 76.21\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Sensitivity & 26.40\% & 79.87\% & N/A & 76.21\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Specificity & 96.51\% & 80.07\% & N/A & 99.98\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Specificity & 96.51\% & 80.07\% & N/A & 99.98\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Gain & 20.85\% & 48.24\% & N/A & 76.18\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Gain & 20.85\% & 48.24\% & N/A & 76.18\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Accuracy & 69.40\% & 79.99\% & N/A & 90.79\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Accuracy & 69.40\% & 79.99\% & N/A & 90.79\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Time in Minutes& 9 & 16 & N/A & 1\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Time in Minutes& 9 & 16 & N/A & 1\cellcolor{LightGray} \\ % top and bottom struts
         \hline
 \end{longtable}
+\endgroup
+
 \newpage
+
+\begingroup
+\renewcommand\arraystretch{3}
 \begin{longtable}{|m{33mm}|m{20mm}|m{20mm}|m{20mm}|m{20mm}|}
         \caption{\label{tab:eval-4}H-RACER - Evaluation comparison table for E.coli 75b}\\
         \hline
-           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \TBstrut\\ % top and bottom struts
+           & Coral & Pollux & HSHSREC & H-RACER\cellcolor{DarkGray} \\ % top and bottom struts
         \hline
-           True Positive & 13,312,725 & 99,375,600 & N/A & 81,059,700\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Positive & 13,312,725 & 99,375,600 & N/A & 81,059,700\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Positive & 3,681,450 & 37,779,750 & N/A & 35,925\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Positive & 3,681,450 & 37,779,750 & N/A & 35,925\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           False Negative & 108,494,025 & 22,439,925 & N/A & 40,755,825\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           False Negative & 108,494,025 & 22,439,925 & N/A & 40,755,825\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           True Negative & 200,091,375 & 165,984,300 & N/A & 203,728,125\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           True Negative & 200,091,375 & 165,984,300 & N/A & 203,728,125\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Sensitivity & 10.93\% & 81.58\% & N/A & 66.54\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Sensitivity & 10.93\% & 81.58\% & N/A & 66.54\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Specificity & 98.19\% & 81.46\% & N/A & 99.98\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Specificity & 98.19\% & 81.46\% & N/A & 99.98\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Gain & 7.91\% & 50.56\% & N/A & 66.51\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Gain & 7.91\% & 50.56\% & N/A & 66.51\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Accuracy & 65.55\% & 81.50\% & N/A & 87.47\%\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Accuracy & 65.55\% & 81.50\% & N/A & 87.47\%\cellcolor{LightGray} \\ % top and bottom struts
         \hline
-           Time in Minutes& 13 & 21 & N/A & 2\cellcolor{LightGray} \TBstrut\\ % top and bottom struts
+           Time in Minutes& 13 & 21 & N/A & 2\cellcolor{LightGray} \\ % top and bottom struts
         \hline
 \end{longtable}
+\endgroup
 
 \newpage
 \chapter{\label{chap:7}Conclusion and Future Work}

@@ -19,6 +19,10 @@
 \usepackage[LFE,LAE]{fontenc} 
 \usepackage[arabic,english]{babel}
 \usepackage{sectsty}
+\usepackage{fancyhdr}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
 \allsectionsfont{\raggedright}
 
@@ -142,7 +146,7 @@
 \pagenumbering{alph}
 
 \selectlanguage{arabic}
-\section*{ملخص}
+\section*{ملخص}\thispagestyle{fancy}
 إن عملية تسلسل الحمض النووي تعد من أكثر المجالات حيوية في علم الأحياء الحاسوبي. فإن معظم العمليات المرتبطة بالحمض النووي تعتمد في الأساس على عملية تسلسله؛ و من ثم أصبحت كلاً من تكلفة عملية التسلسل, و دقتها، و الوقت المستغرق فيها من العوامل الأساسية الهامة التي يقام عليها العديد من الأبحاث لتحسينها.
 \\
 \\
@@ -203,34 +207,42 @@
 {\small Arab Academy for Science, Technology, and Maritime Transport}
 \end{flushright}
 \end{minipage}\\[0.2cm]
-{\small June - 2017}\\[0cm] 
+{\small August - 2017}\\[0cm] 
 \vfill % Fill the rest of the page with whitespace
 }
 
 \clearpage
 
 \selectlanguage{english}
-\pagenumbering{roman}
-\section*{Abstract}
-DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes mainly depend on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches are being done to enhance these critical factors.
-\\
-\\
-The main targets of the next-generation sequencing technologies are: making the vast analysis of genomes less expensive and more spread, hence, they are able to produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. Since, these errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.), the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging.
-\\
-\\ 
-The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads, where both of them aim to raise the accuracy of the DNA sequencing output, trying to accomplish the correction within a suitable time compared to the existent algorithms. 
-\\
-\\
-K-mer Grouping Error Correction (KGEC - the first proposed algorithm) is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
-\\
-\\
-H-RACER (the second proposed algorithm) overcomes the time issue of the first algorithm using a large memory space and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While the major advantage presented by H-RACER is the detection of the nucleotide corrective action and applying it. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existent algorithms that specialize in correcting these types of nucleotides errors.
-
-%%%%%END ABSTRACT
 \end{titlepage}
 
+{
+\clearpage\thispagestyle{empty}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+\section*{Declaration}
+
+\hspace{-50pt}
+\noindent\fbox{%
+  \parbox{1.4\textwidth}{%
+I certify that all the material in this thesis that is not my own work has been identified, and that no material is included for which a degree has previously been conferred on me. 
+\\
+\\
+The contents of this thesis reflect my own personal views, and are not necessarily endorsed by the University.
+\\
+\\
+\\
+Signature:
+\\
+\\
+Date: 27 August 2017 
+}}
+}
+
 \clearpage
-\section*{Acknowledgement}
+
+\pagenumbering{roman}
+
+\section*{Acknowledgement}\thispagestyle{fancy}
 
 I would like to seize this opportunity to express my sincere gratitude for the
 unconditional and unlimited help and support that I have received from my supervisors Prof.
@@ -251,20 +263,73 @@ June - 2017
 \end{flushright}
 
 \clearpage
-\section*{Published Work}
+\section*{Published Work}\thispagestyle{fancy}
 \noindent\hspace{0.6cm}The work in this thesis is published in one paper as follow:
 \\
 \\
 Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Substitution, Insertion, and Deletion Errors. In International Conference on Bioinformatics and Biomedical Engineering (pp. 62-73). Springer, Cham (2017).
 
 \clearpage
-\tableofcontents
-\clearpage
-\listoffigures
-\clearpage
-\listoftables
-\clearpage
+\section*{Abstract}\thispagestyle{fancy}
+DNA sequencing is one of the very pivotal research fields in bioinformatics. Most of the processes that are related to the DNA genomes mainly depend on the DNA sequencing, and consequently the cost, the accuracy and the time of the DNA sequencing methodologies became very urgent and vital factors, that many researches are being done to enhance these critical factors.
+\\
+\\
+The main targets of the next-generation sequencing technologies are: making the vast analysis of genomes less expensive and more spread, hence, they are able to produce large sets of short reads within a very efficient time. But, as a side effect of this fastness, the produced short reads are subject to be infected by different types of errors on the nucleotide level; such as nucleotide erroneous substitution, nucleotide erroneous insertion and nucleotide erroneous deletion. Since, these errors represent a great obstacle to utilize the reads in sequencing projects (such as: reads assemblers, genome aligners, etc.), the error correction process becomes a vital and essential action that aims to reduce the error rate over the whole reads set. So, the correction of all types of the nucleotides errors becomes very challenging.
+\\
+\\ 
+The proposed algorithms are new error correcting tools that fix all types of nucleotide errors (substitutions, insertions, and deletions) in a mixed set of reads, where both of them aim to raise the accuracy of the DNA sequencing output, trying to accomplish the correction within a suitable time compared to the existent algorithms. 
+\\
+\\
+K-mer Grouping Error Correction (KGEC - the first proposed algorithm) is mainly invented based on k-mers grouping and nucleotide frequencies. It shows a high accuracy for the small dataset but unfortunately it cannot compete for the larger dataset as it needs a very long time, which cannot be enhanced as this negatively effects the accuracy.
+\\
+\\
+H-RACER (the second proposed algorithm) overcomes the time issue of the first algorithm using a large memory space and also it accomplishes the main target which is raising the sequencing output accuracy. It mainly depends on RACER algorithm in detecting the erroneous nucleotide and deciding its corrective value. While the major advantage presented by H-RACER is the detection of the nucleotide corrective action and applying it. So, H-RACER is able to correct the nucleotides substitutions errors as well as their insertions and deletions errors with the highest accuracy and the least time compared to other existent algorithms that specialize in correcting these types of nucleotides errors.
 
+%%%%%END ABSTRACT
+
+{
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{plain}{
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}}
+
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\tableofcontents
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\listoffigures
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\listoftables
+}
+
+{ %USED TO FIX THE PAGE NUMBERING IN LOT TO BE IN ROMAN
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{plain}{
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}}
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+}
+
+
+
+
+
+
+\clearpage
+{       
+                         % Enclosed in braces so that re-definition is temporary.
+  \pagenumbering{roman}
+  \setcounter{page}{10}
+  \pagestyle{empty}              % Removes numbers from middle pages.
+  \thispagestyle{fancy}
 {\Huge\bfseries List of Abbreviations}
 \\
 \begin{abbreviations}
@@ -283,6 +348,7 @@ Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Subs
 \item[NGS] Next-generation Sequencing
 \item[Pollux] Platform Independent Error Correction of 
 
+
 \noindent\hspace{3.6cm}Single and Mixed Genomes
 \item[Quake] Quality-aware Detection and Correction of 
 
@@ -296,6 +362,7 @@ Gomaa, S., Belal, N.A. and El-Sonbaty, Y.: H-RACER: Hybrid RACER to Correct Subs
 \item[TN] True Negative
 \item[TP] True Positive
 \end{abbreviations}
+}
 
 \mainmatter
 \chapter{\label{chap:1} Introduction}
